@@ -1,0 +1,14 @@
+type: flying
+flying: true
+commandLimit: 10
+lowAltitude: true
+health: 9e999
+hitSize: 4
+speed: 3
+accel: 2
+drag: 0.02
+mineTier: 1000
+mineSpeed: 1000
+engineSize: 0
+controller: DefenderAI
+lightRadius: 30
