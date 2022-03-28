@@ -1,0 +1,7 @@
+name: "bitches"
+displayName: "Getting Bitches"
+author: "Antlrr"
+description: "adds bitches"
+version: "1.0"
+minGameVersion: "130"
+hidden: "false"
