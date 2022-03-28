@@ -1,5 +1,6 @@
 type: flying
 flying: true
+name: Bitches
 commandLimit: 10
 lowAltitude: true
 health: 9e999
