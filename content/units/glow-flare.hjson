@@ -23,8 +23,8 @@ abilities: [
       region: bitches-flare-glow
       lifetime: 40
       length: 0
-      sizeFrom: 8
-      sizeTo: 8
+      sizeFrom: 7
+      sizeTo: 7
       layer:110
     }
   }
