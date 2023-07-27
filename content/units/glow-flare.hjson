@@ -17,17 +17,16 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
-    bloom: 0
+    bloom: 1
     shootEffect: {
       type: ParticleEffect
       particles: 1
-      region: bitches-glow-flare-tail
-      lifetime: 40
+      region: bitches-flare-glow
+      lifetime: 20
       length: 0
       sizeFrom: 7
-      sizeTo: 7
+      sizeTo: 2
       layer:110
-      opacity: 1
     }
   }
 ]
