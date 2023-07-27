@@ -58,7 +58,7 @@ weapons: [
        sprite: bitches-mine
        speed: 0.05
        lifetime: 500
-       splashDamage: 70
+       splashDamage: 40
        splashDamageRadius: 40
        width: 8
        height: 8
