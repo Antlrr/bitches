@@ -31,10 +31,15 @@ weapons: [
    speed: 0 
    collides: false 
    fragBullet: {
-       
-    }
-  }
-]
+       type: BasicBulletType
+       speed: 0
+       lifetime: 60
+       splashDamage: 30
+       splashDamageRadius: 40
+       }
+     }
+   }
+ ]
  
 abilities: [
   {
