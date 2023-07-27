@@ -11,7 +11,6 @@ rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
-circleTarget: true
 faceTarget: true
 weapons: [
  {
@@ -22,7 +21,9 @@ weapons: [
   mirror: false
   reload: 30
   bullet: {
-   type: BasicBulletType
+   type: ArtilleryBulletType
+   sprite: bitches-mine
+   spin: 0.6
    ignoreRotation: true 
    shootEffect: none
    despawnEffect: {
@@ -39,15 +40,15 @@ weapons: [
    keepVelocity: false
    shrinkX: 0.5
    shrinkY: 0.5
-   speed: 0 
+   speed: 0.4
    collides: false 
    fragBullets: 1
    fragBullet: {
        type: BulletType
-       sprite: missile-large
+       sprite: bitches-mine
        speed: 0
        lifetime: 300
-       splashDamage: 30
+       splashDamage: 90
        splashDamageRadius: 40
        }
      }
