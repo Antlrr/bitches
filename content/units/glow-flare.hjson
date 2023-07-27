@@ -23,8 +23,8 @@ weapons: [
    sprite: bitches-mine
    spin: 0.8
    shootEffect: none
-   backColor: sapBullet
-   frontColor: sapBullet
+   backColor: BF92F9
+   frontColor: BF92F9
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
@@ -46,8 +46,8 @@ weapons: [
    trailEffect: none
    fragBullet: {
        type: BasicBulletType
-       backColor: sapBullet
-       frontColor: sapBullet
+       backColor: BF92F9
+       frontColor: BF92F9
        sprite: bitches-mine
        speed: 0
        lifetime: 500
