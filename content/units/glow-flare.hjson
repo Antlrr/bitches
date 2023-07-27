@@ -12,6 +12,7 @@ rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
 circleTarget: true
+faceTarget: false
 weapons: [
  {
   minShootVelocity: 0.01
@@ -22,6 +23,15 @@ weapons: [
   reload: 30
   bullet: {
    type: BasicBulletType
+   shootEffect: none
+   despawnEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 4
+    lifetime: 30
+    strokeFrom: 1
+    strokeTo: 0
+    }
    ignoreRotation: true 
    shootCone: 180 
    collidesAir: false
@@ -34,8 +44,9 @@ weapons: [
    fragBullets: 1
    fragBullet: {
        type: BasicBulletType
+       sprite: 
        speed: 0
-       lifetime: 180
+       lifetime: 500
        splashDamage: 30
        splashDamageRadius: 40
        }
