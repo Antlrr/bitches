@@ -21,7 +21,7 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       particles: 1
-      region: bitches-flare-glow
+      region: bitches-glow-flare
       lifetime: 40
       length: 0
       sizeFrom: 7
