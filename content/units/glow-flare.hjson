@@ -3,17 +3,17 @@ flying: true
 commandLimit: 6
 health: 500
 speed: 4
-accel: 0.3
-drag: 0.10
+accel: 0.5
+drag: 0
 controller: FlyingAI
 lightRadius: 60
 rotateShooting: true
-rotateSpeed: 10
+rotateSpeed: 20
 engineSize: 0
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 5
+    chance: 10
     minSpeed: -1
     maxSpeed: 0
     length: 0
@@ -23,7 +23,7 @@ abilities: [
       type: ParticleEffect
       particles: 1
       region: bitches-flare-glow
-      lifetime: 20
+      lifetime: 10
       length: 0
       sizeFrom: 9
       sizeTo: 3
