@@ -23,6 +23,9 @@ weapons: [
   reload: 90
   bullet: {
    type: ArtilleryBulletType
+   trailLength: 4
+   trailWidth: 2
+   trailColor: BF92F9
    sprite: bitches-mine
    spin: 0.8
    shootEffect: none
