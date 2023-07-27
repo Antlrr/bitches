@@ -12,7 +12,7 @@ rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
 circleTarget: true
-faceTarget: false
+faceTarget: true
 weapons: [
  {
   minShootVelocity: 0.01
@@ -23,6 +23,7 @@ weapons: [
   reload: 30
   bullet: {
    type: BasicBulletType
+   ignoreRotation: true 
    shootEffect: none
    despawnEffect: {
     type: WaveEffect
@@ -32,7 +33,6 @@ weapons: [
     strokeFrom: 1
     strokeTo: 0
     }
-   ignoreRotation: true 
    shootCone: 180 
    collidesAir: false
    lifetime: 60
