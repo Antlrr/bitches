@@ -2,7 +2,7 @@ type: flying
 flying: true
 commandLimit: 6
 health: 500
-speed: 3
+speed: 0.9
 accel: 0.3
 drag: 0.10
 controller: FlyingAI
@@ -12,7 +12,7 @@ rotateSpeed: 10
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 0.5
+    chance: 5
     minSpeed: -1
     maxSpeed: 0
     length: 0
