@@ -12,7 +12,7 @@ rotateSpeed: 10
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 2
+    chance: 0.5
     minSpeed: -1
     maxSpeed: 0
     length: 0
@@ -27,6 +27,7 @@ abilities: [
       sizeFrom: 7
       sizeTo: 7
       layer:110
+      opacity: 1
     }
   }
 ]
