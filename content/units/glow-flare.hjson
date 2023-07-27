@@ -34,11 +34,11 @@ weapons: [
     strokeTo: 0
     } 
    collidesAir: false
-   lifetime: 60
+   lifetime: 30
    keepVelocity: false
    shrinkX: 0.5
    shrinkY: 0.5
-   speed: 0.4
+   speed: 0.8
    collides: false 
    fragBullets: 1
    width: 8
