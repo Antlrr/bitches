@@ -31,7 +31,8 @@ weapons: [
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 4
+    sizeTo: 10
+    color: BF92F9
     lifetime: 30
     strokeFrom: 1
     strokeTo: 0
@@ -52,7 +53,7 @@ weapons: [
        backColor: BF92F9
        frontColor: BF92F9
        sprite: bitches-mine
-       speed: 0
+       speed: 0.05
        lifetime: 500
        splashDamage: 70
        splashDamageRadius: 40
@@ -60,6 +61,9 @@ weapons: [
        height: 8
        shrinkX: 0
        shrinkY: 0
+       homingRange: 80
+       homingPower: 0.9
+       spin: 4
        }
      }
    }
