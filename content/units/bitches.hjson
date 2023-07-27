@@ -15,7 +15,7 @@ controller: FlyingAI
 lightRadius: 30
 weapons: [
   {
-    name: dingleberry
+    name: flare
     reload: 30
     x: 0
     y: 0
@@ -31,10 +31,13 @@ weapons: [
       collidesGround: false
       fragBullets: 10
       fragRandomSpread: 360
+      fragLifeMin: 1
+      fragVelocityMin: 0.5
       fragBullet: {
-       type: BulletType
+       type: BasicBulletType
        homingPower: 1
        homingRange: 200
+       lifetime: 60 
       }
     }
   }
