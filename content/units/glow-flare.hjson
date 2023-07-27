@@ -10,6 +10,7 @@ lightRadius: 60
 rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
+outlineColor: 242227
 abilities: [
   {
     type: MoveLightningAbility
