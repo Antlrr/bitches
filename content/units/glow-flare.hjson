@@ -23,6 +23,8 @@ weapons: [
    sprite: bitches-mine
    spin: 0.8
    shootEffect: none
+   backColor: sapBullet
+   frontColor: sapBullet
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
@@ -44,10 +46,12 @@ weapons: [
    trailEffect: none
    fragBullet: {
        type: BasicBulletType
+       backColor: sapBullet
+       frontColor: sapBullet
        sprite: bitches-mine
        speed: 0
        lifetime: 500
-       splashDamage: 90
+       splashDamage: 70
        splashDamageRadius: 40
        width: 8
        height: 8
