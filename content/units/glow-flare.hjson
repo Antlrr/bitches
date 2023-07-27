@@ -2,7 +2,7 @@ type: flying
 flying: true
 commandLimit: 6
 health: 500
-speed: 0.9
+speed: 4
 accel: 0.3
 drag: 0.10
 controller: FlyingAI
