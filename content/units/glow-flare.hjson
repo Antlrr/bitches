@@ -12,6 +12,8 @@ rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
+circleTarget: true
+targetAir: false
 weapons: [
  {
   name: dingleberry
