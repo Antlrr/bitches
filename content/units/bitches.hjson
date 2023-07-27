@@ -15,20 +15,28 @@ controller: FlyingAI
 lightRadius: 30
 weapons: [
   {
-    name:dingleberry
+    name: dingleberry
     reload: 30
     x: 0
     y: 0
     alternate: false
     shootSound: wind3
     bullet:{
-      type: BulletType
-      speed: 4
+      type: ArtilleryBulletType
+      speed: 1000
       backColor: ffffff
       frontColor: ffffff
       lifetime: 20
-      damage: 3000
+      damage: 20
       collidesGround: false
+      fragBullets: 10
+      fragRandomSpread: 360
+      fragBullet: {
+       type: BulletType
+       homingPower: 1
+       homingRange: 200
+        }
+      }
     }
   }
 ]
