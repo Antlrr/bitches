@@ -11,5 +11,24 @@ drag: 0.02
 mineTier: 1000
 mineSpeed: 1000
 engineSize: 0
-controller: DefenderAI
+controller: FlyingAI
 lightRadius: 30
+weapons: [
+  {
+    name:dingleberry
+    reload: 30
+    x: 0
+    y: 0
+    alternate: false
+    shootSound: wind3
+    bullet:{
+      type: BulletType
+      speed: 4
+      backColor: ffffff
+      frontColor: ffffff
+      lifetime: 20
+      damage: 3000
+      collidesGround: false
+    }
+  }
+]
