@@ -11,6 +11,7 @@ rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
+circleTarget: true
 weapons: [
  {
   minShootVelocity: 0.01
@@ -30,10 +31,11 @@ weapons: [
    shrinkY: 0.5
    speed: 0 
    collides: false 
+   fragBullets: 1
    fragBullet: {
        type: BasicBulletType
        speed: 0
-       lifetime: 60
+       lifetime: 180
        splashDamage: 30
        splashDamageRadius: 40
        }
