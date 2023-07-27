@@ -43,10 +43,10 @@ weapons: [
    collides: false 
    fragBullets: 1
    fragBullet: {
-       type: BasicBulletType
-       sprite: 
+       type: BulletType
+       sprite: missile-large
        speed: 0
-       lifetime: 500
+       lifetime: 300
        splashDamage: 30
        splashDamageRadius: 40
        }
