@@ -11,6 +11,31 @@ rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
+weapons: [
+ {
+  minShootVelocity: 0.01
+  name: dingleberry
+  x: 0
+  y: 0
+  mirror: false
+  reload: 30
+  bullet: {
+   type: BasicBulletType
+   ignoreRotation: true 
+   shootCone: 180 
+   collidesAir: false
+   lifetime: 60
+   keepVelocity: false
+   shrinkX: 0.5
+   shrinkY: 0.5
+   speed: 0 
+   collides: false 
+   fragBullet: {
+       
+    }
+  }
+]
+ 
 abilities: [
   {
     type: MoveLightningAbility
