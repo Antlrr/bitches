@@ -27,8 +27,8 @@ weapons: [
       speed: 1
       backColor: ffffff
       frontColor: ffffff
-      lifetime: 60
-      damage: 20
+      lifetime: 500
+      damage: 200
       collidesGround: false
       fragBullets: 10
       fragRandomSpread: 360
