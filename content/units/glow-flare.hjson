@@ -5,7 +5,7 @@ health: 500
 speed: 4
 accel: 0.5
 drag: 0.1
-controller: MissileAI
+controller: FlyingAI
 range: 80
 lightRadius: 60
 rotateShooting: true
