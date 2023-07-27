@@ -11,10 +11,8 @@ rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
-faceTarget: true
 weapons: [
  {
-  minShootVelocity: 0.01
   name: dingleberry
   x: 0
   y: 0
@@ -23,8 +21,7 @@ weapons: [
   bullet: {
    type: ArtilleryBulletType
    sprite: bitches-mine
-   spin: 0.6
-   ignoreRotation: true 
+   spin: 0.6 
    shootEffect: none
    despawnEffect: {
     type: WaveEffect
@@ -43,6 +40,8 @@ weapons: [
    speed: 0.4
    collides: false 
    fragBullets: 1
+   width: 10
+   height: 10
    fragBullet: {
        type: BulletType
        sprite: bitches-mine
@@ -50,6 +49,8 @@ weapons: [
        lifetime: 300
        splashDamage: 90
        splashDamageRadius: 40
+       width: 10
+       height: 10
        }
      }
    }
