@@ -17,6 +17,7 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
+    bloom: 0
     shootEffect: {
       type: ParticleEffect
       particles: 1
