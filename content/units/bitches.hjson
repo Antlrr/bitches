@@ -41,6 +41,22 @@ weapons: [
        homingRange: 200
        lifetime: 200
        damage: 60
+       parts: [
+        {
+          type: RegionPart
+          suffix: -balls
+          mirror: true
+          moveY: 4
+          children: [
+            {
+              type: RegionPart
+              suffix: -balls
+              mirror: true
+              blending: additive
+              outline: false
+              progress: charge
+            }
+         ]
       }
     }
   }
