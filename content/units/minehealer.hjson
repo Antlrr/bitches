@@ -21,7 +21,7 @@ weapons: [
   mirror: false
   reload: 120
   shots: 3
-  shotSpread: 20
+  shootSpread: 20
   bullet: {
    type: ArtilleryBulletType
    trailLength: 5
