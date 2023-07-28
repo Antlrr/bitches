@@ -20,7 +20,8 @@ weapons: [
   y: 0
   mirror: false
   reload: 120
-  shots: 2
+  shots: 5
+  shootCone: 50
   innacuracy: 20
   bullet: {
    type: ArtilleryBulletType
@@ -42,11 +43,11 @@ weapons: [
     strokeTo: 0
     } 
    collidesAir: false
-   lifetime: 40
+   lifetime: 1
    keepVelocity: false
    shrinkX: 0.5
    shrinkY: 0.5
-   speed: 1.6
+   speed: 0
    collides: false 
    fragBullets: 1
    width: 8
@@ -62,8 +63,8 @@ weapons: [
        lifetime: 500
        splashDamage: 40
        splashDamageRadius: 40
-       width: 8
-       height: 8
+       width: 5
+       height: 5
        shrinkX: 0
        shrinkY: 0
        homingRange: 80
