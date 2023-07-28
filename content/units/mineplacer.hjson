@@ -3,8 +3,8 @@ flying: true
 commandLimit: 6
 health: 350
 speed: 3
-accel: 0.5
-drag: 1.2
+accel: 1
+drag: 0.5
 controller: FlyingAI
 range: 80
 lightRadius: 60
