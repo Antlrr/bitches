@@ -55,8 +55,10 @@ weapons: [
               blending: additive
               outline: false
               progress: charge
-            }
-         ]
+              }
+            ]
+          }
+        ]
       }
     }
   }
