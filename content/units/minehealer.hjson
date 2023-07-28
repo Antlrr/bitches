@@ -34,6 +34,7 @@ weapons: [
    shootEffect: none
    backColor: BF92F9
    frontColor: BF92F9
+   healPercent: 5
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
