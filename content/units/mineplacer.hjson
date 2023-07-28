@@ -16,7 +16,7 @@ targetAir: false
 weapons: [
  {
   name: minelauncher
-  recoil: -6
+  recoil: 2
   rotate: true
   x: 4
   y: 0
@@ -25,6 +25,7 @@ weapons: [
   reload: 65
   bullet: {
    type: ArtilleryBulletType
+   recoil: -5
    trailLength: 5
    trailWidth: 4
    trailColor: BF92F9
