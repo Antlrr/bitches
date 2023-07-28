@@ -1,6 +1,6 @@
 type: Reconstructor
 size: 3
-  constructTime: 8000
+  constructTime: 720
   liquidCapacity: 380
   consumes: {
     power: 2.6
@@ -8,7 +8,6 @@ size: 3
       items: [
         silicon/35
         silly/10
-        
       ]
     }
   }
