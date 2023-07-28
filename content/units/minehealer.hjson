@@ -1,7 +1,7 @@
 type: flying
 flying: true
 commandLimit: 6
-health: 90
+health: 350
 speed: 3.8
 accel: 0.5
 drag: 0.1
