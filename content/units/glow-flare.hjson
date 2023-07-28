@@ -1,7 +1,7 @@
 type: flying
 flying: true
 commandLimit: 6
-health: 500
+health: 90
 speed: 4
 accel: 0.5
 drag: 0.1
@@ -23,8 +23,8 @@ weapons: [
   reload: 90
   bullet: {
    type: ArtilleryBulletType
-   trailLength: 4
-   trailWidth: 2
+   trailLength: 5
+   trailWidth: 4
    trailColor: BF92F9
    sprite: bitches-mine
    spin: 0.8
