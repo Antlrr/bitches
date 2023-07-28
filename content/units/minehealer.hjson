@@ -6,6 +6,7 @@ speed: 4
 accel: 0.5
 drag: 0.1
 controller: RepairAI
+defaultCommand: repairCommand
 range: 80
 lightRadius: 60
 rotateShooting: true
