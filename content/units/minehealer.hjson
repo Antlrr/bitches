@@ -20,9 +20,8 @@ weapons: [
   y: 0
   mirror: false
   reload: 120
-  shots: 5
-  shootCone: 50
-  innacuracy: 20
+  shots: 3
+  shotSpread: 20
   bullet: {
    type: ArtilleryBulletType
    trailLength: 5
