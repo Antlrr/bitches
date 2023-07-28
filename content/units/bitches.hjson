@@ -17,7 +17,7 @@ range: 90
 weapons: [
   {
     name: flare
-    reload: 50
+    reload: 20
     x: 0
     y: 0
     alternate: false
