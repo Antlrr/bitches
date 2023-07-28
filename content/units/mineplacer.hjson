@@ -2,9 +2,9 @@ type: flying
 flying: true
 commandLimit: 6
 health: 350
-speed: 4
+speed: 3
 accel: 0.5
-drag: 0.1
+drag: 0.7
 controller: FlyingAI
 range: 80
 lightRadius: 60
@@ -18,11 +18,11 @@ weapons: [
   name: minelauncher
   recoil: 2
   rotate: true
-  x: 3
-  y: 5
+  x: 4
+  y: 0
   mirror: true
   alternate: true 
-  reload: 70
+  reload: 65
   bullet: {
    type: ArtilleryBulletType
    trailLength: 5
@@ -36,9 +36,9 @@ weapons: [
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 10
-    color: BF92F9
-    lifetime: 30
+    sizeTo: 13
+    colorFrom: BF92F9
+    lifetime: 40
     strokeFrom: 1
     strokeTo: 0
     } 
@@ -87,9 +87,9 @@ abilities: [
       type: ParticleEffect
       particles: 1
       region: bitches-flare-glow
-      lifetime: 10
+      lifetime: 14
       length: 0
-      sizeFrom: 13
+      sizeFrom: 18
       sizeTo: 4
       layer:110
     }
