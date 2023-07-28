@@ -81,6 +81,8 @@ weapons: [
        homingPower: 0.9
        spin: 4
        healPercent: 3.14
+       weaveScale: 3
+       weaveMag: 1
        }
      }
    }
