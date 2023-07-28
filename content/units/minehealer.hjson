@@ -13,6 +13,7 @@ engineSize: 0
 outlineColor: 242227
 targetAir: false
 range: 20
+faceTarget: false
 weapons: [
  {
   name: dingleberry
@@ -22,6 +23,7 @@ weapons: [
   reload: 80
   shots: 1
   shootSpread: 20
+  rotate: true
   bullet: {
    type: ArtilleryBulletType
    trailLength: 5
@@ -35,10 +37,10 @@ weapons: [
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 20
+    sizeTo: 30
     color: BF92F9
     lifetime: 1
-    strokeFrom: 3
+    strokeFrom: 4
     strokeTo: 0
     } 
    collidesAir: false
@@ -53,6 +55,7 @@ weapons: [
    height: 8
    trailEffect: none
    fragBulletRandomSpread: 180
+   fragVelocityMin: 0
    fragBullet: {
        type: BasicBulletType
        trailLength: 5
@@ -61,8 +64,8 @@ weapons: [
        backColor: BF92F9
        frontColor: BF92F9
        sprite: bitches-mine
-       speed: 0.05
-       lifetime: 500
+       speed: 2
+       lifetime: 120
        splashDamage: 20
        splashDamageRadius: 40
        width: 7
