@@ -16,7 +16,7 @@ targetAir: false
 weapons: [
  {
   name: minelauncher
-  recoil: 2
+  recoil: -6
   rotate: true
   x: 4
   y: 0
