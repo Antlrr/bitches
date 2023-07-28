@@ -3,8 +3,8 @@ flying: true
 commandLimit: 6
 health: 350
 speed: 3
-accel: 1
-drag: 0.5
+accel: 0.4
+drag: 0.2
 controller: FlyingAI
 range: 80
 lightRadius: 60
@@ -78,11 +78,13 @@ weapons: [
     y: 0
     reload: 70
     mirror: false
+    shootSound: spark
     bullet: {
      type: LightningBulletType
      lightningColor: BF92F9
      hitColor: BF92F9
      lightningLength: 10
+     lightningCone: 18
      recoil: -16
     }
    }
