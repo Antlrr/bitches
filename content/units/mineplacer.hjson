@@ -80,10 +80,11 @@ weapons: [
     mirror: false
     shootSound: spark
     bullet: {
+     damage: 18
      type: LightningBulletType
      lightningColor: BF92F9
      hitColor: BF92F9
-     lightningLength: 10
+     lightningLength: 13
      lightningCone: 18
      recoil: -16
     }
