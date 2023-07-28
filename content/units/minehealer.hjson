@@ -14,6 +14,8 @@ outlineColor: 242227
 targetAir: false
 range: 20
 faceTarget: false
+defaultCommand: repair
+circleTarget: true
 weapons: [
  {
   name: dingleberry
