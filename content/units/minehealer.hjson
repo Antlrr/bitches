@@ -5,7 +5,7 @@ health: 90
 speed: 4
 accel: 0.5
 drag: 0.1
-controller: repairAI
+controller: DefenderAI
 range: 80
 lightRadius: 60
 rotateShooting: true
