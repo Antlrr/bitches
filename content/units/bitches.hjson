@@ -24,7 +24,7 @@ weapons: [
     shootSound: wind3
     bullet:{
       type: ArtilleryBulletType
-      speed: 1
+      speed: 100
       backColor: ffffff
       frontColor: ffffff
       lifetime: 500
