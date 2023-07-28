@@ -5,7 +5,7 @@ health: 90
 speed: 4
 accel: 0.5
 drag: 0.1
-range: 80
+range: 160
 lightRadius: 60
 rotateShooting: true
 rotateSpeed: 20
@@ -20,8 +20,8 @@ weapons: [
   y: 0
   mirror: false
   reload: 120
-  shots: 3
-  innacuracy: 10
+  shots: 2
+  innacuracy: 20
   bullet: {
    type: ArtilleryBulletType
    trailLength: 5
