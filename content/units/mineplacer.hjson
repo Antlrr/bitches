@@ -49,7 +49,7 @@ weapons: [
    shrinkY: 0.5
    speed: 2
    collides: false 
-   fragBullets: 3
+   fragBullets: 2
    width: 8
    height: 8
    trailEffect: none
@@ -60,7 +60,7 @@ weapons: [
        sprite: bitches-mine
        speed: 0.10
        lifetime: 700
-       splashDamage: 30
+       splashDamage: 25
        splashDamageRadius: 60
        width: 8
        height: 8
@@ -80,7 +80,7 @@ weapons: [
     mirror: false
     shootSound: spark
     bullet: {
-     damage: 18
+     damage: 23
      type: LightningBulletType
      lightningColor: BF92F9
      hitColor: BF92F9
