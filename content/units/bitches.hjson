@@ -3,11 +3,11 @@ flying: true
 name: Bitches
 commandLimit: 10
 lowAltitude: true
-health: 9e999
+health: 9999
 hitSize: 4
-speed: 3
+speed: 6
 accel: 2
-drag: 0.02
+drag: 1
 mineTier: 1000
 mineSpeed: 1000
 engineSize: 0
@@ -24,15 +24,14 @@ weapons: [
     shootSound: wind3
     bullet:{
       type: ArtilleryBulletType
-      speed: 9999
+      speed: 10
       backColor: ffffff
       frontColor: ffffff
-      lifetime: 500
+      lifetime: 300
       damage: 200
       collidesGround: false
       fragBullets: 10
       fragRandomSpread: 360
-      fragLifeMin: 1
       fragVelocityMin: 0.3
       fragVelocityMax: 10
       fragBullet: {
@@ -40,7 +39,15 @@ weapons: [
        homingPower: 1
        homingRange: 200
        lifetime: 200
-       damage: 60
+       damage: 200
+       speed: 10
+       fragBullets: 10
+       fragBullet: {
+        type: BasicBulletType
+        lifetime: 200
+        speed: 10
+        damage: 200
+       }
        parts: [
         {
           type: RegionPart
