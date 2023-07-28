@@ -42,6 +42,7 @@ weapons: [
     sizeFrom: 0
     sizeTo: 30
     colorFrom: BF92F9
+    colorTo: BF92F9
     lifetime: 30
     strokeFrom: 4
     strokeTo: 0
