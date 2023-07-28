@@ -2,7 +2,7 @@ type: flying
 flying: true
 commandLimit: 6
 health: 90
-speed: 4
+speed: 3.8
 accel: 0.5
 drag: 0.1
 range: 160
