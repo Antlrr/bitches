@@ -8,7 +8,7 @@ drag: 0.5
 controller: FlyingAI
 range: 80
 lightRadius: 60
-rotateShooting: false
+rotateShooting: true
 rotateSpeed: 17
 engineSize: 0
 outlineColor: 242227
@@ -25,7 +25,6 @@ weapons: [
   reload: 65
   bullet: {
    type: ArtilleryBulletType
-   recoil: -5
    trailLength: 5
    trailWidth: 4
    trailColor: BF92F9
@@ -72,6 +71,20 @@ weapons: [
        spin: 4
        }
      }
+    }
+    {
+    rotate: false
+    x: 0
+    y: 0
+    reload: 70
+    mirror: false
+    bullet: {
+     type: LightningBulletType
+     lightningColor: BF92F9
+     hitColor: BF92F9
+     lightningLength: 10
+     recoil: -16
+    }
    }
  ]
  
