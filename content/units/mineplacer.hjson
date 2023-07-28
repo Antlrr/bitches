@@ -1,0 +1,97 @@
+type: flying
+flying: true
+commandLimit: 6
+health: 350
+speed: 4
+accel: 0.5
+drag: 0.1
+controller: FlyingAI
+range: 80
+lightRadius: 60
+rotateShooting: false
+rotateSpeed: 17
+engineSize: 0
+outlineColor: 242227
+targetAir: false
+weapons: [
+ {
+  name: minelauncher
+  recoil: 2
+  rotate: true
+  x: 3
+  y: 5
+  mirror: true
+  alternate: true 
+  reload: 70
+  bullet: {
+   type: ArtilleryBulletType
+   trailLength: 5
+   trailWidth: 4
+   trailColor: BF92F9
+   sprite: bitches-mine
+   spin: 0.9
+   shootEffect: none
+   backColor: BF92F9
+   frontColor: BF92F9
+   hitEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 10
+    color: BF92F9
+    lifetime: 30
+    strokeFrom: 1
+    strokeTo: 0
+    } 
+   collidesAir: false
+   lifetime: 70
+   keepVelocity: false
+   shrinkX: 0.5
+   shrinkY: 0.5
+   speed: 2
+   collides: false 
+   fragBullets: 3
+   width: 8
+   height: 8
+   trailEffect: none
+   fragBullet: {
+       type: BasicBulletType
+       backColor: BF92F9
+       frontColor: BF92F9
+       sprite: bitches-mine
+       speed: 0.10
+       lifetime: 700
+       splashDamage: 30
+       splashDamageRadius: 60
+       width: 8
+       height: 8
+       shrinkX: 0
+       shrinkY: 0
+       homingRange: 80
+       homingPower: 0.9
+       spin: 4
+       }
+     }
+   }
+ ]
+ 
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 10
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    bloom: 1
+    shootEffect: {
+      type: ParticleEffect
+      particles: 1
+      region: bitches-flare-glow
+      lifetime: 10
+      length: 0
+      sizeFrom: 13
+      sizeTo: 4
+      layer:110
+    }
+  }
+]
