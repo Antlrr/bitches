@@ -4,7 +4,7 @@ commandLimit: 6
 health: 350
 speed: 3
 accel: 0.5
-drag: 0.7
+drag: 1.2
 controller: FlyingAI
 range: 80
 lightRadius: 60
