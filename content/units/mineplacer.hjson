@@ -84,9 +84,9 @@ weapons: [
      type: LightningBulletType
      lightningColor: BF92F9
      hitColor: BF92F9
-     lightningLength: 13
+     lightningLength: 17
      lightningCone: 18
-     recoil: -16
+     recoil: -20
     }
    }
  ]
