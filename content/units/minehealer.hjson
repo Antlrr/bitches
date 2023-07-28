@@ -1,6 +1,6 @@
 type: flying
 flying: true
-controller: DefenderAI
+defaultCommand: repairAI
 commandLimit: 6
 health: 90
 speed: 4
