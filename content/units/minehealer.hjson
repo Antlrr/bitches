@@ -19,6 +19,7 @@ circleTarget: true
 weapons: [
  {
   name: dingleberry
+  shootSound: artillery
   x: 0
   y: 0
   mirror: false
@@ -88,7 +89,7 @@ weapons: [
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 10
+    chance: 16
     minSpeed: -1
     maxSpeed: 0
     length: 0
