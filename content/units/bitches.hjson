@@ -24,11 +24,11 @@ weapons: [
     shootSound: wind3
     bullet:{
       type: ArtilleryBulletType
-      speed: 10
+      speed: 0.2
       backColor: ffffff
       frontColor: ffffff
       lifetime: 300
-      damage: 200
+      damage: 600
       collidesGround: false
       fragBullets: 10
       fragRandomSpread: 360
@@ -47,6 +47,8 @@ weapons: [
         lifetime: 200
         speed: 10
         damage: 200
+        homingPower: 1
+        homingRange: 200
        }
        parts: [
         {
