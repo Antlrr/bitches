@@ -16,18 +16,6 @@ targetAir: false
 lowAltitude: false
 size:
 weapons: [
- {
-  type: RepairBeamWeapon
-  x: 0
-  y: 0
-  mirror: false
-  reload: 90
-  repairSpeed: 1.6
-  bullet: {
-    maxRange: 150
-    beamColor: BF92F9
-    }
-  }
   {
   shootSound: railgun
   x: 0
