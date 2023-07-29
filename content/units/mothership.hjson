@@ -5,7 +5,7 @@ armor: 10
 speed: 1.5
 accel: 0.05
 drag: 0.06
-defaultCommand: defend
+controller: DefenderAI 
 range: 150
 lightRadius: 180
 rotateShooting: true
