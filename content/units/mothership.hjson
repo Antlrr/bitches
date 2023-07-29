@@ -99,7 +99,47 @@ weapons: [
        homingRange: 80
        homingPower: 0.9
        spin: 4
-       }
+       hitEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 13
+         colorFrom: BF92F9
+         lifetime: 40
+         strokeFrom: 1
+         strokeTo: 0
+         } 
+       fragBullets: 4
+       fragBullet: {
+         type: BasicBulletType
+         keepVelocity: false
+         trailLength: 5
+         trailWidth: 3
+         trailColor: BF92F9
+         backColor: BF92F9
+         frontColor: BF92F9
+         sprite: bitches-mine
+         speed: 1
+         lifetime: 100
+         splashDamage: 80
+         splashDamageRadius: 40
+         width: 10
+         height: 10
+         shrinkX: 0
+         shrinkY: 0
+         homingRange: 120
+         homingPower: 1
+         spin: 4.6
+         hitEffect: {
+           type: WaveEffect
+           sizeFrom: 0
+           sizeTo: 13
+           colorFrom: BF92F9
+           lifetime: 40
+           strokeFrom: 1
+           strokeTo: 0
+           } 
+         }
+      }
    }
 ]
  
