@@ -27,6 +27,7 @@ weapons: [
     maxRange: 150
     beamColor: BF92F9
     }
+  }
   {
   shootSound: railgun
   x: 0
@@ -89,7 +90,6 @@ weapons: [
        healPercent: 3.14
        weaveScale: 3
        weaveMag: 1
-        }
       }
     }
   }
