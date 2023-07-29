@@ -1,0 +1,20 @@
+type: GenericCrafter
+size: 2
+hasItems: true
+itemCapacity: 20
+craftTime: 80
+craftEffect: smeltsmoke
+updateEffect: none
+consumes: {
+items: [
+  silicon/4
+  ]
+}
+requirements: [
+  silicon/60
+  lead/80
+  graphite/40
+ ]
+category: crafting
+research: alloy-smelter
+outputItem: silly/2
