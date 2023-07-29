@@ -24,6 +24,7 @@ weapons: [
   repairSpeed: 1.6
   bullet: {
     maxRange: 150
+    beamColor: BF92F9
     }
   }
 ]
