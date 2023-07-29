@@ -34,43 +34,52 @@ weapons: [
   y: 0
   mirror: false
   reload: 160
-  shots: 1
   rotate: false
   bullet: {
-   type: RailBulletType
-   recoil: -70
-   length: 560
-   shootEffect: none
-   backColor: BF92F9
-   frontColor: BF92F9
-   region: bitches-mothership
-   damage: 200
-   pierceEffect: { 
-     type: ParticleEffect
-     colorFrom: BF92F9
-     colorTo: BF92F9
-     particles: 3
-     lifetime: 40
-     sizeFrom: 26
-     sizeTo: 0
-     sizeInterp: pow10Out
-     }
-   hitEffect: {
-    type: WaveEffect
-    sizeFrom: 0
-    sizeTo: 30
-    colorFrom: BF92F9
-    colorTo: BF92F9
-    lifetime: 30
-    strokeFrom: 4
-    strokeTo: 0
-    } 
-   collidesAir: true
-   fragBullets: 10
-   trailEffect: none
-   fragBulletRandomSpread: 180
-   fragVelocityMin: 0
-   fragBullet: {
+     type: RailBulletType
+     recoil: -70
+     length: 560
+     shootEffect: none
+     backColor: BF92F9
+     frontColor: BF92F9
+     region: bitches-mothership
+     damage: 200
+     pierceEffect: { 
+        type: ParticleEffect
+        colorFrom: BF92F9
+        colorTo: BF92F9
+        particles: 3
+        lifetime: 40
+        sizeFrom: 26
+        sizeTo: 0
+        sizeInterp: pow10Out
+        }
+     hitEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 30
+        colorFrom: BF92F9
+        colorTo: BF92F9
+        lifetime: 30
+        strokeFrom: 4
+        strokeTo: 0
+        } 
+      collidesAir: true
+      trailEffect: none
+      }
+   }
+   {
+    shootSound: none
+    x: 0
+    y: 0
+    mirror: false
+    reload: 160
+    rotate: false
+    shoot: {
+      shots: 10
+      shotDelay: 30
+    }
+    bullet: {
        type: BasicBulletType
        trailLength: 5
        trailWidth: 3
@@ -89,9 +98,8 @@ weapons: [
        homingRange: 80
        homingPower: 0.9
        spin: 4
-      }
-    }
-  }
+       }
+   }
 ]
  
 abilities: [
