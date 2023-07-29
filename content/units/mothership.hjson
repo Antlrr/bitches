@@ -51,7 +51,7 @@ weapons: [
      lifetime: 40
      sizeFrom: 26
      sizeTo: 0
-     sizeInterp: pow10out
+     sizeInterp: pow10Out
      }
    hitEffect: {
     type: WaveEffect
