@@ -64,7 +64,7 @@ weapons: [
     strokeTo: 0
     } 
    collidesAir: true
-   fragBullets: 14
+   fragBullets: 4
    trailEffect: none
    fragBulletRandomSpread: 180
    fragVelocityMin: 0
@@ -80,16 +80,13 @@ weapons: [
        lifetime: 100
        splashDamage: 20
        splashDamageRadius: 40
-       width: 7
-       height: 7
+       width: 10
+       height: 10
        shrinkX: 0
        shrinkY: 0
        homingRange: 80
        homingPower: 0.9
        spin: 4
-       healPercent: 3.14
-       weaveScale: 3
-       weaveMag: 1
       }
     }
   }
