@@ -32,7 +32,7 @@ weapons: [
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 10
+    chance: 14
     minSpeed: -1
     maxSpeed: 0
     length: 0
@@ -41,11 +41,11 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       particles: 1
-      region: bitches-flare-glow
-      lifetime: 10
+      region: bitches-mothercore
+      lifetime: 20
       length: 0
-      sizeFrom: 9
-      sizeTo: 3
+      sizeFrom: 1
+      sizeTo: 0.2
       layer:110
     }
   }
