@@ -1,7 +1,7 @@
 type: flying
 flying: true
-health: 7800
-armor: 10
+health: 8900
+armor: 12
 speed: 1.5
 accel: 0.05
 drag: 0.06
@@ -125,9 +125,9 @@ abilities: [
   }
   {
     type: ForceFieldAbility
-    radius: 90
+    radius: 70
     cooldown: 480
-    max: 500
+    max: 800
     regen: 0.8
   }
 ]
