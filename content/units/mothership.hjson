@@ -42,10 +42,10 @@ abilities: [
       type: ParticleEffect
       particles: 1
       region: bitches-mothercore
-      lifetime: 30
+      lifetime: 60
       length: 0
-      sizeFrom: 60
-      sizeTo: 6
+      sizeFrom: 30
+      sizeTo: 10
       layer:110
     }
   }
