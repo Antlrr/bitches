@@ -81,6 +81,7 @@ weapons: [
     }
     bullet: {
        type: BasicBulletType
+       pierce: true
        keepVelocity: false
        trailLength: 5
        trailWidth: 3
@@ -111,6 +112,7 @@ weapons: [
        fragBullets: 4
        fragBullet: {
          type: BasicBulletType
+         pierce: true
          keepVelocity: false
          trailLength: 5
          trailWidth: 3
