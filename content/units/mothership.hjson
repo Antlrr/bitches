@@ -76,8 +76,8 @@ weapons: [
     reload: 160
     rotate: false
     shoot: {
-      shots: 30
-      shotDelay: 2
+      shots: 24
+      shotDelay: 1.4
     }
     bullet: {
        type: BasicBulletType
