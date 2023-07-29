@@ -76,8 +76,8 @@ weapons: [
     reload: 160
     rotate: false
     shoot: {
-      shots: 10
-      shotDelay: 30
+      shots: 30
+      shotDelay: 2
     }
     bullet: {
        type: BasicBulletType
@@ -87,7 +87,7 @@ weapons: [
        backColor: BF92F9
        frontColor: BF92F9
        sprite: bitches-mine
-       speed: 1.8
+       speed: 0
        lifetime: 100
        splashDamage: 80
        splashDamageRadius: 40
