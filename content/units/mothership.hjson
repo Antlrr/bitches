@@ -42,7 +42,7 @@ abilities: [
       type: ParticleEffect
       particles: 1
       region: bitches-mothercore
-      lifetime: 60
+      lifetime: 30
       length: 0
       sizeFrom: 30
       sizeTo: 10
