@@ -38,7 +38,7 @@ weapons: [
   rotate: false
   bullet: {
    type: RailBulletType
-   recoil: -200
+   recoil: -70
    length: 560
    shootEffect: none
    backColor: BF92F9
@@ -64,7 +64,7 @@ weapons: [
     strokeTo: 0
     } 
    collidesAir: true
-   fragBullets: 4
+   fragBullets: 14
    trailEffect: none
    fragBulletRandomSpread: 180
    fragVelocityMin: 0
