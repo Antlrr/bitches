@@ -81,6 +81,7 @@ weapons: [
     }
     bullet: {
        type: BasicBulletType
+       keepVelocity: false
        trailLength: 5
        trailWidth: 3
        trailColor: BF92F9
