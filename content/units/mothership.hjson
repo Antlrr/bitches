@@ -27,8 +27,7 @@ weapons: [
     maxRange: 150
     beamColor: BF92F9
     }
-  }
- {
+  {
   shootSound: railgun
   x: 0
   y: 0
@@ -52,7 +51,7 @@ weapons: [
      sizeFrom: 26
      sizeTo: 0
      sizeInterp: pow10out
-  }
+     }
    hitEffect: {
     type: WaveEffect
     sizeFrom: 0
@@ -90,9 +89,10 @@ weapons: [
        healPercent: 3.14
        weaveScale: 3
        weaveMag: 1
-       }
-     }
-   }
+        }
+      }
+    }
+  }
 ]
  
 abilities: [
