@@ -1,6 +1,7 @@
-type: flying
+type: naval
 health: 20000
 armor: 12
+hitSize: 20
 omniMovement: false
 rotateSpeed: 1.7
 drownTimeMultiplier: 4
