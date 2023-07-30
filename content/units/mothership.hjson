@@ -70,14 +70,15 @@ weapons: [
    }
    {
     shootSound: none
+    range: 560
     x: 0
     y: 0
     mirror: false
     reload: 160
     rotate: false
     shoot: {
-      shots: 24
-      shotDelay: 1.4
+      shots: 20
+      shotDelay: 1.2
     }
     bullet: {
        type: BasicBulletType
