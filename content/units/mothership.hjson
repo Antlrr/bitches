@@ -124,8 +124,8 @@ weapons: [
          lifetime: 100
          splashDamage: 80
          splashDamageRadius: 40
-         width: 10
-         height: 10
+         width: 6
+         height: 6
          shrinkX: 0
          shrinkY: 0
          homingRange: 120
@@ -167,6 +167,7 @@ abilities: [
   }
   {
     type: ForceFieldAbility
+    rotation: 90
     radius: 70
     cooldown: 480
     max: 800
