@@ -1,11 +1,10 @@
-type: mech
+type: flying
 health: 20000
 armor: 12
-hitSize: 48
 omniMovement: false
 rotateSpeed: 1.7
 drownTimeMultiplier: 4
-segments: 4
+segments: 6
 drawBody: false
 crushDamage: 2
 controller: HugAI
