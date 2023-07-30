@@ -1,4 +1,4 @@
-type: NeoplasmUnitType
+type: neoplasm
 health: 20000
 armor: 12
 hitSize: 48
