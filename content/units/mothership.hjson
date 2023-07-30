@@ -37,7 +37,7 @@ weapons: [
   rotate: false
   bullet: {
      type: RailBulletType
-     recoil: -70
+     recoil: -45
      length: 560
      shootEffect: none
      backColor: BF92F9
