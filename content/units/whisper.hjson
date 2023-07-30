@@ -1,4 +1,4 @@
-type: neoplasm
+type: mech
 health: 20000
 armor: 12
 hitSize: 48
@@ -8,8 +8,8 @@ drownTimeMultiplier: 4
 segments: 4
 drawBody: false
 crushDamage: 2
-aiController: HugAI
+controller: HugAI
 targetAir: false
 segmentScl: 4
 segmentPhase: 5
-speed: 1
+speed: 1 
