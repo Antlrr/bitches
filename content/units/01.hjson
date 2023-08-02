@@ -41,15 +41,17 @@ weapons: [
     lifetime: 60
     lightningLength: 4
     lightningLengthRand: 4
-    hitEffect: hitLancer
+    lightningColor: FFF698FF
     damage: 24
     fragBullets: 1
     despawnEffect: none
+    hitEffect: none
     fragBullet: {
       type: BasicBulletType
       hittable: false
       despawnEffect: none
       hitEffect: none
+      damage: 0
       lifetime: 0
       speed: 0
       killShooter: true
