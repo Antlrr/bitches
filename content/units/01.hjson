@@ -28,7 +28,7 @@ weapons: [
   mirror: false
   x: 0
   y: 0
-  reload: 15
+  reload: 20
   shoot: {
     shots: 6
     }
@@ -41,11 +41,12 @@ weapons: [
     lightningLength: 5
     lightningLengthRand: 5
     hitEffect: hitLancer
-    damage: 24
+    damage: 26
     fragBullets: 1
     despawnEffect: none
     fragBullet: {
       type: BasicBulletType
+      hittable: false
       lifetime: 0
       speed: 0
       killShooter: true
