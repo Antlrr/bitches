@@ -39,7 +39,7 @@ weapons: [
     lightningLength: 5
     lightningLengthRand: 5
     hitEffect: hitLancer
-    instantDisappear
+    instantDisappear: true
     damage: 95
       }
    }
