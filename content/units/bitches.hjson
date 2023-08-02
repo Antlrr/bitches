@@ -1,7 +1,6 @@
 type: flying
 flying: true
 name: Bitches
-commandLimit: 10
 lowAltitude: true
 health: 9999
 hitSize: 4
