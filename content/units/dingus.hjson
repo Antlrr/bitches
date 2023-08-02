@@ -19,6 +19,7 @@ allowLegStep: true
 hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.1
+hovering: true
 weapons: [
   {
   shootSound: spark
@@ -27,12 +28,15 @@ weapons: [
   y: 0
   reload: 24
   shoot: {
-    shots: 6
+    shots: 12
     }
   inaccuracy: 180
   shootCone: 180
   bullet: {
     type: LightningBulletType
+    lightningLength: 5
+    lightningLengthRand: 5
+    hitEffect: hitLancer
       }
    }
 ]
