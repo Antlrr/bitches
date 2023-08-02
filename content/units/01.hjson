@@ -30,7 +30,7 @@ weapons: [
   y: 0
   reload: 61
   shoot: {
-    shots: 16
+    shots: 30
     shotDelay: 2
     }
   inaccuracy: 180
@@ -42,7 +42,7 @@ weapons: [
     lightningLength: 4
     lightningLengthRand: 4
     hitEffect: hitLancer
-    damage: 35
+    damage: 24
     fragBullets: 1
     despawnEffect: none
     fragBullet: {
