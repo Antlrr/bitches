@@ -22,6 +22,7 @@ shadowElevation: 0.1
 hovering: true
 weapons: [
   {
+  shootOnDeath: true
   shootSound: spark
   mirror: false
   x: 0
@@ -37,6 +38,8 @@ weapons: [
     lightningLength: 5
     lightningLengthRand: 5
     hitEffect: hitLancer
+    killShooter: true
+    damage: 95
       }
    }
 ]
