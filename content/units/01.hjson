@@ -21,6 +21,7 @@ legPhysicsLayer: false
 shadowElevation: 0.1
 hovering: true
 allowLegStep: false
+outlineColor: 232E34FF
 weapons: [
   {
   shootOnDeath: true
