@@ -41,9 +41,12 @@ weapons: [
     lightningLength: 3
     lightningLengthRand: 3
     hitEffect: hitLancer
-    damage: 95
+    damage: 86
+    fragBullets: 1
     fragBullet: {
       type: BasicBulletType
+      lifetime: 0
+      speed: 0
       killShooter: true
         }
       }
