@@ -9,12 +9,12 @@ lockLegBase: true
 legContinuousMove: true
 legBaseOffset: -1
 legExtension: 2.5
-legMaxLength: 1.8
-legMinLength: 0.8
+legMaxLength: 1
+legMinLength: 1
 legLengthScl: 0.96
 legForwardScl: 1.1
 legGroupSize: 2
-legStraightness: 0.6
+legStraightness: 0.2
 rippleScale: 0.2
 legMoveSpace: 1
 allowLegStep: true
