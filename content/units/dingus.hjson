@@ -34,11 +34,12 @@ weapons: [
   inaccuracy: 180
   shootCone: 180
   bullet: {
+    killShooter: true
     type: LightningBulletType
     lightningLength: 5
     lightningLengthRand: 5
     hitEffect: hitLancer
-    killShooter: true
+    instantDisappear
     damage: 95
       }
    }
