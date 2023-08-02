@@ -29,7 +29,7 @@ weapons: [
   y: 0
   reload: 120
   shoot: {
-    shots: 12
+    shots: 6
     }
   inaccuracy: 180
   shootCone: 180
