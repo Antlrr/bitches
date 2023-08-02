@@ -28,9 +28,10 @@ weapons: [
   mirror: false
   x: 0
   y: 0
-  reload: 20
+  reload: 61
   shoot: {
     shots: 6
+    shotDelay: 20
     }
   inaccuracy: 180
   shootCone: 180
