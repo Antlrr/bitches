@@ -1,0 +1,39 @@
+description: dingus
+health
+speed: 1
+targetAir: false
+legCount: 4
+legLength:  8
+lockLegBase: true
+legContinuousMove: true
+legExtension: 0
+legBaseOffset: 3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.96
+legForwardScl: 1.1
+legGroupSize: 2
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.1
+weapons: [
+  {
+  shootSound: spark
+  mirror: false
+  x: 0
+  y: 0
+  reload: 24
+  shoot: {
+    shots: 6
+    }
+  shootCone: 180
+  bullet: {
+    type: LightningBulletType
+      }
+   }
+]
+
+  
