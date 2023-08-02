@@ -1,4 +1,5 @@
 description: Overloads it's own machinery with Electricity, then explodes due to all the overloading.
+type: legs
 health: 200
 speed: 1
 targetAir: false
