@@ -30,7 +30,7 @@ weapons: [
   y: 0
   reload: 61
   shoot: {
-    shots: 12
+    shots: 16
     shotDelay: 2
     }
   inaccuracy: 180
@@ -39,8 +39,8 @@ weapons: [
     type: LightningBulletType
     rangeOverride: 30
     lifetime: 60
-    lightningLength: 5
-    lightningLengthRand: 5
+    lightningLength: 4
+    lightningLengthRand: 4
     hitEffect: hitLancer
     damage: 35
     fragBullets: 1
