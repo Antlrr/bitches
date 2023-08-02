@@ -48,6 +48,8 @@ weapons: [
     fragBullet: {
       type: BasicBulletType
       hittable: false
+      despawnEffect: none
+      hitEffect: none
       lifetime: 0
       speed: 0
       killShooter: true
