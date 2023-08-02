@@ -20,6 +20,7 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.1
 hovering: true
+allowLegStep: false
 weapons: [
   {
   shootOnDeath: true
@@ -34,18 +35,16 @@ weapons: [
   inaccuracy: 180
   shootCone: 180
   bullet: {
-    killShooter: true
-    type: BasicBulletType
+    type: LightningBulletType
     rangeOverride: 30
-    speed: 0
     lifetime: 0
+    lightningLength: 3
+    lightningLengthRand: 3
+    hitEffect: hitLancer
+    damage: 95
     fragBullet: {
-      type: LightningBulletType
-      lightningLength: 3
-      lightningLengthRand: 3
-      hitEffect: hitLancer
-      instantDisappear: true
-      damage: 95
+      type: BasicBulletType
+      killShooter: true
         }
       }
    }
