@@ -1,14 +1,12 @@
 type: flying
 flying: true
-commandLimit: 6
 health: 480
 speed: 3
 accel: 0.4
 drag: 0.2
 controller: FlyingAI
 range: 80
-lightRadius: 60
-rotateShooting: true
+lightRadius: 60 
 rotateSpeed: 17
 engineSize: 0
 outlineColor: 242227
@@ -99,7 +97,6 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
-    bloom: 1
     shootEffect: {
       type: ParticleEffect
       particles: 1
