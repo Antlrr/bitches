@@ -35,7 +35,7 @@ weapons: [
   shootCone: 180
   bullet: {
     killShooter: true
-    type: LightningBulletType
+    type: BasicBulletType
     lightningLength: 5
     lightningLengthRand: 5
     hitEffect: hitLancer
