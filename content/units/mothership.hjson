@@ -8,7 +8,6 @@ drag: 0.06
 controller: DefenderAI 
 range: 560
 lightRadius: 180
-rotateShooting: true
 rotateSpeed: 1.8
 engineSize: 0
 outlineColor: 242227
@@ -25,7 +24,6 @@ weapons: [
   repairSpeed: 1.6
   bullet: {
     maxRange: 150
-    beamColor: BF92F9
     }
   }
   {
@@ -40,9 +38,6 @@ weapons: [
      recoil: -45
      length: 560
      shootEffect: none
-     backColor: BF92F9
-     frontColor: BF92F9
-     region: bitches-mothership
      damage: 200
      pierceEffect: { 
         type: ParticleEffect
@@ -153,7 +148,6 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
-    bloom: 1
     shootEffect: {
       type: ParticleEffect
       particles: 1
