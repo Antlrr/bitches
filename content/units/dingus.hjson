@@ -29,7 +29,7 @@ weapons: [
   shoot: {
     shots: 6
     }
-  innacuracy: 180
+  inaccuracy: 180
   shootCone: 180
   bullet: {
     type: LightningBulletType
