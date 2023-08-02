@@ -1,13 +1,11 @@
 type: flying
 flying: true
-commandLimit: 6
 health: 350
 speed: 3.8
 accel: 0.5
 drag: 0.1
 range: 160
 lightRadius: 60
-rotateShooting: true
 rotateSpeed: 20
 engineSize: 0
 outlineColor: 242227
@@ -24,8 +22,6 @@ weapons: [
   y: 0
   mirror: false
   reload: 80
-  shots: 1
-  shootSpread: 20
   rotate: true
   bullet: {
    type: ArtilleryBulletType
@@ -59,7 +55,6 @@ weapons: [
    width: 8
    height: 8
    trailEffect: none
-   fragBulletRandomSpread: 180
    fragVelocityMin: 0
    fragBullet: {
        type: BasicBulletType
@@ -96,7 +91,6 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
-    bloom: 1
     shootEffect: {
       type: ParticleEffect
       particles: 1
