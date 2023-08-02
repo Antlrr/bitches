@@ -30,7 +30,6 @@ weapons: [
   reload: 120
   shoot: {
     shots: 12
-    shotDelay: 60
     }
   inaccuracy: 180
   shootCone: 180
@@ -39,6 +38,7 @@ weapons: [
     type: BasicBulletType
     rangeOverride: 30
     speed: 0
+    lifetime: 0
     fragBullet: {
       type: LightningBulletType
       lightningLength: 3
