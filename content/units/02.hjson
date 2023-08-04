@@ -59,7 +59,7 @@ weapons: [
    minWarmup: 1
    shoot: {
       firstShotDelay: 60
-      effect: {
+      effects: {
          type: WaveEffect
          sizeFrom: 6
          sizeTo: 0
