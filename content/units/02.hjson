@@ -55,7 +55,7 @@ weapons: [
    mirror: false
    reload: 60
    shoot: {
-      shotDelay: 20
+      shotDelay: 50
    }
    bullet: {
       type: BasicBulletType
