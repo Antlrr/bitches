@@ -29,8 +29,8 @@ parts: [
     suffix: -blade
     type: RegionPart
     progress: warmup
-    x: 0
-    y: 0
+    x: 4
+    y: 2
     moveX: 1
     moveY: -0.5
     moveRot: -5
