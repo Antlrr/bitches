@@ -73,7 +73,7 @@ weapons: [
       shrinkY: 0
       damage: 50
       intervalBullet: {
-         type:LightingBulletType
+         type:LightningBulletType
          damage: 22
          lightningLength: 3
          lightningLengthRand: 6
