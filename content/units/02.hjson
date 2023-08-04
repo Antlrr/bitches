@@ -39,12 +39,22 @@ parts: [
     heatProgress: reload
     mirror: true
     turretShading: false //note: this needs -l and -r sprites
-    moves: [ //use to add extra movement to a part like recoiling while warmed up
+    moves: [ 
       {
         type: PartMove
         progress: recoil
-        moveY: -2 //has same possible parameters as part
+        moveY: -2
       }
     ]
   }
+]
+weapons: [
+   {
+   x: 0
+   y: 0
+   mirror: false
+   bullet: {
+      type: BasicBulletType
+      }
+   }
 ]
