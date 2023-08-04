@@ -53,7 +53,7 @@ weapons: [
    y: 0
    mirror: false
    reload: 60
-   shots: {
+   shoot: {
       shotDelay: 20
    }
    bullet: {
