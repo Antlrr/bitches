@@ -1,5 +1,6 @@
 description: Overloads it's own machinery with Electricity, then explodes due to all the overloading.
 type: legs
+drawCell: false
 health: 450
 hitSize: 14
 speed: 0.4
@@ -28,8 +29,8 @@ parts: [
     suffix: -blade
     type: RegionPart
     progress: warmup
-    x: 4   
-    y: 2.04
+    x: 0
+    y: 0
     moveX: 1
     moveY: -0.5
     moveRot: -5
