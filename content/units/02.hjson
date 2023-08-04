@@ -42,7 +42,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: warmup
         moveY: -4
         moveRot: -2
       }
@@ -64,16 +64,18 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       lifetime: 100
-     shootEffect: {
-         type: WaveEffect
-         sizeFrom: 7
-         sizeTo: 0
-         strokeFrom: 3
-         strokeTo: 0
-      }
       speed: 0.6
       sprite: large-orb
+      width: 6
+      length: 6
       damage: 50
+      shootEffect: {
+          type: WaveEffect
+          sizeFrom: 7
+          sizeTo: 0
+          strokeFrom: 3
+          strokeTo: 0
+       }
       intervalBullet: {
          type:LightningBulletType
          damage: 22
