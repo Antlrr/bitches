@@ -31,7 +31,7 @@ parts: [
     progress: warmup
     x: 4
     y: 2
-    moveX: -0.5
+    moveX: -1
     moveY: -1
     moveRot: -5
     layerOffset: 0
