@@ -28,8 +28,8 @@ parts: [
     suffix: -blade
     type: RegionPart
     progress: warmup
-    x: 3
-    y: 2
+    x: 4   
+    y: 2.04
     moveX: 1
     moveY: -0.5
     moveRot: -5
@@ -53,7 +53,7 @@ weapons: [
    y: 0
    mirror: false
    reload: 60
-   shot: {
+   shots: {
       shotDelay: 20
    }
    bullet: {
