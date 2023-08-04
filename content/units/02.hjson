@@ -1,4 +1,4 @@
-description: Overloads it's own machinery with Electricity, then explodes due to all the overloading.
+description: Overloads it's own machinery with Electricity, then releases that Electricity into a ball of Energy.
 type: legs
 drawCell: false
 health: 450
@@ -52,13 +52,33 @@ weapons: [
    {
    x: 0
    y: 0
+   shootY: -2
    mirror: false
-   reload: 60
+   reload: 120
    shoot: {
-      shotDelay: 50
+      shotDelay: 80
+   }
+   shootEffect: {
+      type: WaveEffect
+      sizeFrom: 7
+      sizeTo: 0
+      strokeFrom: 3
+      strokeTo: 0
    }
    bullet: {
       type: BasicBulletType
+      speed: 0.6
+      sprite: large-orb
+      shrinkX: 0
+      shrinkY: 0
+      damage: 50
+      intervalBullet: {
+         type:ElectricBulletType
+         damage: 22
+         lightningLength: 3
+         lightningLengthRand: 6
+         hittable: false 
+         }
       }
    }
 ]
