@@ -59,6 +59,13 @@ weapons: [
    minWarmup: 1
    shoot: {
       firstShotDelay: 90
+      effect: {
+         type: WaveEffect
+         sizeFrom: 6
+         sizeTo: 0
+         strokeFrom: 1
+         strokeTo: 0
+      }
    }
    bullet: {
       type: BasicBulletType
@@ -69,15 +76,8 @@ weapons: [
       speed: 0.6
       sprite: large-orb
       width: 17
-      length: 17
+      height: 17
       damage: 50
-      shootEffect: {
-          type: WaveEffect
-          sizeFrom: 7
-          sizeTo: 0
-          strokeFrom: 3
-          strokeTo: 0
-       }
       intervalBullet: {
          type:LightningBulletType
          bulletInterval: 1
