@@ -56,18 +56,20 @@ weapons: [
    shootY: -2
    mirror: false
    reload: 250
+   minWarmup: 1
    shoot: {
       firstShotDelay: 90
    }
    bullet: {
       type: BasicBulletType
+      recoil: 2
       shrinkX: 0
       shrinkY: 0
       lifetime: 100
       speed: 0.6
       sprite: large-orb
-      width: 6
-      length: 6
+      width: 17
+      length: 17
       damage: 50
       shootEffect: {
           type: WaveEffect
@@ -78,6 +80,7 @@ weapons: [
        }
       intervalBullet: {
          type:LightningBulletType
+         bulletInterval: 1
          damage: 22
          lightningLength: 3
          lightningLengthRand: 6
