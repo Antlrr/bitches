@@ -28,12 +28,12 @@ parts: [
     suffix: -blade
     type: RegionPart
     progress: warmup
-    x: 6
+    x: 4
     y: 3
     rot: 0
     moveX: -0.5
     moveY: -0.5
-    moveRot: 0.2
+    moveRot: 10
     layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
