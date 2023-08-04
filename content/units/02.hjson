@@ -28,9 +28,9 @@ parts: [
     suffix: -blade
     type: RegionPart
     progress: warmup
-    x: 3
-    y: 2.2
-    moveX: -4
+    x: 4
+    y: 2.5
+    moveX: 2
     moveY: -1
     moveRot: -10
     layerOffset: 0
