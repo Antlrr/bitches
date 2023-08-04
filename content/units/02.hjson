@@ -43,7 +43,8 @@ parts: [
       {
         type: PartMove
         progress: recoil
-        moveY: -2
+        moveY: -4
+        moveRot: -2
       }
     ]
   }
@@ -54,13 +55,16 @@ weapons: [
    y: 0
    shootY: -2
    mirror: false
-   reload: 300
+   reload: 250
    shoot: {
-      shotDelay: 120
+      firstShotDelay: 90
    }
    bullet: {
       type: BasicBulletType
-      shootEffect: {
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 100
+     shootEffect: {
          type: WaveEffect
          sizeFrom: 7
          sizeTo: 0
@@ -69,8 +73,6 @@ weapons: [
       }
       speed: 0.6
       sprite: large-orb
-      shrinkX: 0
-      shrinkY: 0
       damage: 50
       intervalBullet: {
          type:LightningBulletType
