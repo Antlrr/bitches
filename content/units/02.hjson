@@ -55,10 +55,10 @@ weapons: [
    y: 0
    shootY: -2
    mirror: false
-   reload: 250
+   reload: 120
    minWarmup: 1
    shoot: {
-      firstShotDelay: 90
+      firstShotDelay: 60
       effect: {
          type: WaveEffect
          sizeFrom: 6
