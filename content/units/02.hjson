@@ -75,19 +75,21 @@ weapons: [
             strokeFrom: 1
             strokeTo: 0
             interp: pow2In
+            lifetime: 120
          }
          {
             type: ParticleEffect
-            particles: 16
+            particles: 8
             line: true
             length: 6
-            strokeFrom: 4
+            strokeFrom: 2
             strokeTo: 1
             lenFrom: 13
             lenTo: 0
             sizeFrom: 11
             sizeTo: 0
             interp: pow2In
+            lifetime: 120
             }
          ]
       }
