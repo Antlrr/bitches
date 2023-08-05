@@ -70,7 +70,7 @@ weapons: [
          effects: [
          {
             type: WaveEffect
-            sizeFrom: 15
+            sizeFrom: 12
             sizeTo: 0
             strokeFrom: 1
             strokeTo: 0
@@ -83,10 +83,10 @@ weapons: [
             line: true
             length: 6
             strokeFrom: 2
-            strokeTo: 1
+            strokeTo: 0
             lenFrom: 13
             lenTo: 0
-            sizeFrom: 11
+            sizeFrom: 9
             sizeTo: 0
             interp: pow2In
             lifetime: 120
