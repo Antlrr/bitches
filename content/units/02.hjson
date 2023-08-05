@@ -1,4 +1,4 @@
-description: Overloads it's own machinery with Electricity, then releases that Electricity into a ball of Energy.
+description: Concentrates alot of Electricity into one place, then releases that Electricity into a ball of Energy.
 type: legs
 drawCell: false
 health: 450
@@ -26,7 +26,7 @@ shadowElevation: 0.2
 outlineColor: 232E34FF
 parts: [
   {
-    suffix: -blade
+    suffix: -under
     type: RegionPart
     progress: warmup
     x: 4
