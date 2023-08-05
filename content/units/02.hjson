@@ -83,8 +83,8 @@ weapons: [
             particles: 8
             sizeFrom: 2
             sizeTo: 0
-            length: 20
-            baseLength: -20
+            length: -30
+            baseLength: 30
             interp: pow2In
             sizeInterp: pow5Out
             lifetime: 30
