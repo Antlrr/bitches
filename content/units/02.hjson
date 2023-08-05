@@ -80,7 +80,6 @@ weapons: [
             sizeFrom: 11
             sizeTo: 0
             interp: pow3In
-            }
          }
       ]
       recoil: 2
