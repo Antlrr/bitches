@@ -68,21 +68,20 @@ weapons: [
          type: multiEffect
          lifetime: 60
          effects: [
-            {
+         {
             type: WaveEffect
             sizeFrom: 6
             sizeTo: 0
             strokeFrom: 1
             strokeTo: 0
-           }
-            {
+         }
+         {
             type: ParticleEffect
             line: true
             lengthFrom: 3
             lengthTo: 0
             widthFrom: 1
             widthTo: 0
-            }
          }
       ]
       recoil: 2
