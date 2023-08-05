@@ -56,7 +56,7 @@ parts: [
     y: 1
     moveX: 0.8
     moveY: -1
-    moveRot: -8
+    moveRot: -26
     layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
@@ -66,7 +66,7 @@ parts: [
       {
         type: PartMove
         progress: reload
-        moveY: -4
+        moveY: -3
         moveRot: -45
       }
     ]
