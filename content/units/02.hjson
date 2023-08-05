@@ -68,7 +68,7 @@ weapons: [
          type: multiEffect
          lifetime: 120
          effects: [
-         {
+          {
             type: WaveEffect
             sizeFrom: 8
             sizeTo: 0
@@ -76,8 +76,8 @@ weapons: [
             strokeTo: 0
             interp: pow2In
             lifetime: 120
-         }
-         {
+          }
+          {
             type: ParticleEffect
             particles: 8
             sizeFrom: 2
@@ -86,20 +86,30 @@ weapons: [
             baseLength: -20
             interp: pow2In
             sizeInterp: pow5Out
+            lifetime: 30
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 17
+            length: 0
+            region: large-orb
+            interp: swingOut
             lifetime: 120
-            }
-         ]
-      }
-      recoil: 2
-      shrinkX: 0
-      shrinkY: 0
-      lifetime: 100
-      speed: 0.6
-      sprite: large-orb
-      width: 17
-      height: 17
-      damage: 50
-      intervalBullet: {
+          }
+       ]
+    }
+    recoil: 2
+    shrinkX: 0
+    shrinkY: 0
+    lifetime: 100
+    speed: 0.6
+    sprite: large-orb
+    width: 17
+    height: 17
+    damage: 50
+    intervalBullet: {
          type:LightningBulletType
          bulletInterval: 1
          damage: 22
