@@ -59,7 +59,6 @@ weapons: [
    minWarmup: 1
    shoot: {
       firstShotDelay: 60
-      }
    }
    bullet: {
       type: BasicBulletType
