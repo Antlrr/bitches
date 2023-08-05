@@ -55,8 +55,8 @@ parts: [
     x: 4
     y: 1
     moveX: 2
-    moveY: -2
-    moveRot: -26
+    moveY: -5
+    moveRot: -32
     layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
