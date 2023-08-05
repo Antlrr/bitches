@@ -42,7 +42,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: reload
         moveY: -4
         moveRot: -2
       }
@@ -53,7 +53,7 @@ parts: [
     type: RegionPart
     progress: warmup
     x: 4
-    y: 2
+    y: 1
     moveX: 2
     moveY: -1
     moveRot: -28
