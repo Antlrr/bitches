@@ -55,10 +55,10 @@ weapons: [
    y: 0
    shootY: -2
    mirror: false
-   reload: 120
+   reload: 80
    minWarmup: 1
    shoot: {
-      firstShotDelay: 60
+      firstShotDelay: 30
    }
    bullet: {
       type: BasicBulletType
@@ -66,10 +66,11 @@ weapons: [
          followParent: true
          rotwithParent: true
          type: multiEffect
-         lifetime: 60
+         lifetime: 30
          effects: [
          {
             type: WaveEffect
+            lifetime: 30
             sizeFrom: 6
             sizeTo: 0
             strokeFrom: 1
@@ -77,11 +78,13 @@ weapons: [
          }
          {
             type: ParticleEffect
+            lifetime: 30
             line: true
             lengthFrom: 3
             lengthTo: 0
             widthFrom: 1
             widthTo: 0
+            interp: pow3In
          }
       ]
       recoil: 2
