@@ -70,9 +70,9 @@ weapons: [
          effects: [
          {
             type: WaveEffect
-            sizeFrom: 12
+            sizeFrom: 8
             sizeTo: 0
-            strokeFrom: 1
+            strokeFrom: 0.8
             strokeTo: 0
             interp: pow2In
             lifetime: 120
@@ -80,15 +80,12 @@ weapons: [
          {
             type: ParticleEffect
             particles: 8
-            line: true
-            length: 6
-            strokeFrom: 2
-            strokeTo: 0
-            lenFrom: 13
-            lenTo: 0
-            sizeFrom: 9
+            sizeFrom: 2
             sizeTo: 0
+            length: 20
+            baseLength: -20
             interp: pow2In
+            sizeInterp: pow5Out
             lifetime: 120
             }
          ]
