@@ -67,7 +67,7 @@ parts: [
         type: PartMove
         progress: reload
         moveY: -4
-        moveRot: -28
+        moveRot: -45
       }
     ]
   }
