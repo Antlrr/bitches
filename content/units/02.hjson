@@ -59,16 +59,23 @@ weapons: [
    minWarmup: 1
    shoot: {
       firstShotDelay: 60
-      effects: {
-         type: WaveEffect
-         sizeFrom: 6
-         sizeTo: 0
-         strokeFrom: 1
-         strokeTo: 0
       }
    }
    bullet: {
       type: BasicBulletType
+      chargeEffect: {
+         followParent: true
+         rotwithParent: true
+         type: multiEffect
+         lifetime: 60
+         effects: {
+            type: WaveEffect
+            sizeFrom: 6
+            sizeTo: 0
+            strokeFrom: 1
+            strokeTo: 0
+         }
+      }
       recoil: 2
       shrinkX: 0
       shrinkY: 0
