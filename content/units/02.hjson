@@ -53,7 +53,7 @@ weapons: [
    {
    x: 0
    y: 0
-   shootY: -1
+   shootY: -0.5
    mirror: false
    reload: 180
    shoot: {
@@ -107,7 +107,7 @@ weapons: [
     recoil: 2
     shrinkX: 0
     shrinkY: 0
-    lifetime: 100
+    lifetime: 200
     speed: 0.6
     sprite: large-orb
     width: 17
@@ -122,6 +122,7 @@ weapons: [
          lightningLength: 3
          lightningLengthRand: 6
          hittable: false 
+         lightningColor: FFF698
          }
       }
    }
