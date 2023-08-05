@@ -87,7 +87,7 @@ weapons: [
             baseLength: 30
             interp: pow2In
             sizeInterp: pow5Out
-            lifetime: 30
+            lifetime: 120
             colorFrom: FFF698
           }
           {
@@ -110,8 +110,8 @@ weapons: [
     lifetime: 200
     speed: 0.6
     sprite: large-orb
-    width: 17
-    height: 17
+    width: 16
+    height: 16
     damage: 50
     backColor: FFF698
     frontColor: FFF698
