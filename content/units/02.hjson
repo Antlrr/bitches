@@ -42,7 +42,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: warmup
+        progress: recoil
         moveY: -4
         moveRot: -2
       }
@@ -55,23 +55,20 @@ weapons: [
    y: 0
    shootY: -2
    mirror: false
-   reload: 40
-   minWarmup: 1
+   reload: 90
    shoot: {
-      firstShotDelay: 40
-      shotDelay: 40
+      firstShotDelay: 60
    }
    bullet: {
       type: BasicBulletType
       chargeEffect: {
          followParent: true
-         rotwithParent: true
+         rotWithParent: true
          type: multiEffect
-         lifetime: 40
+         lifetime: 60
          effects: [
          {
             type: WaveEffect
-            lifetime: 30
             sizeFrom: 15
             sizeTo: 0
             strokeFrom: 1
@@ -79,15 +76,11 @@ weapons: [
          }
          {
             type: ParticleEffect
-            lifetime: 30
             line: true
-            lengthFrom: 3
-            lengthTo: 0
             sizeFrom: 11
             sizeTo: 0
-            widthFrom: 1
-            widthTo: 0
             interp: pow3In
+            }
          }
       ]
       recoil: 2
@@ -109,5 +102,4 @@ weapons: [
          }
       }
    }
-}
 ]
