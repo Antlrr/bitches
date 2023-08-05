@@ -63,12 +63,12 @@ weapons: [
    bullet: {
       type: BasicBulletType
       chargeEffect: {
-         followParent: true
-         rotWithParent: true
-         type: multiEffect
-         lifetime: 120
-         effects: [
-          {
+        followParent: true
+        rotWithParent: true
+        type: multiEffect
+        lifetime: 120
+        effects: [
+        {
             type: WaveEffect
             sizeFrom: 8
             sizeTo: 0
@@ -77,20 +77,20 @@ weapons: [
             interp: pow2In
             lifetime: 120
             colorFrom: FFF698
-          }
-          {
+        }
+        {
             type: ParticleEffect
             particles: 8
             sizeFrom: 2
             sizeTo: 0
-            length: -30
-            baseLength: 30
+            length: 30
+            baseLength: -20
             interp: pow2In
             sizeInterp: pow5Out
             lifetime: 120
             colorFrom: FFF698
-          }
-          {
+        }
+        {
             type: ParticleEffect
             particles: 1
             sizeFrom: 0
@@ -101,21 +101,21 @@ weapons: [
             lifetime: 120
             colorFrom: FFF698
             colorTo: FFF698
-          }
-       ]
-    }
-    recoil: 2
-    shrinkX: 0
-    shrinkY: 0
-    lifetime: 200
-    speed: 0.6
-    sprite: large-orb
-    width: 16
-    height: 16
-    damage: 50
-    backColor: FFF698
-    frontColor: FFF698
-    intervalBullet: {
+            }
+         ]
+      }
+      recoil: 2
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 200
+      speed: 0.6
+      sprite: large-orb
+      width: 16
+      height: 16
+      damage: 50
+      backColor: FFF698
+      frontColor: FFF698
+      intervalBullet: {
          type:LightningBulletType
          bulletInterval: 1
          damage: 22
@@ -123,6 +123,15 @@ weapons: [
          lightningLengthRand: 6
          hittable: false 
          lightningColor: FFF698
+         } 
+      fragBullets: 12
+      fragRandomSpread: 180
+      fragBullet: {
+         type: LightningBulletType
+         lightningColor: FFF698
+         damage: 8
+         lightningLength: 5
+         lightningLengthRand: 6
          }
       }
    }
