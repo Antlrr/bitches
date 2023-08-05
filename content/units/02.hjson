@@ -148,7 +148,7 @@ weapons: [
          lightningColor: FFF698
          } 
       fragBullets: 12
-      fragRandomSpread: 180
+      fragRandomSpread: 360
       fragBullet: {
          type: LightningBulletType
          lightningColor: FFF698
