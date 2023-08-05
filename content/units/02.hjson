@@ -53,7 +53,7 @@ weapons: [
    {
    x: 0
    y: 0
-   shootY: -2
+   shootY: -1
    mirror: false
    reload: 180
    shoot: {
@@ -76,6 +76,7 @@ weapons: [
             strokeTo: 0
             interp: pow2In
             lifetime: 120
+            colorFrom: FFF698
           }
           {
             type: ParticleEffect
@@ -87,6 +88,7 @@ weapons: [
             interp: pow2In
             sizeInterp: pow5Out
             lifetime: 30
+            colorFrom: FFF698
           }
           {
             type: ParticleEffect
@@ -97,6 +99,8 @@ weapons: [
             region: large-orb
             interp: swingOut
             lifetime: 120
+            colorFrom: FFF698
+            colorTo: FFF698
           }
        ]
     }
@@ -109,6 +113,8 @@ weapons: [
     width: 17
     height: 17
     damage: 50
+    backColor: FFF698
+    frontColor: FFF698
     intervalBullet: {
          type:LightningBulletType
          bulletInterval: 1
