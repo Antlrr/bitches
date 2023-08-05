@@ -55,7 +55,7 @@ weapons: [
    y: 0
    shootY: -2
    mirror: false
-   reload: 80
+   reload: 40
    minWarmup: 1
    shoot: {
       firstShotDelay: 40
@@ -72,9 +72,9 @@ weapons: [
          {
             type: WaveEffect
             lifetime: 30
-            sizeFrom: 12
+            sizeFrom: 15
             sizeTo: 0
-            strokeFrom: 0.8
+            strokeFrom: 1
             strokeTo: 0
          }
          {
@@ -87,7 +87,7 @@ weapons: [
             sizeTo: 0
             widthFrom: 1
             widthTo: 0
-            interp: pow3Out
+            interp: pow3In
          }
       ]
       recoil: 2
