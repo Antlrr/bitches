@@ -1,0 +1,35 @@
+type: missile
+controller: MissileAI
+lowAltitude: false
+speed: 7
+rotateSpeed: 3.6
+lifetime: 120
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+flying: true
+hidden: true
+health: 200
+hitSize: 8
+engineColor: FFFFFF
+engineSize: 2
+drawCell: false
+maxRange: 15
+trailColor: FFFFFF
+trailLength: 6
+weapons: [
+  {
+  x: 0
+  y: 0
+  shootSound: none
+  shootOnDeath: true
+  bullet: {
+      type: BasicBulletType
+      spawnUnit: bitches-01
+      }
+   }
+]
