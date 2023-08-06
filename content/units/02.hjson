@@ -87,6 +87,8 @@ weapons: [
    bullet: {
       type: BasicBulletType
       hittable: false
+      pierce: true
+      pierceBuilding: true
       chargeEffect: {
         followParent: true
         rotWithParent: true
