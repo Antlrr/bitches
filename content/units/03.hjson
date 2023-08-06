@@ -8,7 +8,7 @@ legCount: 4
 legLength: 8
 lockLegBase: true
 legContinuousMove: true
-legBaseOffset: 7
+legBaseOffset: 9
 legExtension: 2.5
 legMaxLength: 2
 legMinLength: 1.8
@@ -41,7 +41,8 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: warmup
+        delay: 10
         moveY: -4
         moveRot: -2
       }
