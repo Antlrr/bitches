@@ -71,7 +71,7 @@ parts: [
         progress: recoil
         reload: 120
         moveY: -3
-        rot: 10
+        rot: -10
       }
     ]
   }
