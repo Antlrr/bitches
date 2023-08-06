@@ -15,7 +15,7 @@ legMaxLength: 2
 legMinLength: 1.8
 legLengthScl: 0.96
 legForwardScl: 1.1
-legGroupSize: 
+legGroupSize: 2
 legStraightness: 0.5
 rippleScale: 0.2
 legMoveSpace: 1
