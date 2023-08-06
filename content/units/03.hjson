@@ -104,7 +104,7 @@ weapons: [
    reload: 60
    bullet: {
       type: BasicBulletType
-      spawnUnit: bitches-01
+      spawnUnit: bitches-energum-missile
       }
    }
 ]
