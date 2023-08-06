@@ -74,6 +74,7 @@ parts: [
 ]
 weapons: [
    {
+   shootSound: shockBlast
    x: 0
    y: 0
    shootY: -0.5
@@ -85,6 +86,7 @@ weapons: [
    }
    bullet: {
       type: BasicBulletType
+      hittable: false
       chargeEffect: {
         followParent: true
         rotWithParent: true
@@ -106,7 +108,7 @@ weapons: [
             particles: 8
             sizeFrom: 2
             sizeTo: 0
-            length: 30
+            length: 20
             baseLength: -20
             interp: pow2In
             sizeInterp: pow5Out
@@ -152,7 +154,7 @@ weapons: [
       fragBullet: {
          type: LightningBulletType
          lightningColor: FFF698
-         damage: 8
+         damage: 12
          lightningLength: 5
          lightningLengthRand: 6
          }
