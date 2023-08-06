@@ -16,10 +16,10 @@ legLengthScl: 0.96
 legForwardScl: 1.1
 legGroupSize: 2
 legStraightness: 0.2
-rippleScale: 0.2
+rippleScale: 0.1
 legMoveSpace: 1
 allowLegStep: true
-hovering: true
+hovering: false
 legPhysicsLayer: false
 shadowElevation: 0.1
 outlineColor: 232E34FF
