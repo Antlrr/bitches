@@ -29,6 +29,7 @@ weapons: [
   shootOnDeath: true
   bullet: {
       type: BasicBulletType
+      rangeOverride: 8
       killShooter: true
       spawnUnit: bitches-01
       units: 2
