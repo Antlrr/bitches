@@ -29,7 +29,9 @@ weapons: [
   shootOnDeath: true
   bullet: {
       type: BasicBulletType
-      spawnUnit: oct
+      killShooter: true
+      spawnUnit: bitches-01
+      units: 2
       }
    }
 ]
