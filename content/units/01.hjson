@@ -23,13 +23,13 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.1
 outlineColor: 232E34FF
-shootCone: 360
 faceTarget: false
 weapons: [
   {
   shootOnDeath: true
   shootSound: spark
   mirror: false
+  shootCone: 360
   x: 0
   y: 0
   reload: 61
