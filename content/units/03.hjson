@@ -29,12 +29,12 @@ parts: [
     suffix: -rib1
     type: RegionPart
     progress: warmup
-    x: 7
-    y: 8
+    x: 6
+    y: 7.5
     moveX: 0
     moveY: -2
     moveRot: 90
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -57,7 +57,7 @@ parts: [
     moveX: 0
     moveY: -2
     moveRot: 90
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -80,7 +80,7 @@ parts: [
     moveX: 0
     moveY: -2
     moveRot: 90
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
