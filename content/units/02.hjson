@@ -44,7 +44,7 @@ parts: [
       {
         type: PartMove
         progress: recoil
-        reload: 90
+        reload: 60
         recoil: 2
         moveY: -1
         rot: -5
