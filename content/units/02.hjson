@@ -43,8 +43,10 @@ parts: [
       {
         type: PartMove
         progress: reload
-        moveY: -4
-        moveRot: -2
+        reload: 180
+        recoil: 2
+        moveY: -1
+        moveRot: -5
       }
     ]
   }
