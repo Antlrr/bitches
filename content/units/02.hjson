@@ -68,7 +68,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: reload
+        progress: recoil
         reload: 120
         moveY: -3
         rot: 10
