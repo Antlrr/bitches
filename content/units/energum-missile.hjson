@@ -31,7 +31,7 @@ weapons: [
       type: BasicBulletType
       rangeOverride: 16
       killShooter: true
-      spawnUnit: bitches-energum-missile
+      spawnUnit: crawler
       }
    }
 ]
