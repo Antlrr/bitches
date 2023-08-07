@@ -8,15 +8,13 @@ targetAir: false
 groundLayer: 76
 legCount: 4
 legLength: 6
-legSpeed: 0.01
 lockLegBase: true
-legContinuousMove: true
 legBaseOffset: 5
 legExtension: 1.4
 legMaxLength: 2
 legMinLength: 1.2
 legLengthScl: 0.9
-legForwardScl: 0.2
+legForwardScl: 0.6
 legMoveSpace: 1.2
 legGroupSize: 2
 legStraightness: -0.5
