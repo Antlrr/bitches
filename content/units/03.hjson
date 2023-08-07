@@ -44,9 +44,9 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 2
+        recoil: 0
         reload: 60
-        y: -2
+        y: -1
         x: 0
         rot: 30
       }
@@ -70,10 +70,10 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 2
+        recoil: 0
         reload: 60
         y: -1
-        x: -1
+        x: 0
         rot: 25
         delay: 10
       }
@@ -97,7 +97,7 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 2
+        recoil: 0
         reload: 60
         y: -2
         x: 0
