@@ -48,7 +48,7 @@ parts: [
         reload: 60
         y: -2
         x: -2
-        rot: 90
+        rot: 45
       }
     ]
   }
@@ -73,7 +73,7 @@ parts: [
         recoil: 3
         reload: 60
         x: -2
-        rot: 90
+        rot: 45
       }
     ]
   }
@@ -99,9 +99,9 @@ parts: [
         reload: 60
         y: 2
         x: -2
-        rot: 90
+        rot: 45
       }
-    ]
+   ]
 }
 ]
 weapons: [
