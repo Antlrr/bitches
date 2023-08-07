@@ -9,7 +9,7 @@ legCount: 4
 legLength: 3
 legSpeed: 0.1
 lockLegBase: true
-legContinuousMove: false
+legContinuousMove: true
 legBaseOffset: 5
 legExtension: 1.4
 legMaxLength: 4.8
@@ -20,9 +20,9 @@ legGroupSize: 2
 legStraightness: 0.5
 rippleScale: 0.2
 legMoveSpace: 2
-allowLegStep: true
+allowLegStep: false
 hovering: true
-legPhysicsLayer: false
+legPhysicsLayer: true
 shadowElevation: 0.3
 outlineColor: 232E34FF
 parts: [
