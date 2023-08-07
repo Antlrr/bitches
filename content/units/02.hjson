@@ -8,8 +8,8 @@ targetAir: false
 legCount: 4
 legLength: 3
 legSpeed: 0.1
-lockLegBase: false
-legContinuousMove: true
+lockLegBase: true
+legContinuousMove: false
 legBaseOffset: 5
 legExtension: 1.4
 legMaxLength: 4.8
