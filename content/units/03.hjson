@@ -34,7 +34,7 @@ parts: [
     moveX: 4
     moveY: 3
     moveRot: 60
-    layerOffset: -0.01
+    layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -61,7 +61,7 @@ parts: [
     moveX: 5
     moveY: 0
     moveRot: 50
-    layerOffset: -0.01
+    layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -88,7 +88,7 @@ parts: [
     moveX: 3
     moveY: -3
     moveRot: 30
-    layerOffset: -0.01
+    layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
     mirror: true
