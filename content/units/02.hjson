@@ -1,6 +1,7 @@
 description: Concentrates alot of Electricity into one place, then releases that Electricity into a ball of Energy.
 type: legs
-health: 450
+health: 550
+armor: 2
 hitSize: 14
 speed: 0.7
 targetAir: false
@@ -16,6 +17,7 @@ legMaxLength: 2
 legMinLength: 1.2
 legLengthScl: 0.9
 legForwardScl: 0.2
+legMoveSpace: 1.2
 legGroupSize: 2
 legStraightness: -0.5
 rippleScale: 0.2
