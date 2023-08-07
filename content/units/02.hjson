@@ -26,7 +26,6 @@ parts: [
   {
     suffix: -under
     type: RegionPart
-    progress: warmup
     x: 4
     y: 1
     moveX: 0.8
