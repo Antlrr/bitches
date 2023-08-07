@@ -109,12 +109,11 @@ parts: [
 ]
 weapons: [
    {
+   name: mini-launcher
    x: 6
    y: -6
    mirror: true
    reload: 0
-   baseRotation: 45
-   layerOffset: -0.1
    alternate: true
    bullet: {
       type: BasicBulletType
