@@ -33,7 +33,7 @@ parts: [
     y: 6
     moveX: 4
     moveY: 3
-    moveRot: 60
+    moveRot: 65
     layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
@@ -73,7 +73,7 @@ parts: [
         recoil: 2
         reload: 60
         y: -1
-        x: 0
+        x: -1
         rot: 25
         delay: 10
       }
