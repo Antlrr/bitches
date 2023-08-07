@@ -33,7 +33,7 @@ parts: [
     y: 6
     moveX: 4
     moveY: 3
-    moveRot: 80
+    moveRot: 70
     layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
@@ -48,7 +48,7 @@ parts: [
         reload: 60
         y: -2
         x: 0
-        rot: 20
+        rot: 30
       }
     ]
   }
@@ -60,7 +60,7 @@ parts: [
     y: 0
     moveX: 3
     moveY: 0
-    moveRot: 80
+    moveRot: 70
     layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
@@ -74,7 +74,7 @@ parts: [
         reload: 60
         y: -2
         x: 0
-        rot: 15
+        rot: 25
         delay: 10
       }
     ]
@@ -87,7 +87,7 @@ parts: [
     y: -6
     moveX: 3
     moveY: -3
-    moveRot: 80
+    moveRot: 70
     layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
@@ -101,7 +101,7 @@ parts: [
         reload: 60
         y: -2
         x: 0
-        rot: 15
+        rot: 20
         delay: 20
       }
    ]
