@@ -115,7 +115,8 @@ weapons: [
    y: -7
    shootCone: 360
    mirror: true
-   reload: 0
+   reload: 30
+   layerOffset: -0.1
    alternate: true
    baseRotation: -135
    bullet: {
