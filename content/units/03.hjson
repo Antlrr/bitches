@@ -47,8 +47,8 @@ parts: [
         recoil: 3
         reload: 60
         y: -2
-        x: -2
-        rot: 15
+        x: 0
+        rot: 20
       }
     ]
   }
@@ -73,7 +73,7 @@ parts: [
         recoil: 3
         reload: 60
         y: -2
-        x: -2
+        x: 0
         rot: 15
         delay: 10
       }
@@ -100,7 +100,7 @@ parts: [
         recoil: 3
         reload: 60
         y: -2
-        x: -2
+        x: 0
         rot: 15
         delay: 20
       }
