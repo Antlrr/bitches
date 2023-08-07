@@ -4,7 +4,7 @@ health: 450
 hitSize: 14
 speed: 0.7
 targetAir: false
-layer: 76
+groundLayer: 76
 legCount: 4
 legLength: 6
 legSpeed: 0.01
