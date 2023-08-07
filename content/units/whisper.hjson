@@ -1,4 +1,5 @@
-type: mech
+type: neoplasm
+template: NeoplasmUnitType
 health: 20000
 armor: 12
 hitSize: 30
@@ -9,7 +10,7 @@ segments: 14
 drawBody: false
 crushDamage: 2
 targetAir: false
-segmentScale: 4
+segmentScl: 4
 segmentPhase: 10
 segmentMag: 0.5
 speed: 1 
