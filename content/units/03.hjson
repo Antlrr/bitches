@@ -31,8 +31,8 @@ parts: [
     progress: warmup
     x: 5
     y: 8
-    moveX: 4
-    moveY: 3
+    moveX: 2
+    moveY: 2
     moveRot: 75
     layerOffset: -0.01
     heatColor: ff0000
@@ -58,7 +58,7 @@ parts: [
     progress: warmup
     x: 7
     y: 0
-    moveX: 6
+    moveX: 4
     moveY: 0
     moveRot: 50
     layerOffset: -0.01
@@ -82,8 +82,8 @@ parts: [
     progress: warmup
     x: 7
     y: -7
-    moveX: 4
-    moveY: -5
+    moveX: 3
+    moveY: -2
     moveRot: 10
     layerOffset: -0.01
     heatColor: ff0000
