@@ -29,8 +29,8 @@ parts: [
     suffix: -rib1
     type: RegionPart
     progress: warmup
-    x: 5
-    y: 8
+    x: 4
+    y: 7
     moveX: 2
     moveY: 2
     moveRot: 75
@@ -48,7 +48,7 @@ parts: [
         reload: 60
         y: -2
         x: -2
-        rot: -10
+        rot: -90
       }
     ]
   }
@@ -73,6 +73,7 @@ parts: [
         recoil: 3
         reload: 60
         x: -2
+        rot: 90
       }
     ]
   }
@@ -80,8 +81,8 @@ parts: [
     suffix: -rib3
     type: RegionPart
     progress: warmup
-    x: 7
-    y: -7
+    x: 5
+    y: -5
     moveX: 3
     moveY: -2
     moveRot: 10
@@ -98,7 +99,7 @@ parts: [
         reload: 60
         y: 2
         x: -2
-        rot: -10
+        rot: -90
       }
     ]
 }
