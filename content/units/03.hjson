@@ -1,7 +1,7 @@
 description: wowo
 type: legs
 health: 450
-hitSize: 16
+hitSize: 18
 speed: 0.5
 groundLayer: 77
 targetAir: false
