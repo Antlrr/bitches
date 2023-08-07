@@ -110,11 +110,12 @@ parts: [
 weapons: [
    {
    name: mini-launcher
-   x: 6
-   y: -6
+   x: 7
+   y: -7
    mirror: true
    reload: 0
    alternate: true
+   baseRotation: 90
    bullet: {
       type: BasicBulletType
       spawnUnit: bitches-energum-missile
