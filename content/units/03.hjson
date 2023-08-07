@@ -42,10 +42,11 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: warmup
+        progress: recoil
+        reload: 240
         delay: 10
         moveY: -4
-        moveRot: -2
+        rot: -2
       }
     ]
   }
@@ -102,7 +103,7 @@ weapons: [
    y: 0
    shootY: 0
    mirror: false
-   reload: 60
+   reload: 240
    bullet: {
       type: BasicBulletType
       spawnUnit: bitches-energum-missile
