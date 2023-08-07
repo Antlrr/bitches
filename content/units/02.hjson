@@ -8,7 +8,7 @@ targetAir: false
 groundLayer: 76
 legCount: 4
 legLength: 6
-lockLegBase: true
+lockLegBase: false
 legBaseOffset: 5
 legExtension: 1.4
 legMaxLength: 2
