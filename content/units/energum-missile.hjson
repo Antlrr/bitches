@@ -29,9 +29,7 @@ weapons: [
   shootOnDeath: true
   bullet: {
       type: BasicBulletType
-      rangeOverride: 16
-      killShooter: true
-      spawnUnit: crawler
+      splashDamage: 80
       }
    }
 ]
