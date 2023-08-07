@@ -34,7 +34,7 @@ parts: [
     moveX: 4
     moveY: 3
     moveRot: 60
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -44,7 +44,7 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 3
+        recoil: 2
         reload: 60
         y: -2
         x: 0
@@ -61,7 +61,7 @@ parts: [
     moveX: 5
     moveY: 0
     moveRot: 50
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -70,7 +70,7 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 3
+        recoil: 2
         reload: 60
         y: -1
         x: 0
@@ -88,7 +88,7 @@ parts: [
     moveX: 3
     moveY: -3
     moveRot: 30
-    layerOffset: 0
+    layerOffset: -0.01
     heatColor: ff0000
     heatProgress: reload
     mirror: true
@@ -97,7 +97,7 @@ parts: [
       {
         type: PartMove
         progress: reload
-        recoil: 3
+        recoil: 2
         reload: 60
         y: -2
         x: 0
