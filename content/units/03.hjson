@@ -48,7 +48,7 @@ parts: [
         reload: 60
         y: -2
         x: -2
-        rot: -45
+        rot: 15
       }
     ]
   }
@@ -71,10 +71,10 @@ parts: [
         type: PartMove
         progress: reload
         recoil: 3
-        reload: 50
+        reload: 60
         y: -2
         x: -2
-        rot: -45
+        rot: 15
         delay: 10
       }
     ]
@@ -98,10 +98,10 @@ parts: [
         type: PartMove
         progress: reload
         recoil: 3
-        reload: 40
+        reload: 60
         y: -2
         x: -2
-        rot: -45
+        rot: 15
         delay: 20
       }
    ]
