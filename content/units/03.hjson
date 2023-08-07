@@ -109,11 +109,14 @@ parts: [
 ]
 weapons: [
    {
-   x: 0
-   y: 0
+   name: "mini-launcher"
+   x: 4
+   y: -2
    shootY: 0
    mirror: false
    reload: 60
+   baseRotation: 45
+   layerOffset: -0.1
    shoot: { 
       firstShotDelay: 60
    }
