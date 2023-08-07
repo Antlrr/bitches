@@ -7,7 +7,7 @@ speed: 0.4
 targetAir: false
 legCount: 4
 legLength: 3
-legSpeed: 0.1
+legSpeed: 0.02
 lockLegBase: true
 legContinuousMove: true
 legBaseOffset: 5
