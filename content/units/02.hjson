@@ -2,7 +2,7 @@ description: Concentrates alot of Electricity into one place, then releases that
 type: legs
 health: 550
 armor: 2
-hitSize: 14
+hitSize: 12
 speed: 0.7
 targetAir: false
 groundLayer: 76
