@@ -43,7 +43,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: reload
         recoil: 3
         reload: 60
         y: -4
@@ -69,7 +69,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: reload
         recoil: 3
         reload: 60
         x: -4
@@ -93,7 +93,7 @@ parts: [
     moves: [ 
       {
         type: PartMove
-        progress: recoil
+        progress: reload
         recoil: 3
         reload: 60
         y: 4
