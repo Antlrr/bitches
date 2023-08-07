@@ -1,4 +1,4 @@
-type: neoplasm
+type: mech
 template: NeoplasmUnitType
 health: 20000
 armor: 12
