@@ -114,6 +114,9 @@ weapons: [
    shootY: 0
    mirror: false
    reload: 60
+   shoot: { 
+      shotDelay: 60
+   }
    bullet: {
       type: BasicBulletType
       spawnUnit: bitches-energum-missile
