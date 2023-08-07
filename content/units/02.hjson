@@ -6,11 +6,11 @@ hitSize: 14
 speed: 0.4
 targetAir: false
 legCount: 4
-legLength: 3
+legLength: 6
 legSpeed: 0.02
 lockLegBase: true
 legContinuousMove: true
-legBaseOffset: 5
+legBaseOffset: 7
 legExtension: 1.4
 legMaxLength: 1.1
 legMinLength: 0.2
