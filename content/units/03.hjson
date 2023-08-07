@@ -114,12 +114,10 @@ weapons: [
    y: -2
    shootY: 0
    mirror: false
-   reload: 60
+   reload: 30
    baseRotation: 45
    layerOffset: -0.1
-   shoot: { 
-      firstShotDelay: 60
-   }
+   alternate: true
    bullet: {
       type: BasicBulletType
       spawnUnit: bitches-energum-missile
