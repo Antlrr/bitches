@@ -3,7 +3,7 @@ type: legs
 health: 450
 hitSize: 16
 speed: 0.5
-layer: 78
+groundLayer: 77
 targetAir: false
 legCount: 4
 legLength: 8
