@@ -6,14 +6,16 @@ hitSize: 14
 speed: 0.7
 targetAir: false
 groundLayer: 76
+rotateSpeed: 3
+drag: 0.4
 legCount: 4
 legLength: 6
-lockLegBase: false
 legBaseOffset: 5
 legExtension: 1.4
 legForwardScl: 0.6
 legMoveSpace: 1.4
 legGroupSize: 2
+legSpeed: 0.1
 legStraightness: -0.5
 rippleScale: 0.2
 allowLegStep: false
