@@ -39,6 +39,7 @@ parts: [
     heatProgress: reload
     mirror: true
     turretShading: false //note: this needs -l and -r sprites
+    progress: warmup
     moves: [ 
       {
         type: PartMove
