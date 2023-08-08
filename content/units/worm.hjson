@@ -34,6 +34,7 @@ weapons: [
   reload: 1
   bullet: {
       type: BulletType
+      keepVelocity: false
       despawnUnit: bitches-01
       speed: 0
       lifetime: 0
