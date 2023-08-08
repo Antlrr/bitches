@@ -1,9 +1,9 @@
 type: missile
 controller: MissileAI
 lowAltitude: false
-speed: 8
+speed: 0
 rotateSpeed: 3.6
-lifetime: 90
+lifetime: 300
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -13,7 +13,7 @@ createWreck: false
 createScorch: false
 flying: true
 hidden: true
-health: 70
+health: 400
 hitSize: 8
 engineColor: FFF698FF
 engineSize: 2
@@ -31,13 +31,13 @@ weapons: [
   shootOnDeath: true
   shootCone: 360
   mirror: false 
-  reload: 1
+  reload: 30
   bullet: {
       type: BulletType
       keepVelocity: false
       despawnUnit: bitches-01
-      speed: 0
-      lifetime: 0
+      speed: 3
+      lifetime: 30
       }
    }
 ]
