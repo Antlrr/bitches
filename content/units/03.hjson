@@ -118,8 +118,9 @@ weapons: [
    mirror: true
    reload: 30
    alternate: true
-   baseRotation: -135
+   baseRotation: -130
    bullet: {
+      rangeOverride: 80
       type: BasicBulletType
       spawnUnit: bitches-pylon
       }
