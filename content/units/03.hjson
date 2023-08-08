@@ -111,6 +111,7 @@ parts: [
 weapons: [
    {
    name: mini-launcher
+   shootSound: missileSmall
    x: 7
    y: -7
    shootCone: 360
