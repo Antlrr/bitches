@@ -35,6 +35,8 @@ weapons: [
   bullet: {
       type: BulletType
       despawnUnit: bitches-01
+      speed: 0
+      lifetime: 0
       }
    }
 ]
