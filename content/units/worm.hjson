@@ -20,7 +20,7 @@ engineSize: 2
 drawCell: false
 maxRange: 15
 trailColor: FFFFFF
-trailLength: 26
+trailLength: 58
 weapons: [
   {
   x: 0
@@ -29,6 +29,7 @@ weapons: [
   shootOnDeath: true
   bullet: {
       type: BasicBulletType
+      splashDamageRadius: 96
       splashDamage: 80
       }
    }
