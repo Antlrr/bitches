@@ -120,7 +120,7 @@ weapons: [
    baseRotation: -135
    bullet: {
       type: BasicBulletType
-      spawnUnit: bitches-energum-missile
+      spawnUnit: bitches-worm
       }
    }
 ]
