@@ -33,9 +33,8 @@ weapons: [
   mirror: false 
   reload: 1
   bullet: {
-      type: ExplosionBulletTypeBulletType
-      splashDamageRadius: 96
-      splashDamage: 80
+      type: BulletType
+      despawnUnit: bitches-01
       }
    }
 ]
