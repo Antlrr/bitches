@@ -21,14 +21,18 @@ drawCell: false
 maxRange: 15
 trailColor: FFFFFF
 trailLength: 58
+loopSoundVolume: 0.1
 weapons: [
   {
   x: 0
   y: 0
   shootSound: none
   shootOnDeath: true
+  shootCone: 360
+  mirror: false 
+  reload: 1
   bullet: {
-      type: BasicBulletType
+      type: ExplosionBulletTypeBulletType
       splashDamageRadius: 96
       splashDamage: 80
       }
