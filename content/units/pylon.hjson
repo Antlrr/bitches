@@ -33,11 +33,12 @@ weapons: [
   mirror: false 
   reload: 30
   bullet: {
-      type: BulletType
+      type: BasicBulletType
       keepVelocity: false
-      despawnUnit: bitches-01
+      damage: 30
       speed: 3
       lifetime: 30
+      trailLength: 5
       }
    }
 ]
