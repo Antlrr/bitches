@@ -1,9 +1,9 @@
 type: missile
 controller: MissileAI
 lowAltitude: false
-speed: 7
+speed: 8
 rotateSpeed: 3.6
-lifetime: 120
+lifetime: 90
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -13,15 +13,16 @@ createWreck: false
 createScorch: false
 flying: true
 hidden: true
-health: 200
+health: 70
 hitSize: 8
 engineColor: FFFFFF
 engineSize: 2
 drawCell: false
 maxRange: 15
 trailColor: FFFFFF
-trailLength: 58
-loopSoundVolume: 0.1
+trailLength: 10
+trailWidth: 3
+loopSoundVolume: 1
 weapons: [
   {
   x: 0
