@@ -86,7 +86,8 @@ weapons: [
       shotDelay: 120
    }
    bullet: {
-      type: BasicBulletType
+      type: BasicBulletType 
+      laserAbsorb: true
       hittable: false
       pierce: true
       pierceBuilding: true
