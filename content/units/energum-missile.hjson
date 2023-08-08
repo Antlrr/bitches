@@ -20,7 +20,7 @@ engineSize: 2
 drawCell: false
 maxRange: 15
 trailColor: FFFFFF
-trailLength: 6
+trailLength: 26
 weapons: [
   {
   x: 0
