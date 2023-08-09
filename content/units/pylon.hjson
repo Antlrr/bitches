@@ -38,8 +38,8 @@ weapons: [
   }
   bullet: {
       type: LightningBulletType
-      rangeOverride: 60
-      lightningLength: 60
+      rangeOverride: 30
+      lightningLength: 30
       damage: 30
       inaccuracy: 360
       }
