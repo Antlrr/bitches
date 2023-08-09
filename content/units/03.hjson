@@ -159,7 +159,7 @@ weapons: [
    name: 03-cannon
    shootSound: missileLarge
    x: 0
-   y: 2
+   y: 3
    rotate: true
    rotateSpeed: 0.6
    rotationLimit: 40
