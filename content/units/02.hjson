@@ -16,7 +16,7 @@ legForwardScl: 0.6
 legMoveSpace: 1.4
 legGroupSize: 2
 legSpeed: 0.1
-legStraightness: -0.5
+legStraightness: 0
 rippleScale: 0.2
 allowLegStep: false
 hovering: true
