@@ -81,6 +81,8 @@ weapons: [
    shootY: -0.5
    mirror: false
    reload: 180
+   shootStatus: unmoving
+   shootStatusDuration: 120
    shoot: {
       firstShotDelay: 120
       shotDelay: 120
@@ -137,18 +139,18 @@ weapons: [
       recoil: 2
       shrinkX: 0
       shrinkY: 0
-      lifetime: 200
+      lifetime: 400
       speed: 0.6
       sprite: large-orb
       width: 16
       height: 16
-      damage: 50
+      damage: 30
       backColor: FFF698
       frontColor: FFF698
       intervalBullet: {
          type:LightningBulletType
          bulletInterval: 1
-         damage: 22
+         damage: 12
          lightningLength: 3
          lightningLengthRand: 6
          hittable: false 
@@ -159,7 +161,7 @@ weapons: [
       fragBullet: {
          type: LightningBulletType
          lightningColor: FFF698
-         damage: 12
+         damage: 7
          lightningLength: 5
          lightningLengthRand: 6
          }
