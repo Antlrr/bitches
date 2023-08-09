@@ -42,6 +42,7 @@ weapons: [
   bullet: {
       shootEffect: {
          type: ParticleEffect
+         lifetime: 60
          particles: 8
          length: 20
          baseLength: 2
