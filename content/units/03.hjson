@@ -142,7 +142,7 @@ weapons: [
    name: mini-launcher
    shootSound: missileSmall
    x: 7
-   y: -7
+   y: -8
    shootCone: 360
    mirror: true
    reload: 300
@@ -162,7 +162,7 @@ weapons: [
    y: 3
    rotate: true
    rotateSpeed: 0.6
-   rotationLimit: 40
+   rotationLimit: 60
    mirror: false
    reload: 360
    bullet: {
