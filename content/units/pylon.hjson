@@ -38,14 +38,15 @@ weapons: [
   }
   bullet: {
       type: BasicBulletType
-      rangeOverride: 120
+      rangeOverride: 230
       keepVelocity: false
       damage: 30
       speed: 3
-      lifetime: 30
+      lifetime: 60
       trailLength: 5
       homingPower: 0.8
       homingRange: 90
+      homingDelay: 20
       }
    }
 ]
