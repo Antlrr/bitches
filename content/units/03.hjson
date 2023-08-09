@@ -121,7 +121,6 @@ weapons: [
    reload: 300
    alternate: true
    baseRotation: -130
-   layerOffset: 0.01
    bullet: {
       damage: 6
       rangeOverride: 210
@@ -139,6 +138,7 @@ weapons: [
    rotationLimit: 85
    mirror: false
    reload: 360
+   layerOffset: 0.01
    parts: [
       {
       suffix: -blade
