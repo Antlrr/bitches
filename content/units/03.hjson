@@ -28,88 +28,7 @@ shadowElevation: 0.2
 outlineColor: 232E34FF
 faceTarget: true
 parts: [
-  {
-    suffix: -rib1
-    type: RegionPart
-    progress: warmup
-    x: 4
-    y: 8
-    moveX: 4
-    moveY: 0
-    moveRot: 70
-    layerOffset: -0.01
-    heatColor: ff0000
-    heatProgress: reload
-    mirror: true
-    turretShading: false //note: this needs -l and -r sprites
-    progress: warmup
-    moves: [ 
-      {
-        type: PartMove
-        progress: reload
-        recoil: 0
-        reload: 60
-        y: -1
-        x: 0
-        rot: 30
-      }
-    ]
-  }
-  {
-    suffix: -rib2
-    type: RegionPart
-    progress: warmup
-    x: 4
-    y: 0
-    moveX: 6
-    moveY: 0
-    moveRot: 50
-    layerOffset: -0.01
-    heatColor: ff0000
-    heatProgress: reload
-    mirror: true
-    turretShading: false //note: this needs -l and -r sprites
-    moves: [ 
-      {
-        type: PartMove
-        progress: reload
-        recoil: 0
-        reload: 60
-        y: -1
-        x: 0
-        rot: 25
-        delay: 10
-      }
-    ]
-  }
-  {
-    suffix: -rib3
-    type: RegionPart
-    progress: warmup
-    x: 5
-    y: -9
-    moveX: 3
-    moveY: 0
-    moveRot: 30
-    layerOffset: -0.01
-    heatColor: ff0000
-    heatProgress: reload
-    mirror: true
-    turretShading: false //note: this needs -l and -r sprites
-    moves: [ 
-      {
-        type: PartMove
-        progress: reload
-        recoil: 0
-        reload: 60
-        y: -2
-        x: 0
-        rot: 20
-        delay: 20
-      }
-   ]
-}
-]
+  
 weapons: [
    {
    name: mini-launcher
@@ -140,30 +59,111 @@ weapons: [
    reload: 360
    layerOffset: 0.01
    parts: [
+             {
+             suffix: -blade
+             type: RegionPart
+             progress: warmup
+             x: 0
+             y: 0
+             moveX: 1
+             moveY: -1
+             moveRot: 0
+             layerOffset: 0
+             heatColor: ff0000
+             heatProgress: reload
+             mirror: true
+             turretShading: false //note: this needs -l and -r sprites
+             progress: warmup
+             moves: [ 
+                 {
+                 type: PartMove
+                 progress: reload
+                 recoil: 0
+                 reload: 360
+                 y: 0
+                 x: 0
+                 rot: 0
+                 }
+              ]
+           }
+           {
+           suffix: -rib1
+           type: RegionPart
+           progress: warmup
+           x: 4
+           y: 8
+           moveX: 4
+           moveY: 0
+           moveRot: 70
+           layerOffset: -0.01
+           heatColor: ff0000
+           heatProgress: reload
+           mirror: true
+           turretShading: false //note: this needs -l and -r sprites
+           progress: warmup
+           moves: [ 
+               {
+               type: PartMove
+               progress: reload
+               recoil: 0
+               reload: 60
+               y: -1
+               x: 0
+               rot: 30
+               }
+            ]
+         }
+         {
+         suffix: -rib2
+         type: RegionPart
+         progress: warmup
+         x: 4
+         y: 0
+         moveX: 6
+         moveY: 0
+         moveRot: 50
+         layerOffset: -0.01
+         heatColor: ff0000
+         heatProgress: reload
+         mirror: true
+         turretShading: false //note: this needs -l and -r sprites
+         moves: [ 
+            {
+            type: PartMove
+            progress: reload
+            recoil: 0
+            reload: 60
+            y: -1
+            x: 0
+            rot: 25
+            delay: 10
+            }
+         ]
+      }
       {
-      suffix: -blade
-      type: RegionPart
-      progress: warmup
-      x: 0
-      y: 0
-      moveX: 1
-      moveY: -1
-      moveRot: 0
-      layerOffset: 0
-      heatColor: ff0000
-      heatProgress: reload
-      mirror: true
-      turretShading: false //note: this needs -l and -r sprites
-      progress: warmup
-      moves: [ 
+       suffix: -rib3
+       type: RegionPart
+       progress: warmup
+       x: 5
+       y: -9
+       moveX: 3
+       moveY: 0
+       moveRot: 30
+       layerOffset: -0.01
+       heatColor: ff0000
+       heatProgress: reload
+       mirror: true
+       turretShading: false //note: this needs -l and -r sprites
+       moves: [ 
           {
           type: PartMove
           progress: reload
           recoil: 0
-          reload: 360
-          y: 0
+          reload: 60
+          y: -2
           x: 0
-          rot: 0
+          rot: 20
+          delay: 20
          }
       ]
    }
