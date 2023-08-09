@@ -23,6 +23,8 @@ trailColor: FFF698FF
 trailLength: 10
 trailWidth: 3
 loopSoundVolume: 1
+drawBody: false
+drawEngine: false
 weapons: [
   {
   x: 0
@@ -32,6 +34,7 @@ weapons: [
   shootCone: 360
   mirror: false 
   reload: 30
+  shootY: -1
   shoot: {
      shots: 20
      shotDelay: 30
