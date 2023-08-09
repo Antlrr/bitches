@@ -156,7 +156,7 @@ weapons: [
          hittable: false 
          lightningColor: FFF698
          } 
-      fragBullets: 12
+      fragBullets: 10
       fragRandomSpread: 360
       fragBullet: {
          type: LightningBulletType
