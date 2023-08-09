@@ -47,7 +47,7 @@ weapons: [
       homingPower: 0.8
       homingRange: 90
       homingDelay: 20
-      innacuracy: 360
+      inaccuracy: 360
       }
    }
 ]
