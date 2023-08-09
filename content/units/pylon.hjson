@@ -41,11 +41,11 @@ weapons: [
          type: ParticleEffect
          particles: 8
          length: 20
-         baseLength: 0
+         baseLength: 2
          interp: pow3In
          colorFrom: FFF6997D
          colorTo: FFF6997D
-         sizeFrom: 13
+         sizeFrom: 6
          sizeTo: 0
          layer: 116
          }
