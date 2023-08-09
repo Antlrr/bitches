@@ -161,7 +161,7 @@ weapons: [
    x: 0
    y: 2
    rotate: true
-   rotateSpeed: 1
+   rotateSpeed: 0.6
    rotationLimit: 40
    mirror: false
    reload: 360
