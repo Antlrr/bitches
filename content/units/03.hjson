@@ -29,33 +29,6 @@ outlineColor: 232E34FF
 faceTarget: true
 parts: [
   {
-    suffix: -blade
-    type: RegionPart
-    progress: warmup
-    x: 0
-    y: 0
-    moveX: 2
-    moveY: -1
-    moveRot: 0
-    layerOffset: 0
-    heatColor: ff0000
-    heatProgress: reload
-    mirror: true
-    turretShading: false //note: this needs -l and -r sprites
-    progress: warmup
-    moves: [ 
-      {
-        type: PartMove
-        progress: reload
-        recoil: 0
-        reload: 360
-        y: 0
-        x: 0
-        rot: 30
-      }
-    ]
-  }
-  {
     suffix: -rib1
     type: RegionPart
     progress: warmup
@@ -141,7 +114,7 @@ weapons: [
    {
    name: mini-launcher
    shootSound: missileSmall
-   x: 7
+   x: 7.5
    y: -8
    shootCone: 360
    mirror: true
@@ -162,9 +135,37 @@ weapons: [
    y: 3
    rotate: true
    rotateSpeed: 0.6
-   rotationLimit: 60
+   rotationLimit: 85
    mirror: false
    reload: 360
+   parts: [
+      {
+      suffix: -blade
+      type: RegionPart
+      progress: warmup
+      x: 0
+      y: 0
+      moveX: 2
+      moveY: -1
+      moveRot: 0
+      layerOffset: 0
+      heatColor: ff0000
+      heatProgress: reload
+      mirror: true
+      turretShading: false //note: this needs -l and -r sprites
+      progress: warmup
+      moves: [ 
+        {
+         type: PartMove
+         progress: reload
+         recoil: 0
+         reload: 360
+         y: 0
+         x: 0
+        rot: 30
+        }
+     ]
+  }
    bullet: {
       damage: 6
       type: BasicBulletType
