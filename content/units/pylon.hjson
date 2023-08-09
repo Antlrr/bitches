@@ -47,6 +47,7 @@ weapons: [
          colorTo: FFF69998
          sizeFrom: 12
          sizeTo: 0
+         layer: 116
          }
       type: LightningBulletType
       rangeOverride: 20
