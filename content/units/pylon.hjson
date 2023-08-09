@@ -37,16 +37,10 @@ weapons: [
      shotDelay: 30
   }
   bullet: {
-      type: BasicBulletType
-      rangeOverride: 230
-      keepVelocity: false
+      type: LightningBulletType
+      rangeOverride: 60
+      lightningLength: 60
       damage: 30
-      speed: 3
-      lifetime: 120
-      trailLength: 5
-      homingPower: 0.3
-      homingRange: 90
-      homingDelay: 10
       inaccuracy: 360
       }
    }
