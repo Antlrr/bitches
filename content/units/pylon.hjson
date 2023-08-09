@@ -39,7 +39,7 @@ weapons: [
   bullet: {
       shootEffect: {
          type: ParticleEffect
-         particles: 10
+         particles: 8
          length: 20
          baseLength: 0
          interp: pow3In
