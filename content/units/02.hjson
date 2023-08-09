@@ -1,6 +1,6 @@
 description: Concentrates alot of Electricity into one place, then releases that Electricity into a ball of Energy.
 type: legs
-health: 550
+health: 650
 armor: 2
 hitSize: 12
 speed: 0.7
@@ -144,7 +144,7 @@ weapons: [
       sprite: large-orb
       width: 16
       height: 16
-      damage: 48
+      damage: 32
       backColor: FFF698
       frontColor: FFF698
       intervalBullet: {
@@ -161,7 +161,7 @@ weapons: [
       fragBullet: {
          type: LightningBulletType
          lightningColor: FFF698
-         damage: 12
+         damage: 7
          lightningLength: 5
          lightningLengthRand: 6
          }
