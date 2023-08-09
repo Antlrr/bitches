@@ -145,7 +145,7 @@ weapons: [
       progress: warmup
       x: 0
       y: 0
-      moveX: 2
+      moveX: 1
       moveY: -1
       moveRot: 0
       layerOffset: 0
@@ -162,7 +162,7 @@ weapons: [
           reload: 360
           y: 0
           x: 0
-         rot: 30
+          rot: 0
          }
       ]
    }
