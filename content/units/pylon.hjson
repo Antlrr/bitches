@@ -19,13 +19,6 @@ engineColor: FFF698FF
 engineSize: 2
 drawCell: false
 maxRange: 15
-trailEffect: {
-   type: ParticleEffect
-   particles: 6
-   length: 10
-   baseLength: -13
-   interp: pow3In
-   }
 trailColor: FFF698FF
 trailLength: 10
 trailWidth: 3
@@ -44,6 +37,13 @@ weapons: [
      shotDelay: 30
   }
   bullet: {
+      shootEffect: {
+         type: ParticleEffect
+         particles: 6
+         length: 10
+         baseLength: -13
+         interp: pow3In
+         }
       type: LightningBulletType
       rangeOverride: 20
       lightningLength: 20
