@@ -128,7 +128,7 @@ weapons: [
       spawnUnit: bitches-pylon
       }
    }
-{
+   {
    name: 03-cannon
    shootSound: missileLarge
    x: 0
@@ -155,17 +155,18 @@ weapons: [
       turretShading: false //note: this needs -l and -r sprites
       progress: warmup
       moves: [ 
-        {
-         type: PartMove
-         progress: reload
-         recoil: 0
-         reload: 360
-         y: 0
-         x: 0
-        rot: 30
-        }
-     ]
-  }
+          {
+          type: PartMove
+          progress: reload
+          recoil: 0
+          reload: 360
+          y: 0
+          x: 0
+         rot: 30
+         }
+      ]
+   }
+]
    bullet: {
       damage: 6
       type: BasicBulletType
