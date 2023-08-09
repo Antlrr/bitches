@@ -120,7 +120,7 @@ weapons: [
    alternate: true
    baseRotation: -130
    bullet: {
-      rangeOverride: 80
+      rangeOverride: 210
       type: BasicBulletType
       spawnUnit: bitches-pylon
       }
