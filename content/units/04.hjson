@@ -2,7 +2,7 @@ description: big guy
 type: legs
 health: 18000
 armor: 10
-hitSize: 18
+hitSize: 48
 drag: 0.2
 rotateSpeed: 1.7
 speed: 0.4
