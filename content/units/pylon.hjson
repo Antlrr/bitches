@@ -40,12 +40,12 @@ weapons: [
       shootEffect: {
          type: ParticleEffect
          particles: 10
-         length: 10
-         baseLength: -20
+         length: 20
+         baseLength: 0
          interp: pow3In
-         colorFrom: FFF69998
-         colorTo: FFF69998
-         sizeFrom: 12
+         colorFrom: FFF6997D
+         colorTo: FFF6997D
+         sizeFrom: 13
          sizeTo: 0
          layer: 116
          }
