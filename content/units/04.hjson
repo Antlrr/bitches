@@ -9,10 +9,10 @@ speed: 0.4
 groundLayer: 76
 targetAir: false
 legCount: 6
-legLength: 8
+legLength: 11
 lockLegBase: true
 legContinuousMove: true
-legBaseOffset: 26
+legBaseOffset: 25
 legExtension: 2.5
 legMaxLength: 2
 legMinLength: 1.8
