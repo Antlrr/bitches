@@ -39,10 +39,14 @@ weapons: [
   bullet: {
       shootEffect: {
          type: ParticleEffect
-         particles: 6
+         particles: 10
          length: 10
-         baseLength: -13
+         baseLength: -20
          interp: pow3In
+         colorFrom: FFF69998
+         colorTo: FFF69998
+         sizeFrom: 12
+         sizeTo: 0
          }
       type: LightningBulletType
       rangeOverride: 20
