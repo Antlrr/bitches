@@ -3,13 +3,14 @@ type: legs
 health: 450
 hitSize: 18
 speed: 0.5
+drag: 0.3
 groundLayer: 75
 targetAir: false
 legCount: 4
 legLength: 8
 lockLegBase: true
 legContinuousMove: true
-legBaseOffset: 9
+legBaseOffset: 12
 legExtension: 2.5
 legMaxLength: 2
 legMinLength: 1.8
