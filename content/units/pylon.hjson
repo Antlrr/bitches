@@ -42,11 +42,12 @@ weapons: [
       keepVelocity: false
       damage: 30
       speed: 3
-      lifetime: 60
+      lifetime: 120
       trailLength: 5
       homingPower: 0.8
       homingRange: 90
       homingDelay: 20
+      innacuracy: 360
       }
    }
 ]
