@@ -8,14 +8,14 @@ rotateSpeed: 1.5
 groundLayer: 75
 targetAir: false
 legCount: 4
-legLength: 8
+legLength: 10
 lockLegBase: true
 legContinuousMove: true
-legBaseOffset: 9
+legBaseOffset: 6
 legExtension: -2.5
 legMaxLength: 1.8
 legMinLength: 1.2
-legLengthScl: 1
+legLengthScl: 1.4
 legForwardScl: 1.2
 legGroupSize: 2
 legStraightness: 0
