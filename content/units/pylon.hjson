@@ -1,7 +1,6 @@
 type: missile
 controller: MissileAI
 deathSound: mineDeploy
-deathEffect: none
 lowAltitude: false
 speed: 0
 rotateSpeed: 3.6
@@ -23,12 +22,10 @@ drawCell: false
 maxRange: 15
 trailColor: FFF698FF
 trailLength: 10
-trailWidth: 3
 loopSound: glow
 loopSoundVolume: 2
 drawBody: false
 engineSize: 0
-velocityRnd: 0.6
 drag: 0.04
 weapons: [
   {
