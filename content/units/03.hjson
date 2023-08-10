@@ -153,7 +153,11 @@ weapons: [
 ]
    bullet: {
       damage: 6
-      type: BasicBulletType
+      type: ContinuousLaserBulletType
+      damage: 25
+      length: 88
+      lifetime: 250
+      lightColor: FFF698FF
       }
    }
    {
@@ -167,9 +171,6 @@ weapons: [
    alternate: true
    baseRotation: -130
    bullet: {
-      velocityRnd: 0.6
-      drag: 0.04
-      speed: 1
       damage: 6
       rangeOverride: 210
       type: BasicBulletType
