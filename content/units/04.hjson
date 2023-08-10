@@ -35,19 +35,20 @@ weapons: [
    rotate: true
    mirror: true
    reload: 60
-   shootEffect: {
-      type: ParticlEffect
-      lifetime: 50
-      particles: 3
-      baseLength: 0
-      length: 4
-      sizeFrom: 7
-      sizeTo: 7
-      interp: pow10Out
+   shoot {
+      shootEffect: {
+         type: ParticlEffect
+         lifetime: 50
+         particles: 3
+         baseLength: 0
+         length: 4
+         sizeFrom: 7
+         sizeTo: 7
+         interp: pow10Out
       }
+   }
    bullet: {
       type: BasicBulletType
-      layerOffset: -0.01   
       drag: 0.04
       lifetime: 140
       }
