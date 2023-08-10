@@ -37,7 +37,6 @@ weapons: [
    reload: 60
    bullet: {
       type: BasicBulletType
-      drag: 0.04
       lifetime: 140
       shootEffect: {
          type: ParticlEffect
