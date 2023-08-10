@@ -122,6 +122,8 @@ weapons: [
    mirror: false
    reload: 360
    layerOffset: 0.01
+   continuous: true
+   parentizeEffects: true
    parts: [
       {
       suffix: -blade
