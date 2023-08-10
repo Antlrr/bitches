@@ -30,7 +30,6 @@ drawBody: false
 engineSize: 0
 drag: 0.04
 shadowElevation: 0
-shadowElevationScl: 0
 weapons: [
   {
   x: 0
