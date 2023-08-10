@@ -39,12 +39,15 @@ weapons: [
    shoot: {
       shotDelay: 40
       shots: 3
-      shotDelay: 8
+      shotDelay: 9
    }
    inaccuracy: 22
    bullet: {
       type: BasicBulletType
-      lifetime: 140
+      lifetime: 320
+      homingPower: 0.6
+      homingDelay: 10
+      homingRange: 190
       shootEffect: {
          type: ParticlEffect
          lifetime: 120
