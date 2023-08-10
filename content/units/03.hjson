@@ -1,6 +1,7 @@
 description: wowo
 type: legs
-health: 450
+health: 640
+armor: 5
 hitSize: 19
 speed: 0.5
 drag: 0.1
