@@ -24,9 +24,10 @@ maxRange: 15
 trailColor: FFF698FF
 trailLength: 10
 trailWidth: 3
+loopSound: glow
 loopSoundVolume: 1
 drawBody: false
-drawEngine: false
+engineSize: 0
 weapons: [
   {
   x: 0
