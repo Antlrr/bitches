@@ -156,6 +156,16 @@ weapons: [
 ]
    bullet: {
       type: ContinuousFlameBulletType
+      hitEffect: {
+         type: ParticleEffect
+         particles: 4
+         colorTo: FFF698FF
+         sizeFrom: 0
+         sizeTo: 2
+         length: 10
+         baseLength: 1
+         interp: pow8Out
+      }
       colors: [
          FFF698FF
          F5EDC6FF
@@ -168,7 +178,7 @@ weapons: [
       damage: 25
       length: 96
       width: 3
-      lifetime: 250
+      lifetime: 340
       lightColor: FFF698FF
       }
    }
