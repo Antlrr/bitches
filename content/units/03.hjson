@@ -1,7 +1,7 @@
 description: wowo
 type: legs
-health: 640
-armor: 5
+health: 780
+armor: 7
 hitSize: 19
 speed: 0.5
 drag: 0.1
@@ -159,6 +159,7 @@ weapons: [
       type: ContinuousLaserBulletType
       damage: 25
       length: 88
+      width: 16
       lifetime: 250
       lightColor: FFF698FF
       }
