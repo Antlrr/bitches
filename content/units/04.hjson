@@ -42,11 +42,13 @@ weapons: [
       shootEffect: {
          type: ParticlEffect
          lifetime: 50
-         particles: 3
+         particles: 6
          baseLength: 0
          length: 4
-         sizeFrom: 7
-         sizeTo: 7
+         sizeFrom: 5
+         sizeTo: 5
+         colorFrom: FFFFFFA5
+         colorTo: FFFFFFA5
          interp: pow10Out
          }
       }
