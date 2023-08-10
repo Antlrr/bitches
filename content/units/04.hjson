@@ -30,13 +30,21 @@ outlineColor: 232E34FF
 faceTarget: false
 weapons: [
    {
-   x: 24
+   x: 32
    y: 0
-   rotate: false
-   shootCone: 360
+   rotate: true
    mirror: true
-   baseRotation: -90
    reload: 60
+   shootEffect: {
+      type: ParticlEffect
+      lifetime: 50
+      particles: 3
+      baseLength: 0
+      length: 4
+      sizeFrom: 7
+      sizeTo: 7
+      interp: pow10Out
+      }
    bullet: {
       type: BasicBulletType
       layerOffset: -0.01   
