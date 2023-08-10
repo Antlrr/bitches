@@ -172,7 +172,7 @@ weapons: [
          FFFBE5FF
          FFFFFFFF
       ]
-      flareWidth: 12
+      flareWidth: 4
       flareLength: 13
       flareColor: FFF698FF
       damage: 25
