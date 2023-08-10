@@ -178,7 +178,7 @@ weapons: [
       damage: 25
       length: 96
       width: 3
-      lifetime: 340
+      lifetime: 420
       lightColor: FFF698FF
       }
    }
