@@ -43,15 +43,10 @@ weapons: [
    }
    inaccuracy: 22
    bullet: {
-      type: MissileBulletType
-      lifetime: 320
-      homingPower: 0.2
-      homingDelay: 20
-      homingRange: 190
-      weaveScale: 6
-      weaveMag: 2
+      type: BulletType
+      despawnUnit: bitches-01
       shootEffect: {
-         type: ParticlEffect
+         type: ParticleEffect
          lifetime: 120
          particles: 10
          baseLength: 0
