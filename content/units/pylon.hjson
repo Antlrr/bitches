@@ -67,8 +67,8 @@ abilities: [
          length: 8
          baseLength: 2
          interp: pow10Out
-         colorFrom: FFF6997D
-         colorTo: FFF6994F
+         colorFrom: 576A73FF
+         colorTo: 576A73FF
          sizeFrom: 0
          sizeTo: 4
          layer: 116
