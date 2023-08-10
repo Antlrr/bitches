@@ -156,10 +156,16 @@ weapons: [
 ]
    bullet: {
       damage: 6
-      type: ContinuousLaserBulletType
+      type: ContinuousFlameBulletType
+      colors: [
+         FFF698FF
+         F5EDC6FF
+         FFFBE5FF
+         FFFFFFFF
+      ]
       damage: 25
       length: 96
-      width: 6
+      width: 3
       lifetime: 250
       lightColor: FFF698FF
       }
