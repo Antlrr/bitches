@@ -28,6 +28,8 @@ loopSound: glow
 loopSoundVolume: 2
 drawBody: false
 engineSize: 0
+velocityRnd: 0.6
+drag: 0.04
 weapons: [
   {
   x: 0
