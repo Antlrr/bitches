@@ -35,11 +35,12 @@ weapons: [
    rotate: false
    shootCone: 360
    mirror: true
-   baseRotation: 90
+   baseRotation: -90
    reload: 60
    bullet: {
       type: BasicBulletType
       drag: 0.04
+      lifetime: 140
       }
    }
 ]
