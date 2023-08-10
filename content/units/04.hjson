@@ -35,6 +35,9 @@ weapons: [
    rotate: true
    mirror: true
    reload: 60
+   shoot: {
+      shotDelay: 20
+   }
    bullet: {
       type: BasicBulletType
       lifetime: 140
