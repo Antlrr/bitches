@@ -28,3 +28,18 @@ legPhysicsLayer: false
 shadowElevation: 0.4
 outlineColor: 232E34FF
 faceTarget: false
+weapons: [
+   {
+   x: 24
+   y: 0
+   rotate: false
+   shootCone: 360
+   mirror: true
+   baseRotation: 90
+   reload: 60
+   bullet: {
+      type: BasicBulletType
+      drag: 0.04
+      }
+   }
+]
