@@ -48,6 +48,8 @@ weapons: [
       homingPower: 0.2
       homingDelay: 20
       homingRange: 190
+      weaveScale: 6
+      weaveMag: 2
       shootEffect: {
          type: ParticlEffect
          lifetime: 120
