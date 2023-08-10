@@ -60,13 +60,13 @@ abilities: [
          type: ParticleEffect
          lifetime: 120
          particles: 4
-         length: 20
+         length: 15
          baseLength: 2
          interp: pow10Out
          colorFrom: FFF6997D
          colorTo: FFF6997D
-         sizeFrom: 6
-         sizeTo: 6
+         sizeFrom: 0
+         sizeTo: 4
          layer: 116
         }
     }
