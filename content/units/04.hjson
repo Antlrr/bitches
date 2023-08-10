@@ -43,7 +43,7 @@ weapons: [
    }
    inaccuracy: 22
    bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       lifetime: 320
       homingPower: 0.2
       homingDelay: 20
