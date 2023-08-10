@@ -53,7 +53,7 @@ weapons: [
          lifetime: 180
          particles: 10
          baseLength: 0
-         length: 4
+         length: 8
          sizeFrom: 3
          sizeTo: 3
          colorFrom: FFF36BA1
