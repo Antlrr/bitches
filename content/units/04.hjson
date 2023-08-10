@@ -34,10 +34,14 @@ weapons: [
    y: 0
    rotate: true
    mirror: true
-   reload: 60
+   alternate: false
+   reload: 100
    shoot: {
-      shotDelay: 20
+      shotDelay: 40
+      shots: 3
+      shotDelay: 8
    }
+   inaccuracy: 22
    bullet: {
       type: BasicBulletType
       lifetime: 140
