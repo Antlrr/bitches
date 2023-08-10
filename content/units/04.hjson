@@ -45,8 +45,8 @@ weapons: [
    bullet: {
       type: BasicBulletType
       lifetime: 320
-      homingPower: 0.6
-      homingDelay: 10
+      homingPower: 0.2
+      homingDelay: 20
       homingRange: 190
       shootEffect: {
          type: ParticlEffect
