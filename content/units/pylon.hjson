@@ -48,6 +48,7 @@ weapons: [
       lightningLength: 20
       damage: 40
       inaccuracy: 360
+      lightningColor: FFF698FF
       }
    }
 ]
