@@ -159,9 +159,9 @@ weapons: [
       hitEffect: {
          type: ParticleEffect
          particles: 4
-         colorTo: FFF698FF
+         colorTo: FFF69800
          sizeFrom: 0
-         sizeTo: 2
+         sizeTo: 1
          length: 10
          baseLength: 1
          interp: pow10Out
@@ -194,7 +194,7 @@ weapons: [
    baseRotation: -130
    bullet: {
       damage: 6
-      rangeOverride: 210
+      rangeOverride: 90
       type: BasicBulletType
       spawnUnit: bitches-pylon
       }
