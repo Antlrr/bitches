@@ -1,6 +1,7 @@
 type: missile
 controller: MissileAI
-deathSound: tractorBeam
+deathSound: mineDeploy
+deathEffect: none
 lowAltitude: false
 speed: 0
 rotateSpeed: 3.6
