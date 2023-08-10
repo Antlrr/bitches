@@ -8,6 +8,8 @@ lifetime: 300
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
+targetable: false
+hittable: false
 physics: false
 useUnitCap: false
 createWreck: false
