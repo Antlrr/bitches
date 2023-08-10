@@ -164,7 +164,7 @@ weapons: [
          sizeTo: 2
          length: 10
          baseLength: 1
-         interp: pow8Out
+         interp: pow10Out
       }
       colors: [
          FFF698FF
