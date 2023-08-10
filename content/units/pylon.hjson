@@ -40,19 +40,6 @@ weapons: [
      shotDelay: 30
   }
   bullet: {
-      shootEffect: {
-         type: ParticleEffect
-         lifetime: 60
-         particles: 8
-         length: 20
-         baseLength: 2
-         interp: pow3In
-         colorFrom: FFF6997D
-         colorTo: FFF6997D
-         sizeFrom: 6
-         sizeTo: 0
-         layer: 116
-         }
       type: LightningBulletType
       rangeOverride: 20
       lightningLength: 20
@@ -60,4 +47,27 @@ weapons: [
       inaccuracy: 360
       }
    }
+]
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 10
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+         type: ParticleEffect
+         lifetime: 60
+         particles: 8
+         length: 20
+         baseLength: 2
+         interp: pow9Out
+         colorFrom: FFF6997D
+         colorTo: FFF6997D
+         sizeFrom: 6
+         sizeTo: 0
+         layer: 116
+        }
+    }
 ]
