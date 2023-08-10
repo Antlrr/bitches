@@ -60,7 +60,7 @@ abilities: [
          type: ParticleEffect
          lifetime: 120
          particles: 4
-         length: 15
+         length: 8
          baseLength: 2
          interp: pow10Out
          colorFrom: FFF6997D
