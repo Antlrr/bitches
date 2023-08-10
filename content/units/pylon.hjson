@@ -46,7 +46,7 @@ weapons: [
       type: LightningBulletType
       rangeOverride: 20
       lightningLength: 20
-      damage: 30
+      damage: 40
       inaccuracy: 360
       }
    }
