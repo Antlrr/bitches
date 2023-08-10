@@ -35,7 +35,7 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 100
+   reload: 200
    shoot: {
       shotDelay: 40
       shots: 3
@@ -44,10 +44,13 @@ weapons: [
    inaccuracy: 22
    bullet: {
       type: BulletType
+      keepVelocity: false
+      speed: 0
+      lifetime: 0
       despawnUnit: bitches-01
       shootEffect: {
          type: ParticleEffect
-         lifetime: 120
+         lifetime: 180
          particles: 10
          baseLength: 0
          length: 4
