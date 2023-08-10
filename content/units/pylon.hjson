@@ -58,15 +58,15 @@ abilities: [
     shootSound: none
    shootEffect: {
          type: ParticleEffect
-         lifetime: 60
-         particles: 8
+         lifetime: 120
+         particles: 4
          length: 20
          baseLength: 2
          interp: pow10Out
          colorFrom: FFF6997D
          colorTo: FFF6997D
          sizeFrom: 6
-         sizeTo: 0
+         sizeTo: 6
          layer: 116
         }
     }
