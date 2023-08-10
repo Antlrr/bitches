@@ -189,7 +189,7 @@ weapons: [
    y: -8
    shootCone: 360
    mirror: true
-   reload: 300
+   reload: 230
    alternate: true
    baseRotation: -130
    bullet: {
