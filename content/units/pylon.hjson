@@ -25,7 +25,7 @@ trailColor: FFF698FF
 trailLength: 10
 trailWidth: 3
 loopSound: glow
-loopSoundVolume: 1
+loopSoundVolume: 2
 drawBody: false
 engineSize: 0
 weapons: [
