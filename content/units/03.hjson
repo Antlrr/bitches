@@ -121,7 +121,7 @@ weapons: [
    rotateSpeed: 0.6
    rotationLimit: 85
    mirror: false
-   reload: 360
+   reload: 320
    layerOffset: 0.01
    continuous: true
    parentizeEffects: true
