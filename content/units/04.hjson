@@ -47,7 +47,7 @@ weapons: [
       lifetime: 140
       shootEffect: {
          type: ParticlEffect
-         lifetime: 70
+         lifetime: 90
          particles: 10
          baseLength: 0
          length: 4
