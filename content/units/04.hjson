@@ -42,6 +42,7 @@ weapons: [
       shotDelay: 10
    }
    inaccuracy: 28
+   shootSound: sap
    bullet: {
       type: BasicBulletType
       keepVelocity: false
@@ -56,7 +57,6 @@ weapons: [
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
-      shootSound: sap
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
