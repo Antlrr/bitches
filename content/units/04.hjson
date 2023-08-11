@@ -39,13 +39,13 @@ weapons: [
    shoot: {
       shotDelay: 40
       shots: 9
-      shotDelay: 9
+      shotDelay: 3
    }
    inaccuracy: 22
    bullet: {
       type: BasicBulletType
       keepVelocity: false
-      speed: 3
+      speed: 5
       lifetime: 120
       trailLength: 9
       trailEffect: {
