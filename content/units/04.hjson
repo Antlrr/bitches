@@ -56,9 +56,9 @@ weapons: [
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
+      shootSound: sap
       shootEffect: {
          type: ParticleEffect
-         shootSound: sap
          lifetime: 180
          particles: 10
          baseLength: 0
