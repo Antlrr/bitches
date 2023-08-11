@@ -50,14 +50,14 @@ weapons: [
       trailEffect: {
          type: ParticleEffect
          lifetime: 50
-         particles: 3
+         particles: 6
          baseLength: 0
          length: 8
          sizeFrom: 2
-         sizeTo: 0
+         sizeTo: 2
          colorFrom: FFF36BA1
          colorTo: FFF36B00
-         interp: pow10In
+         interp: pow10Out
       }
       shootEffect: {
          type: ParticleEffect
