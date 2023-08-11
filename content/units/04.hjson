@@ -59,6 +59,7 @@ weapons: [
          colorFrom: FFF36BA1
          colorTo: FFF36B00
          interp: pow10In
+      }
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
