@@ -165,3 +165,12 @@ weapons: [
       }
    }
 ]
+
+abilities: [
+   {
+   ability: SpawnDeathAbility
+   unit: bitches-01
+   amount: 4
+   spread: 18
+   }
+]
