@@ -1,73 +1,27 @@
 type: flying
 flying: true
 name: Bitches
-lowAltitude: true
-health: 9999
-hitSize: 4
-speed: 6
-accel: 2
-drag: 1
+health: 99999
+hitSize: 8
+speed: 0
 mineTier: 1000
 mineSpeed: 1000
 engineSize: 0
+drawBody: false
+drawCell: false
+shadowElevationScl: 0
 lightRadius: 30
-controller: FlyingAI
-range: 90
 weapons: [
   {
-    name: flare
     reload: 20
     x: 0
     y: 0
     alternate: false
+    mirror: false
     shootSound: wind3
     bullet:{
-      type: ArtilleryBulletType
-      speed: 0.2
-      backColor: ffffff
-      frontColor: ffffff
-      lifetime: 300
-      damage: 600
-      collidesGround: false
-      fragBullets: 10
-      fragRandomSpread: 360
-      fragVelocityMin: 0.3
-      fragVelocityMax: 10
-      fragBullet: {
-       type: BasicBulletType
-       homingPower: 1
-       homingRange: 200
-       lifetime: 200
-       damage: 200
-       speed: 10
-       fragBullets: 10
-       fragBullet: {
-        type: BasicBulletType
-        lifetime: 200
-        speed: 10
-        damage: 200
-        homingPower: 1
-        homingRange: 200
-       }
-       parts: [
-        {
-          type: RegionPart
-          suffix: -balls
-          mirror: true
-          moveY: 4
-          children: [
-            {
-              type: RegionPart
-              suffix: -balls
-              mirror: true
-              blending: additive
-              outline: false
-              progress: charge
-              }
-            ]
-          }
-        ]
+      type: BulletType
+      speed: 0
       }
-    }
-  }
+   }
 ]
