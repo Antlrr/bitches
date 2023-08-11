@@ -168,7 +168,7 @@ weapons: [
 
 abilities: [
    {
-   ability: SpawnDeathAbility
+   type: SpawnDeathAbility
    unit: bitches-01
    amount: 4
    spread: 18
