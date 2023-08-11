@@ -3,7 +3,7 @@ controller: MissileAI
 deathSound: mineDeploy
 lowAltitude: false
 speed: 3
-drag: -0.3
+drag: -0.8
 rotateSpeed: 3.6
 lifetime: 300
 isEnemy: false
