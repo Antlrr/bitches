@@ -31,7 +31,7 @@ faceTarget: false
 weapons: [
    {
    x: 29
-   y: 32
+   y: 27
    rotate: true
    mirror: true
    alternate: false
