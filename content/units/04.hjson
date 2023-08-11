@@ -47,7 +47,7 @@ weapons: [
       keepVelocity: false
       speed: 3
       lifetime: 120
-      trailLenght: 9
+      trailLength: 9
       trailEffect: {
          type: ParticleEffect
          lifetime: 50
