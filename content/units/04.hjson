@@ -51,12 +51,12 @@ weapons: [
          type: ParticleEffect
          lifetime: 50
          particles: 6
-         baseLength: 0
+         baseLength: 1
          length: 8
          sizeFrom: 2
          sizeTo: 2
-         colorFrom: FFF36BA1
-         colorTo: FFF36B00
+         colorFrom: FFF36B
+         colorTo: FFF36B
          interp: pow10Out
       }
       shootEffect: {
