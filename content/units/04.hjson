@@ -47,24 +47,8 @@ weapons: [
       keepVelocity: false
       speed: 5
       lifetime: 120
-      trailLength: 9
-      trailEffect: {
-         type: MultiEffect
-         effects: [
-            {
-            type: ParticleEffect
-            lifetime: 50
-            particles: 6
-            baseLength: 1
-            length: 8
-            sizeFrom: 2
-            sizeTo: 2
-            colorFrom: FFF36B
-            colorTo: FFF36B
-            interp: pow10Out
-            }
-         ]
-      }
+      trailLength: 7
+      width: 3
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
