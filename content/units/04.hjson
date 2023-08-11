@@ -45,9 +45,9 @@ weapons: [
    bullet: {
       type: BulletType
       keepVelocity: false
-      speed: 0
-      lifetime: 0
-      despawnUnit: bitches-01
+      speed: 3
+      lifetime: 120
+      drag: -0.4
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
