@@ -58,6 +58,7 @@ weapons: [
       backColor: FFF36B
       shootEffect: {
          type: ParticleEffect
+         shootSound: sap
          lifetime: 180
          particles: 10
          baseLength: 0
