@@ -117,6 +117,7 @@ weapons: [
    shootSound: laserbeam
    x: 0
    y: 3
+   shootY: -3
    rotate: true
    rotateSpeed: 0.6
    rotationLimit: 85
