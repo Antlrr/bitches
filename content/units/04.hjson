@@ -43,7 +43,7 @@ weapons: [
    }
    inaccuracy: 22
    bullet: {
-      type: BulletType
+      type: BasicBulletType
       keepVelocity: false
       speed: 3
       lifetime: 120
