@@ -48,7 +48,9 @@ weapons: [
       speed: 5
       lifetime: 120
       trailLength: 7
-      width: 7
+      width: 8
+      homingPower: 0.05
+      homingRange: 100
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
