@@ -30,15 +30,15 @@ outlineColor: 232E34FF
 faceTarget: false
 weapons: [
    {
-   x: 32
-   y: 0
+   x: 29
+   y: 32
    rotate: true
    mirror: true
    alternate: false
    reload: 200
    shoot: {
       shotDelay: 40
-      shots: 9
+      shots: 7
       shotDelay: 3
    }
    inaccuracy: 28
