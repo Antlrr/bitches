@@ -50,7 +50,7 @@ weapons: [
       trailLength: 7
       trailColor: FFF36B
       width: 8
-      homingPower: 0.03
+      homingPower: 0.05
       homingRange: 60
       weaveMag: 6
       weaveScale: 3
