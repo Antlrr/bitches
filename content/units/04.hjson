@@ -48,6 +48,17 @@ weapons: [
       speed: 3
       lifetime: 120
       drag: -0.4
+      trailEffect: {
+         type: ParticleEffect
+         lifetime: 50
+         particles: 3
+         baseLength: 0
+         length: 8
+         sizeFrom: 2
+         sizeTo: 0
+         colorFrom: FFF36BA1
+         colorTo: FFF36B00
+         interp: pow10In
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
