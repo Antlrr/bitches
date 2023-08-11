@@ -51,6 +51,8 @@ weapons: [
       width: 8
       homingPower: 0.03
       homingRange: 60
+      weaveMag: 6
+      weaveScale: 3
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
