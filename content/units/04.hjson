@@ -57,6 +57,9 @@ weapons: [
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
@@ -99,6 +102,9 @@ weapons: [
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
@@ -141,6 +147,9 @@ weapons: [
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
