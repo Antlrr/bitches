@@ -1,6 +1,7 @@
 type: flying
 flying: true
 name: Bitches
+localizedName: Bitches
 health: 99999
 hitSize: 8
 speed: 0
@@ -24,4 +25,25 @@ weapons: [
       speed: 0
       }
    }
+]
+
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 10
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      particles: 10
+      lifetime: 300
+      length: 40
+      baseLength: 0
+      sizeFrom: 9
+      sizeTo: 9
+      interp: pow10Out
+    }
+  }
 ]
