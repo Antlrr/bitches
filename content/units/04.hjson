@@ -39,7 +39,7 @@ weapons: [
    shoot: {
       shotDelay: 40
       shots: 7
-      shotDelay: 3
+      shotDelay: 10
    }
    inaccuracy: 28
    bullet: {
