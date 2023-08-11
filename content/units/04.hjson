@@ -41,18 +41,21 @@ weapons: [
       shots: 9
       shotDelay: 3
    }
-   inaccuracy: 22
+   inaccuracy: 28
    bullet: {
       type: BasicBulletType
       keepVelocity: false
       speed: 5
       lifetime: 120
       trailLength: 7
+      trailColor: FFF36B
       width: 8
       homingPower: 0.03
       homingRange: 60
       weaveMag: 6
       weaveScale: 3
+      frontColor: FFF36B
+      backColor: FFF36B
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
