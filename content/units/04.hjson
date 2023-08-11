@@ -45,6 +45,7 @@ weapons: [
    shootSound: sap
    bullet: {
       type: BasicBulletType
+      damage: 20
       keepVelocity: false
       speed: 5
       lifetime: 120
@@ -90,6 +91,7 @@ weapons: [
    shootSound: sap
    bullet: {
       type: BasicBulletType
+      damage: 20
       keepVelocity: false
       speed: 5
       lifetime: 120
@@ -135,6 +137,7 @@ weapons: [
    shootSound: sap
    bullet: {
       type: BasicBulletType
+      damage: 20
       keepVelocity: false
       speed: 5
       lifetime: 120
