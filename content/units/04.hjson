@@ -38,7 +38,7 @@ weapons: [
    reload: 200
    shoot: {
       shotDelay: 40
-      shots: 3
+      shots: 9
       shotDelay: 9
    }
    inaccuracy: 22
@@ -47,6 +47,7 @@ weapons: [
       keepVelocity: false
       speed: 3
       lifetime: 120
+      trailLenght: 9
       trailEffect: {
          type: ParticleEffect
          lifetime: 50
