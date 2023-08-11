@@ -48,7 +48,7 @@ weapons: [
       speed: 5
       lifetime: 120
       trailLength: 7
-      width: 3
+      width: 7
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
