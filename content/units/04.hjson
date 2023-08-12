@@ -57,7 +57,7 @@ weapons: [
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 18
+      damage: 12
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -90,7 +90,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 10
+         damage: 8
          keepVelocity: false
          speed: 5
          lifetime: 40
@@ -125,7 +125,7 @@ weapons: [
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 18
+      damage: 12
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -158,7 +158,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 10
+         damage: 8
          keepVelocity: false
          speed: 5
          lifetime: 40
@@ -193,7 +193,7 @@ weapons: [
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 18
+      damage: 12
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -226,7 +226,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 10
+         damage: 8
          keepVelocity: false
          speed: 5
          lifetime: 40
