@@ -116,7 +116,7 @@ weapons: [
    rotate: false
    mirror: false
    alternate: false
-   reload: 90
+   reload: 180
    shootSound: none
    continuous: true
    bullet: {
@@ -124,10 +124,10 @@ weapons: [
       damage: 55
       width: 40
       length: 80
-      lifetime: 200
+      lifetime: 300
       pierce: true
       pierceBuilding: true
-      layer: 75.9
+      layer: 75.99
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
