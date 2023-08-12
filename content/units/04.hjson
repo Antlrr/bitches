@@ -37,6 +37,7 @@ parts: [
     mirror: false
     outline: false 
     blending: additive
+    progress: warmup
     }
 ]
 weapons: [
