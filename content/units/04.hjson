@@ -37,7 +37,7 @@ weapons: [
    alternate: false
    reload: 90
    shoot: {
-      shotDelay: 70
+      firstShotDelay: 70
       shots: 7
       shotDelay: 10
    }
