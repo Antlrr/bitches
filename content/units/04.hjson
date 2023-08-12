@@ -75,7 +75,7 @@ weapons: [
          }
       chargeEffect: {
          type: ParticleEffect
-         lifetime: 60
+         lifetime: 70
          particles: 30
          baseLength: 0
          length: 8
