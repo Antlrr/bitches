@@ -37,7 +37,6 @@ weapons: [
    alternate: false
    reload: 90
    shoot: {
-      firstShotDelay: 60
       shots: 7
       shotDelay: 10
    }
@@ -54,7 +53,7 @@ weapons: [
       width: 8
       homingPower: 0.05
       homingRange: 60
-      weaveMag: 6
+      weaveMag: 5
       weaveScale: 3
       frontColor: FFF36B
       backColor: FFF36B
@@ -71,18 +70,6 @@ weapons: [
          sizeTo: 3
          colorFrom: FFF36BA1
          colorTo: FFF36B00
-         interp: pow10Out
-         }
-      chargeEffect: {
-         type: ParticleEffect
-         lifetime: 70
-         particles: 30
-         baseLength: 0
-         length: 8
-         sizeFrom: 3
-         sizeTo: 3
-         colorFrom: FFF36BA1
-         colorTo: FFF36B51
          interp: pow10Out
          }
       }
