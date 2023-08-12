@@ -37,7 +37,7 @@ weapons: [
    alternate: false
    reload: 90
    shoot: {
-      shotDelay: 40
+      shotDelay: 70
       shots: 7
       shotDelay: 10
    }
@@ -48,7 +48,7 @@ weapons: [
       damage: 20
       keepVelocity: false
       speed: 5
-      lifetime: 120
+      lifetime: 80
       trailLength: 7
       trailColor: FFF36B
       width: 8
@@ -73,87 +73,7 @@ weapons: [
          colorTo: FFF36B00
          interp: pow10Out
          }
-      }
-   }
-   {
-   x: 32
-   y: 0
-   rotate: true
-   mirror: true
-   alternate: false
-   reload: 90
-   shoot: {
-      shotDelay: 40
-      shots: 7
-      shotDelay: 10
-   }
-   inaccuracy: 28
-   shootSound: sap
-   bullet: {
-      type: BasicBulletType
-      damage: 20
-      keepVelocity: false
-      speed: 5
-      lifetime: 120
-      trailLength: 7
-      trailColor: FFF36B
-      width: 8
-      homingPower: 0.05
-      homingRange: 60
-      weaveMag: 6
-      weaveScale: 3
-      frontColor: FFF36B
-      backColor: FFF36B
-      pierce: true
-      pierceBuilding: true
-      pierceCap: 2
-      shootEffect: {
-         type: ParticleEffect
-         lifetime: 180
-         particles: 10
-         baseLength: 0
-         length: 8
-         sizeFrom: 3
-         sizeTo: 3
-         colorFrom: FFF36BA1
-         colorTo: FFF36B00
-         interp: pow10Out
-         }
-      }
-   }
-   {
-   x: -26
-   y: -26
-   rotate: true
-   mirror: true
-   alternate: false
-   reload: 90
-   shoot: {
-      shotDelay: 40
-      shots: 7
-      shotDelay: 10
-   }
-   inaccuracy: 28
-   shootSound: sap
-   bullet: {
-      type: BasicBulletType
-      damage: 20
-      keepVelocity: false
-      speed: 5
-      lifetime: 120
-      trailLength: 7
-      trailColor: FFF36B
-      width: 8
-      homingPower: 0.05
-      homingRange: 60
-      weaveMag: 6
-      weaveScale: 3
-      frontColor: FFF36B
-      backColor: FFF36B
-      pierce: true
-      pierceBuilding: true
-      pierceCap: 2
-      shootEffect: {
+      chargeEffect: {
          type: ParticleEffect
          lifetime: 180
          particles: 10
