@@ -47,7 +47,7 @@ weapons: [
       damage: 20
       keepVelocity: false
       speed: 5
-      lifetime: 50
+      lifetime: 70
       trailLength: 7
       trailColor: FFF36B
       width: 8
