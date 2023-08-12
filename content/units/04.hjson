@@ -28,6 +28,17 @@ legPhysicsLayer: false
 shadowElevation: 0.4
 outlineColor: 232E34FF
 faceTarget: false
+parts: [
+  {
+    suffix: -glow
+    type: RegionPart
+    layerOffset: 0
+    color: FFF698FF
+    mirror: false
+    outline: false 
+    blending: additive
+    }
+]
 weapons: [
    {
    x: 26
