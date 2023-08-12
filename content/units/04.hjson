@@ -47,7 +47,7 @@ weapons: [
       damage: 20
       keepVelocity: false
       speed: 5
-      lifetime: 80
+      lifetime: 50
       trailLength: 7
       trailColor: FFF36B
       width: 8
@@ -71,6 +71,27 @@ weapons: [
          colorFrom: FFF36BA1
          colorTo: FFF36B00
          interp: pow10Out
+         }
+      fragBullets: 2
+      fragBulletRandomSpread: 40
+      fragBullet: {
+         type: BasicBulletType
+         damage: 20
+         keepVelocity: false
+         speed: 5
+         lifetime: 40
+         trailLength: 5
+         trailColor: FFF36B
+         width: 8
+         homingPower: 0.05
+         homingRange: 60
+         weaveMag: 5
+         weaveScale: 3
+         frontColor: FFF36B
+         backColor: FFF36B
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 2
          }
       }
    }
