@@ -54,6 +54,7 @@ weapons: [
    }
    inaccuracy: 28
    shootSound: sap
+   targetAir: true
    bullet: {
       type: BasicBulletType
       damage: 24
@@ -105,6 +106,38 @@ weapons: [
          pierce: true
          pierceBuilding: true
          pierceCap: 2
+         }
+      }
+   }
+   {
+   x: 0
+   y: 23
+   rotate: false
+   mirror: false
+   alternate: false
+   reload: 90
+   shootSound: none
+   continuous: true
+   bullet: {
+      type: ContinuousLaserBulletType
+      damage: 55
+      width: 46
+      height: 13
+      lifetime: 64
+      pierce: true
+      pierceBuilding: true
+      layer: 75.9
+      shootEffect: {
+         type: ParticleEffect
+         lifetime: 180
+         particles: 10
+         baseLength: 0
+         length: 8
+         sizeFrom: 3
+         sizeTo: 3
+         colorFrom: FFF36BA1
+         colorTo: FFF36B00
+         interp: pow10Out
          }
       }
    }
