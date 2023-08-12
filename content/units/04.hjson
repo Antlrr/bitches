@@ -42,6 +42,39 @@ parts: [
 ]
 weapons: [
    {
+   x: 0
+   y: 0
+   shootY: -30
+   rotate: false
+   mirror: false
+   alternate: false
+   reload: 260
+   shootSound: none
+   continuous: true
+   bullet: {
+      type: ContinuousLaserBulletType
+      damage: 55
+      width: 40
+      length: 80
+      lifetime: 300
+      pierce: true
+      pierceBuilding: true
+      layer: 75.99
+      shootEffect: {
+         type: ParticleEffect
+         lifetime: 180
+         particles: 10
+         baseLength: 0
+         length: 8
+         sizeFrom: 3
+         sizeTo: 3
+         colorFrom: FFF36BA1
+         colorTo: FFF36B00
+         interp: pow10Out
+         }
+      }
+   }
+   {
    x: 26
    y: 26
    rotate: true
@@ -110,24 +143,37 @@ weapons: [
       }
    }
    {
-   x: 0
+   x: 32
    y: 0
-   shootY: -30
-   rotate: false
-   mirror: false
+   rotate: true
+   mirror: true
    alternate: false
-   reload: 180
-   shootSound: none
-   continuous: true
+   reload: 90
+   shoot: {
+      shots: 7
+      shotDelay: 10
+   }
+   inaccuracy: 28
+   shootSound: sap
+   targetAir: true
    bullet: {
-      type: ContinuousLaserBulletType
-      damage: 55
-      width: 40
-      length: 80
-      lifetime: 300
+      type: BasicBulletType
+      damage: 24
+      keepVelocity: false
+      speed: 5
+      lifetime: 64
+      trailLength: 7
+      trailColor: FFF36B
+      width: 8
+      homingPower: 0.05
+      homingRange: 60
+      weaveMag: 5
+      weaveScale: 3
+      frontColor: FFF36B
+      backColor: FFF36B
       pierce: true
       pierceBuilding: true
-      layer: 75.99
+      pierceCap: 2
       shootEffect: {
          type: ParticleEffect
          lifetime: 180
@@ -139,6 +185,96 @@ weapons: [
          colorFrom: FFF36BA1
          colorTo: FFF36B00
          interp: pow10Out
+         }
+      fragVelocityMin: 0.5
+      fragBullets: 2
+      fragRandomSpread: 40
+      fragBullet: {
+         type: BasicBulletType
+         damage: 20
+         keepVelocity: false
+         speed: 5
+         lifetime: 40
+         trailLength: 5
+         trailColor: FFF36B
+         width: 8
+         homingPower: 0.05
+         homingRange: 60
+         weaveMag: 5
+         weaveScale: 3
+         frontColor: FFF36B
+         backColor: FFF36B
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 2
+         }
+      }
+   }
+   {
+   x: 26
+   y: -26
+   rotate: true
+   mirror: true
+   alternate: false
+   reload: 90
+   shoot: {
+      shots: 7
+      shotDelay: 10
+   }
+   inaccuracy: 28
+   shootSound: sap
+   targetAir: true
+   bullet: {
+      type: BasicBulletType
+      damage: 24
+      keepVelocity: false
+      speed: 5
+      lifetime: 64
+      trailLength: 7
+      trailColor: FFF36B
+      width: 8
+      homingPower: 0.05
+      homingRange: 60
+      weaveMag: 5
+      weaveScale: 3
+      frontColor: FFF36B
+      backColor: FFF36B
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      shootEffect: {
+         type: ParticleEffect
+         lifetime: 180
+         particles: 10
+         baseLength: 0
+         length: 8
+         sizeFrom: 3
+         sizeTo: 3
+         colorFrom: FFF36BA1
+         colorTo: FFF36B00
+         interp: pow10Out
+         }
+      fragVelocityMin: 0.5
+      fragBullets: 2
+      fragRandomSpread: 40
+      fragBullet: {
+         type: BasicBulletType
+         damage: 20
+         keepVelocity: false
+         speed: 5
+         lifetime: 40
+         trailLength: 5
+         trailColor: FFF36B
+         width: 8
+         homingPower: 0.05
+         homingRange: 60
+         weaveMag: 5
+         weaveScale: 3
+         frontColor: FFF36B
+         backColor: FFF36B
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 2
          }
       }
    }
