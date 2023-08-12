@@ -18,16 +18,16 @@ legMaxLength: 2
 legMinLength: 1.8
 legLengthScl: 0.96
 legForwardScl: 1.1
-legGroupSize: 2
+legGroupSize: 3
 legStraightness: 0.5
 rippleScale: 0.2
-legMoveSpace: 2
+legMoveSpace: 2.3
 allowLegStep: true
 hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.4
 outlineColor: 232E34FF
-faceTarget: true
+faceTarget: false
 parts: [
   {
     suffix: -glow
