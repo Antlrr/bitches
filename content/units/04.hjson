@@ -72,6 +72,7 @@ weapons: [
          colorTo: FFF36B00
          interp: pow10Out
          }
+      fragVelocityMin: 0.5
       fragBullets: 2
       fragBulletRandomSpread: 40
       fragBullet: {
