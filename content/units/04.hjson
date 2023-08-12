@@ -76,13 +76,13 @@ weapons: [
       chargeEffect: {
          type: ParticleEffect
          lifetime: 60
-         particles: 10
+         particles: 30
          baseLength: 0
          length: 8
          sizeFrom: 3
          sizeTo: 3
          colorFrom: FFF36BA1
-         colorTo: FFF36BA1
+         colorTo: FFF36B51
          interp: pow10Out
          }
       }
