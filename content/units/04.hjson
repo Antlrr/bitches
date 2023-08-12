@@ -47,9 +47,10 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 10
+   reload: 13
    shoot: {
-      shots: 7
+      shots: 5
+      shotDelay: 3
    }
    inaccuracy: 28
    shootSound: sap
@@ -114,9 +115,10 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 10
+   reload: 16
    shoot: {
-      shots: 7
+      shots: 4
+      shotDelay: 3
    }
    inaccuracy: 28
    shootSound: sap
@@ -181,9 +183,10 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 10
+   reload: 19
    shoot: {
-      shots: 7
+      shots: 3
+      shotDelay: 3
    }
    inaccuracy: 28
    shootSound: sap
