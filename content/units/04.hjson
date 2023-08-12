@@ -111,7 +111,7 @@ weapons: [
    }
    {
    x: 0
-   y: -46
+   y: -16
    rotate: false
    mirror: false
    alternate: false
@@ -122,7 +122,7 @@ weapons: [
       type: ContinuousLaserBulletType
       damage: 55
       width: 30
-      length: 40
+      length: 80
       lifetime: 200
       pierce: true
       pierceBuilding: true
