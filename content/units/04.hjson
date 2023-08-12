@@ -37,7 +37,7 @@ weapons: [
    alternate: false
    reload: 90
    shoot: {
-      firstShotDelay: 70
+      firstShotDelay: 60
       shots: 7
       shotDelay: 10
    }
@@ -75,14 +75,14 @@ weapons: [
          }
       chargeEffect: {
          type: ParticleEffect
-         lifetime: 180
+         lifetime: 60
          particles: 10
          baseLength: 0
          length: 8
          sizeFrom: 3
          sizeTo: 3
          colorFrom: FFF36BA1
-         colorTo: FFF36B00
+         colorTo: FFF36BA1
          interp: pow10Out
          }
       }
