@@ -111,7 +111,8 @@ weapons: [
    }
    {
    x: 0
-   y: -28
+   y: 0
+   shootY: -30
    rotate: false
    mirror: false
    alternate: false
