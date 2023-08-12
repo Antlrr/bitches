@@ -86,7 +86,7 @@ weapons: [
          }
       fragVelocityMin: 0.5
       fragBullets: 2
-      fragBulletRandomSpread: 40
+      fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
          damage: 20
