@@ -42,55 +42,21 @@ parts: [
 ]
 weapons: [
    {
-   x: 0
-   y: 0
-   shootY: -30
-   rotate: false
-   mirror: false
-   alternate: false
-   reload: 260
-   shootSound: none
-   continuous: true
-   bullet: {
-      type: ContinuousLaserBulletType
-      damage: 55
-      width: 40
-      length: 80
-      lifetime: 300
-      pierce: true
-      pierceBuilding: true
-      layer: 75.99
-      shootEffect: {
-         type: ParticleEffect
-         lifetime: 180
-         particles: 10
-         baseLength: 0
-         length: 8
-         sizeFrom: 3
-         sizeTo: 3
-         colorFrom: FFF36BA1
-         colorTo: FFF36B00
-         interp: pow10Out
-         }
-      }
-   }
-   {
    x: 26
    y: 26
    rotate: true
    mirror: true
    alternate: false
-   reload: 90
+   reload: 10
    shoot: {
       shots: 7
-      shotDelay: 10
    }
    inaccuracy: 28
    shootSound: sap
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 24
+      damage: 18
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -123,7 +89,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 20
+         damage: 10
          keepVelocity: false
          speed: 5
          lifetime: 40
@@ -148,17 +114,16 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 90
+   reload: 10
    shoot: {
       shots: 7
-      shotDelay: 10
    }
    inaccuracy: 28
    shootSound: sap
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 24
+      damage: 18
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -191,7 +156,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 20
+         damage: 10
          keepVelocity: false
          speed: 5
          lifetime: 40
@@ -216,17 +181,16 @@ weapons: [
    rotate: true
    mirror: true
    alternate: false
-   reload: 90
+   reload: 10
    shoot: {
       shots: 7
-      shotDelay: 10
    }
    inaccuracy: 28
    shootSound: sap
    targetAir: true
    bullet: {
       type: BasicBulletType
-      damage: 24
+      damage: 18
       keepVelocity: false
       speed: 5
       lifetime: 64
@@ -259,7 +223,7 @@ weapons: [
       fragRandomSpread: 40
       fragBullet: {
          type: BasicBulletType
-         damage: 20
+         damage: 10
          keepVelocity: false
          speed: 5
          lifetime: 40
