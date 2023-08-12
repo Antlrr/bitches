@@ -122,7 +122,7 @@ weapons: [
       type: ContinuousLaserBulletType
       damage: 55
       width: 28
-      length: 7
+      length: 12
       lifetime: 200
       pierce: true
       pierceBuilding: true
