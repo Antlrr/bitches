@@ -27,7 +27,7 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.4
 outlineColor: 232E34FF
-faceTarget: false
+faceTarget: true
 parts: [
   {
     suffix: -glow
