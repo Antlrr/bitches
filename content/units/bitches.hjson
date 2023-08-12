@@ -43,6 +43,8 @@ abilities: [
       baseLength: 0
       sizeFrom: 9
       sizeTo: 9
+      colorFrom: 000000AC
+      colorTo: 000000AC
       interp: pow10Out
     }
   }
