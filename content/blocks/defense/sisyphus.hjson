@@ -1,0 +1,5 @@
+description: Nothing Changes, It's the same thing all the time.
+type: BuildTurret
+suppressable: false
+buildSpeed: 20
+buildRange: 224
