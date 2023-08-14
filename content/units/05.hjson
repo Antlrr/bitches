@@ -36,7 +36,7 @@ weapons: [
    shootSound: flame
    shootCone: 360
    x: 28
-   y: 22
+   y: 21
    baseRotation: -40
    rotate: false
    mirror: true
@@ -55,7 +55,7 @@ weapons: [
           length: 60
           interp: circleOut
           lifetime: 50
-          particles: 28
+          particles: 20
           cone: 16
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
@@ -92,7 +92,7 @@ weapons: [
           length: 60
           interp: circleOut
           lifetime: 50
-          particles: 28
+          particles: 20
           cone: 16
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
