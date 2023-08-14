@@ -39,7 +39,7 @@ weapons: [
    x: 16
    y: 24
    rotate: true
-   rotateSpeed: 0.9
+   rotateSpeed: 0.96
    mirror: true
    top: true
    reload: 1
@@ -76,10 +76,10 @@ weapons: [
    name: flemmen
    shootSound: flame
    shootCone: 16
-   x: 27
+   x: 23
    y: -6
    rotate: true
-   rotateSpeed: 0.9
+   rotateSpeed: 0.96
    mirror: true
    top: true
    reload: 1
