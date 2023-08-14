@@ -76,7 +76,6 @@ weapons: [
    {
    name: flemmen
    shootSound: flame
-   shootCone: 16
    x: 23
    y: -6
    rotate: true
@@ -87,14 +86,6 @@ weapons: [
    alternate: true
    shootY: -2.5
    cooldownTime: 50
-   shoot: {
-      type: ShootHelix
-      shootPattern: {
-         scl: 0
-         mag: 0
-         offset: 0
-         }
-      }
    bullet: {
        type: BasicBulletType
        damage: 46
@@ -103,7 +94,7 @@ weapons: [
        pierce: true
        pierceBuilding: true
        trailColor: FFF698FF
-       trailLength: 6
+       trailLength: 4
        trailWidth: 1.5
        shootEffect: {
           type: ParticleEffect
