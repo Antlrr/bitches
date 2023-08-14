@@ -50,7 +50,15 @@ weapons: [
        pierce: true
        pierceBuilding: true
        statusDuration: 240
-       shootEffect: shootSmallFlame
+       shootEffect: {
+          type: ParticleEffect
+          interp: pow10Out
+          lifetime: 50
+          particles: 10
+          cone: 30
+          colorFrom: FFF698FF
+          colorTo: 5F616FFF
+          }
        hitEffect: hitFlameSmall
        despawnEffect: none
        status: melting
