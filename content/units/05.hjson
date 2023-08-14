@@ -55,11 +55,11 @@ weapons: [
           length: 60
           interp: circleOut
           lifetime: 50
-          particles: 30
+          particles: 28
           cone: 16
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
-          sizeFrom: 3
+          sizeFrom: 5
           sizeTo: 0
           }
        hitEffect: hitFlameSmall
