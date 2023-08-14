@@ -39,7 +39,7 @@ weapons: [
    y: 28
    baseRotation: -40
    rotate: false
-   mirror: false
+   mirror: true
    top: false
    reload: 1
    inaccuracy: 10
