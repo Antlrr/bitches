@@ -52,7 +52,7 @@ weapons: [
        statusDuration: 240
        shootEffect: {
           type: ParticleEffect
-          length: 130
+          length: 60
           interp: circleOut
           lifetime: 50
           particles: 30
