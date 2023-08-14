@@ -36,14 +36,14 @@ weapons: [
    name: flemmen
    shootSound: flame
    shootCone: 16
-   x: 28
-   y: 21
+   x: 16
+   y: 24
    rotate: true
    mirror: true
    top: true
    reload: 1
    inaccuracy: 16
-   rotationLimit: 0
+   recoil: 0
    bullet: {
        type: BulletType
        damage: 14
@@ -81,6 +81,7 @@ weapons: [
    top: true
    reload: 1
    inaccuracy: 16
+   recoil: 0
    bullet: {
        type: BulletType
        damage: 14
