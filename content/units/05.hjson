@@ -31,6 +31,7 @@ faceTarget: false
 weapons: [
    {
    shootSound: flame
+   shootCone: 360
    x: 42
    y: 45
    baseRotation: 45
