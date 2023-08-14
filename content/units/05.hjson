@@ -45,7 +45,8 @@ weapons: [
    reload: 1
    inaccuracy: 16
    recoil: 0
-   shootY: -3
+   shootY: -2.5
+   cooldownTime: 20
    bullet: {
        type: BulletType
        damage: 14
@@ -85,7 +86,8 @@ weapons: [
    reload: 1
    inaccuracy: 16
    recoil: 0
-   shootY: -3
+   shootY: -2.5
+   cooldownTime: 20
    bullet: {
        type: BulletType
        damage: 14
