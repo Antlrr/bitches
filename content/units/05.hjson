@@ -119,6 +119,18 @@ weapons: [
           sizeFrom: 5
           sizeTo: 0
           }
+       hitEffect: {
+          type: ParticleEffect
+          line: true
+          lenFrom: 3
+          lenTo: 0
+          length: 20
+          baseLength: 0
+          widthFrom: 1
+          lifetime: 15
+          colorFrom: FFF698FF
+          colorTo: FFF698FF
+          }
        keepVelocity: false
       }
    }
