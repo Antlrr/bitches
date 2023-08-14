@@ -33,16 +33,16 @@ immunities: [
    ]
 weapons: [
    {
+   name: bitchesflemmen
    shootSound: flame
-   shootCone: 360
+   shootCone: 16
    x: 28
    y: 21
-   baseRotation: -40
-   rotate: false
+   rotate: true
    mirror: true
-   top: false
+   top: true
    reload: 1
-   inaccuracy: 10
+   inaccuracy: 16
    rotationLimit: 0
    bullet: {
        type: BulletType
@@ -71,16 +71,16 @@ weapons: [
       }
    }
    {
+   name: bitches-flemmen
    shootSound: flame
-   shootCone: 360
+   shootCone: 16
    x: 32
    y: -6
-   baseRotation: -140
-   rotate: false
+   rotate: true
    mirror: true
-   top: false
+   top: true
    reload: 1
-   inaccuracy: 10
+   inaccuracy: 16
    bullet: {
        type: BulletType
        damage: 14
