@@ -46,7 +46,7 @@ weapons: [
    inaccuracy: 16
    recoil: 0
    shootY: -2.5
-   cooldownTime: 50
+   cooldownTime: 70
    bullet: {
        type: BulletType
        damage: 14
@@ -89,8 +89,12 @@ weapons: [
    cooldownTime: 50
    shoot: {
       type: ShootHelix
+      shootPattern: {
+         scl: 6
+         mag: 0
+         }
       shots: 5
-      shotDelay: 20
+      shotDelay: 5
       }
    bullet: {
        type: BasicBulletType
