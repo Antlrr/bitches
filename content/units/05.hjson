@@ -88,14 +88,19 @@ weapons: [
    cooldownTime: 50
    bullet: {
        type: BasicBulletType
+       sprite: circle-bullet
        damage: 46
-       lifetime: 30
+       lifetime: 50
        speed: 15
        pierce: true
        pierceBuilding: true
+       width: 5
+       height: 5
+       shrinkX: 0
+       shrinkY: 0
        trailColor: FFF698FF
-       trailLength: 4
-       trailWidth: 1.5
+       trailLength: 6
+       trailWidth: 4
        homingPower: 1
        shootEffect: {
           type: ParticleEffect
