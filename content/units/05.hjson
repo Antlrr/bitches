@@ -45,7 +45,44 @@ weapons: [
    inaccuracy: 10
    bullet: {
        type: BulletType
-       damage: 50
+       damage: 14
+       lifetime: 60
+       pierce: true
+       pierceBuilding: true
+       statusDuration: 240
+       shootEffect: {
+          type: ParticleEffect
+          length: 60
+          interp: circleOut
+          lifetime: 50
+          particles: 28
+          cone: 16
+          colorFrom: FFFA26FF
+          colorTo: 5F616FFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+       hitEffect: hitFlameSmall
+       despawnEffect: none
+       status: melting
+       keepVelocity: false
+       hittable: false
+      }
+   }
+   {
+   shootSound: flame
+   shootCone: 360
+   x: 29
+   y: 0
+   baseRotation: -90
+   rotate: false
+   mirror: true
+   top: false
+   reload: 1
+   inaccuracy: 10
+   bullet: {
+       type: BulletType
+       damage: 14
        lifetime: 60
        pierce: true
        pierceBuilding: true
