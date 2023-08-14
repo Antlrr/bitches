@@ -91,14 +91,14 @@ weapons: [
       type: ShootHelix
       shootPattern: {
          scl: 0
-         mag: 6
+         mag: 0
+         offset: 0
          }
-      shots: 5
       }
    bullet: {
        type: BasicBulletType
        damage: 46
-       lifetime: 60
+       lifetime: 30
        speed: 15
        pierce: true
        pierceBuilding: true
