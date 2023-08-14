@@ -38,7 +38,7 @@ weapons: [
    rotate: false
    mirror: false
    top: false
-   reload: 120
+   reload: 100
    recoil: 0
    alwaysShooting: true
    bullet: {
