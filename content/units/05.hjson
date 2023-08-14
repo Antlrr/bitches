@@ -43,6 +43,7 @@ weapons: [
    top: false
    reload: 1
    inaccuracy: 10
+   rotationLimit: 0
    bullet: {
        type: BulletType
        damage: 14
