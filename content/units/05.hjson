@@ -80,18 +80,17 @@ weapons: [
    x: 23
    y: -6
    rotate: true
-   rotateSpeed: 0.96
    mirror: true
    top: true
    reload: 60
    inaccuracy: 16
-   recoil: 0
+   alternate: true
    shootY: -2.5
    cooldownTime: 50
    shoot: {
       type: ShootHelix
       shootPattern: {
-         scl: 4
+         mag: 4
          }
       }
    bullet: {
@@ -101,7 +100,7 @@ weapons: [
        speed: 10
        pierce: true
        pierceBuilding: true
-       trailColor: FFFA26FF
+       trailColor: FFF698FF
        trailLength: 6
        trailWidth: 1.5
        shootEffect: {
@@ -109,7 +108,7 @@ weapons: [
           length: 28
           interp: circleOut
           lifetime: 50
-          particles: 13
+          particles: 9
           cone: 13
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
