@@ -39,7 +39,7 @@ weapons: [
    x: 16
    y: 24
    rotate: true
-   rotateSpeed: 1
+   rotateSpeed: 1.5
    mirror: true
    top: true
    reload: 1
@@ -124,12 +124,13 @@ weapons: [
           line: true
           lenFrom: 3
           lenTo: 0
-          length: 20
+          length: 15
           baseLength: 0
           widthFrom: 1
           lifetime: 15
           colorFrom: FFF698FF
           colorTo: FFF698FF
+          interp: swingOut
           }
        keepVelocity: false
       }
