@@ -86,11 +86,16 @@ weapons: [
    alternate: true
    shootY: -2.5
    cooldownTime: 50
+   shoot: {
+      shots: 3 
+      shotDelay: 6
+      }
+   inaccuracy: 23
    bullet: {
        type: BasicBulletType
        sprite: circle-bullet
        damage: 46
-       lifetime: 50
+       lifetime: 38
        speed: 15
        pierce: true
        pierceBuilding: true
@@ -100,7 +105,7 @@ weapons: [
        shrinkY: 0
        trailColor: FFF698FF
        trailLength: 6
-       trailWidth: 4
+       trailWidth: 2.5
        homingPower: 1
        shootEffect: {
           type: ParticleEffect
