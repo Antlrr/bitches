@@ -60,7 +60,6 @@ abilities: [
          particles: 4
          length: 3
          baseLength: 0
-         interp: swingOut
          colorFrom: 576A7399
          colorTo: 576A734E
          sizeFrom: 4
