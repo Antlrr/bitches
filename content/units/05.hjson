@@ -89,9 +89,8 @@ weapons: [
    cooldownTime: 50
    shoot: {
       type: ShootHelix
-      shootPattern: {
-         mag: 4
-         }
+      shots: 5
+      shotDelay: 20
       }
    bullet: {
        type: BasicBulletType
