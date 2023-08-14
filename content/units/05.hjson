@@ -46,7 +46,7 @@ weapons: [
    bullet: {
        type: BulletType
        damage: 14
-       lifetime: 60
+       lifetime: 40
        pierce: true
        pierceBuilding: true
        statusDuration: 240
@@ -83,7 +83,7 @@ weapons: [
    bullet: {
        type: BulletType
        damage: 14
-       lifetime: 60
+       lifetime: 40
        pierce: true
        pierceBuilding: true
        statusDuration: 240
