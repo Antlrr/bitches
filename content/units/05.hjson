@@ -52,12 +52,12 @@ weapons: [
        statusDuration: 240
        shootEffect: {
           type: ParticleEffect
-          length: 70
+          length: 130
           interp: circleOut
           lifetime: 50
           particles: 10
-          cone: 30
-          colorFrom: FFF698FF
+          cone: 20
+          colorFrom: FFFA26FF
           colorTo: 5F616FFF
           }
        hitEffect: hitFlameSmall
