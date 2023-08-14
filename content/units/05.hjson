@@ -39,12 +39,13 @@ weapons: [
    x: 16
    y: 24
    rotate: true
-   rotateSpeed: 0.7
+   rotateSpeed: 0.9
    mirror: true
    top: true
    reload: 1
    inaccuracy: 16
    recoil: 0
+   shootY: -3
    bullet: {
        type: BulletType
        damage: 14
@@ -78,12 +79,13 @@ weapons: [
    x: 32
    y: -6
    rotate: true
-   rotateSpeed: 0.7
+   rotateSpeed: 0.9
    mirror: true
    top: true
    reload: 1
    inaccuracy: 16
    recoil: 0
+   shootY: -3
    bullet: {
        type: BulletType
        damage: 14
