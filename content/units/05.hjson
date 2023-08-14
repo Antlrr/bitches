@@ -76,7 +76,7 @@ weapons: [
    name: flemmen
    shootSound: flame
    shootCone: 16
-   x: 32
+   x: 27
    y: -6
    rotate: true
    rotateSpeed: 0.9
