@@ -28,4 +28,45 @@ legPhysicsLayer: false
 shadowElevation: 0.7
 outlineColor: 232E34FF
 faceTarget: false
-
+weapons: [
+   {
+   shootSound: flame
+   x: 42
+   y: 45
+   baseRotation: 45
+   rotate: false
+   mirror: false
+   top: false
+   reload: 1
+   inaccuracy: 10
+   bullet: {
+      type: FireBulletType
+      speed: 6
+      radius: 5
+      velMin: 0.8
+      velMax: 6
+      hittable: false
+      keepVelocity: false
+      collidesAir: false
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      fragRandomSpread: 0
+      fragSpread: 5
+      fragVelocityMin: 1
+      fragBullets: 10
+      fragBullet: {
+         type: BulletType
+         lifetime: 13
+         pierce: true
+         pierceBuilding: true
+         statusDuration: 240
+         shootEffect: shootSmallFlame
+         hitEffect: hitFlameSmall
+         despawnEffect: none
+         status: melting
+         keepVelocity: false
+         hittable: false
+         }
+      }
+   }
+]
