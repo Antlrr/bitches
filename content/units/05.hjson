@@ -73,8 +73,8 @@ weapons: [
    shootSound: flame
    shootCone: 360
    x: 29
-   y: 0
-   baseRotation: -90
+   y: -4
+   baseRotation: -170
    rotate: false
    mirror: true
    top: false
