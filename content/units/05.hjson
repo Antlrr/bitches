@@ -75,7 +75,7 @@ weapons: [
    }
    {
    name: flemmen
-   shootSound: flame
+   shootSound: laser
    x: 23
    y: -6
    rotate: true
@@ -96,6 +96,7 @@ weapons: [
        trailColor: FFF698FF
        trailLength: 4
        trailWidth: 1.5
+       homingPower: 1
        shootEffect: {
           type: ParticleEffect
           length: 28
