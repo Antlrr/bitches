@@ -28,18 +28,6 @@ legPhysicsLayer: false
 shadowElevation: 0.4
 outlineColor: 232E34FF
 faceTarget: false
-parts: [
-  {
-    suffix: -glow
-    type: RegionPart
-    layerOffset: 0
-    color: FFF698FF
-    mirror: false
-    outline: false 
-    blending: additive
-    progress: warmup
-    }
-]
 weapons: [
    {
    x: 26
@@ -55,6 +43,18 @@ weapons: [
    inaccuracy: 28
    shootSound: sap
    targetAir: true
+   parts: [
+     {
+     suffix: -glow
+     type: RegionPart
+     layerOffset: 0
+     color: FFF698FF
+     mirror: false
+     outline: false 
+     blending: additive
+     progress: warmup
+     }
+   ]
    bullet: {
       type: BasicBulletType
       damage: 12
