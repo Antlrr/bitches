@@ -28,12 +28,15 @@ legPhysicsLayer: false
 shadowElevation: 0.7
 outlineColor: 232E34FF
 faceTarget: false
+immunities: [
+   burning
+   ]
 weapons: [
    {
    shootSound: flame
    shootCone: 360
-   x: 38
-   y: 43
+   x: 36
+   y: 39
    baseRotation: -45
    rotate: false
    mirror: false
