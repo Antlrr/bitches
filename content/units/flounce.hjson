@@ -2,7 +2,7 @@ type: missile
 controller: MissileAI
 deathSound: mineDeploy
 lowAltitude: false
-speed: 5
+speed: 0.6
 rotateSpeed: 20
 lifetime: 300
 isEnemy: false
@@ -28,7 +28,6 @@ loopSound: glow
 loopSoundVolume: 2
 drawBody: false
 engineSize: 0
-drag: 0.04
 shadowElevation: 0
 weapons: [
   {
@@ -46,6 +45,7 @@ weapons: [
      }
   bullet: {
       type: BasicBulletType
+      rangeOverride: 50
       homingPower: 0.4
       weaveMag: 3
       weaveScale: 4
