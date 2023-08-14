@@ -33,7 +33,7 @@ immunities: [
    ]
 weapons: [
    {
-   name: bitchesflemmen
+   name: flemmen
    shootSound: flame
    shootCone: 16
    x: 28
@@ -71,7 +71,7 @@ weapons: [
       }
    }
    {
-   name: bitches-flemmen
+   name: flemmen
    shootSound: flame
    shootCone: 16
    x: 32
