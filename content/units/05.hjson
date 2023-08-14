@@ -74,7 +74,7 @@ weapons: [
    shootCone: 360
    x: 32
    y: -5
-   baseRotation: -169
+   baseRotation: -171
    rotate: false
    mirror: true
    top: false
