@@ -35,18 +35,18 @@ weapons: [
    {
    shootSound: flame
    shootCone: 360
-   x: 30
-   y: 28
+   x: 28
+   y: 24
    baseRotation: -40
    rotate: false
    mirror: true
-   alternate: true
    top: false
-   reload: 10
+   reload: 1
    inaccuracy: 10
    bullet: {
        type: BulletType
-       lifetime: 13
+       damage: 50
+       lifetime: 60
        pierce: true
        pierceBuilding: true
        statusDuration: 240
