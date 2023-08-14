@@ -33,6 +33,32 @@ immunities: [
    ]
 weapons: [
    {
+   x: 0
+   y: 24
+   rotate: false
+   mirror: false
+   top: false
+   reload: 3
+   recoil: 0
+   alwaysShooting: true
+   bullet: {
+       type: BulletType
+       spawnUnit: bitches-flounce
+       shootEffect: {
+          type: ParticleEffect
+          length: 60
+          interp: circleOut
+          lifetime: 50
+          particles: 20
+          cone: 16
+          colorFrom: FFFA26FF
+          colorTo: 5F616FFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+      }
+   }
+   {
    name: flemmen
    shootSound: flame2
    shootCone: 16
