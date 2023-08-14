@@ -56,15 +56,15 @@ abilities: [
     shootSound: none
    shootEffect: {
          type: ParticleEffect
-         lifetime: 120
+         lifetime: 40
          particles: 4
          length: 3
          baseLength: 0
          interp: swingOut
          colorFrom: 576A7399
          colorTo: 576A734E
-         sizeFrom: 0
-         sizeTo: 4
+         sizeFrom: 4
+         sizeTo: 0
          layer: 116
         }
     }
