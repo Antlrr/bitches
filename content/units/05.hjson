@@ -48,7 +48,7 @@ weapons: [
       speed: 6
       radius: 5
       velMin: 0.8
-      velMax: 6
+      velMax: 3
       hittable: false
       keepVelocity: false
       collidesAir: false
