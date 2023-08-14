@@ -74,12 +74,12 @@ weapons: [
       }
    }
    {
-   name: flemmen
+   name: blaster
    shootSound: laser
    x: 23
    y: -6
    rotate: true 
-   rotateSpeed: 2
+   rotateSpeed: 1.8
    mirror: true
    top: true
    reload: 50
