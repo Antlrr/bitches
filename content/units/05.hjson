@@ -39,7 +39,7 @@ weapons: [
    x: 16
    y: 24
    rotate: true
-   rotateSpeed: 1.5
+   rotateSpeed: 2
    mirror: true
    top: true
    reload: 1
@@ -78,7 +78,8 @@ weapons: [
    shootSound: laser
    x: 23
    y: -6
-   rotate: true
+   rotate: true 
+   rotateSpeed: 2
    mirror: true
    top: true
    reload: 50
