@@ -1,6 +1,6 @@
 description: big guy
 type: legs
-health: 31000
+health: 32000
 armor: 14
 hitSize: 64
 drag: 0.2
@@ -88,30 +88,36 @@ weapons: [
    recoil: 0
    shootY: -2.5
    cooldownTime: 50
+   shoot: {
+      type: ShootHelix
+      shootPattern: {
+         scl: 4
+         mag: 3
+         }
+      }
    bullet: {
-       type: BulletType
-       damage: 14
-       lifetime: 40
+       type: BasicBulletType
+       damage: 46
+       lifetime: 60
+       speed: 5
        pierce: true
        pierceBuilding: true
-       statusDuration: 240
+       trailColor: FFFA26FF
+       trailLength: 6
+       trailWidth: 1.5
        shootEffect: {
           type: ParticleEffect
-          length: 60
+          length: 28
           interp: circleOut
           lifetime: 50
-          particles: 20
-          cone: 16
+          particles: 13
+          cone: 13
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
           sizeFrom: 5
           sizeTo: 0
           }
-       hitEffect: hitFlameSmall
-       despawnEffect: none
-       status: melting
        keepVelocity: false
-       hittable: false
       }
    }
 ]
