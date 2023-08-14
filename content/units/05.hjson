@@ -35,9 +35,9 @@ weapons: [
    {
    shootSound: flame
    shootCone: 360
-   x: 32
-   y: 34
-   baseRotation: -45
+   x: 30
+   y: 28
+   baseRotation: -40
    rotate: false
    mirror: false
    top: false
