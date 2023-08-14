@@ -82,7 +82,7 @@ weapons: [
    rotate: true
    mirror: true
    top: true
-   reload: 60
+   reload: 50
    inaccuracy: 16
    alternate: true
    shootY: -2.5
@@ -90,17 +90,16 @@ weapons: [
    shoot: {
       type: ShootHelix
       shootPattern: {
-         scl: 6
-         mag: 0
+         scl: 0
+         mag: 6
          }
       shots: 5
-      shotDelay: 5
       }
    bullet: {
        type: BasicBulletType
        damage: 46
        lifetime: 60
-       speed: 10
+       speed: 15
        pierce: true
        pierceBuilding: true
        trailColor: FFF698FF
