@@ -41,8 +41,15 @@ weapons: [
   reload: 30
   shootY: -1
   inaccuracy: 360
+  shoot: {
+     shots: 12
+     }
   bullet: {
       type: BasicBulletType
+      homingPower: 0.4
+      weaveMag: 3
+      weaveScale: 4
+      trailLength: 3
       }
    }
 ]
@@ -54,14 +61,14 @@ abilities: [
     maxSpeed: 0
     length: 0
     shootSound: none
-   shootEffect: {
+    shootEffect: {
          type: ParticleEffect
          lifetime: 40
-         particles: 4
-         length: 3
+         particles: 1
+         length: 0
          baseLength: 0
-         colorFrom: 576A7399
-         colorTo: 576A734E
+         colorFrom: FFF698FF
+         colorTo: FFF698FF
          sizeFrom: 4
          sizeTo: 0
          layer: 116
