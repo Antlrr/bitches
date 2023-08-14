@@ -3,12 +3,12 @@ controller: MissileAI
 deathSound: mineDeploy
 lowAltitude: false
 speed: 5
-rotateSpeed: 4
+rotateSpeed: 20
 lifetime: 300
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
-targetable: false
+targetable: true
 hittable: false
 physics: false
 useUnitCap: false
