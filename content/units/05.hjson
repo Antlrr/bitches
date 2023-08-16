@@ -49,11 +49,11 @@ weapons: [
           length: 60
           interp: circleOut
           lifetime: 50
-          particles: 20
+          particles: 6
           cone: 16
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
-          sizeFrom: 5
+          sizeFrom: 8
           sizeTo: 0
           }
       }
@@ -76,13 +76,13 @@ weapons: [
    bullet: {
        type: BulletType
        damage: 14
-       lifetime: 40
+       lifetime: 60
        pierce: true
        pierceBuilding: true
        statusDuration: 240
        shootEffect: {
           type: ParticleEffect
-          length: 60
+          length: 100
           interp: circleOut
           lifetime: 50
           particles: 20
