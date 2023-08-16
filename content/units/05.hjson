@@ -69,7 +69,7 @@ weapons: [
    mirror: true
    top: true
    reload: 1
-   inaccuracy: 16
+   inaccuracy: 14
    recoil: 0
    shootY: -2.5
    cooldownTime: 70
@@ -86,7 +86,7 @@ weapons: [
           interp: circleOut
           lifetime: 50
           particles: 20
-          cone: 16
+          cone: 14
           colorFrom: FFFA26FF
           colorTo: 5F616FFF
           sizeFrom: 5
