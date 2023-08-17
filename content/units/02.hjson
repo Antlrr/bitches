@@ -145,7 +145,7 @@ weapons: [
       sprite: large-orb
       width: 16
       height: 16
-      damage: 32
+      damage: 24
       backColor: FFF698
       frontColor: FFF698
       intervalBullet: {
@@ -162,7 +162,7 @@ weapons: [
       fragBullet: {
          type: LightningBulletType
          lightningColor: FFF698
-         damage: 7
+         damage: 6
          lightningLength: 5
          lightningLengthRand: 6
          }
