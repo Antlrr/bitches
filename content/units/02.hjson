@@ -13,7 +13,8 @@ legLength: 6
 legBaseOffset: 5
 legExtension: 1.4
 legForwardScl: 0.6
-legMoveSpace: 1.4
+legMoveSpace: 1.7
+lockLegBase: true
 legGroupSize: 2
 legSpeed: 0.1
 legStraightness: 0
@@ -115,7 +116,7 @@ weapons: [
             particles: 8
             sizeFrom: 2
             sizeTo: 0
-            length: 20
+            length: 60
             baseLength: -20
             interp: pow2In
             sizeInterp: pow5Out
@@ -126,7 +127,7 @@ weapons: [
             type: ParticleEffect
             particles: 1
             sizeFrom: 0
-            sizeTo: 17
+            sizeTo: 18
             length: 0
             region: large-orb
             interp: swingOut
