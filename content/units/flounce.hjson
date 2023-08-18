@@ -71,7 +71,6 @@ abilities: [
          colorTo: FFF698FF
          sizeFrom: 4
          sizeTo: 0
-         layer: 116
         }
     }
 ]
