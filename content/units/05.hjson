@@ -42,7 +42,6 @@ weapons: [
    recoil: 0
    bullet: {
           type: BasicBulletType
-          }
       }
    }
    {
