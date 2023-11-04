@@ -59,13 +59,13 @@ weapons: [
    cooldownTime: 70
    shoot: {
       shots: 3
-      shotDelay: 5
+      shotDelay: 10
       }
    bullet: {
        type: LaserBulletType
        damage: 40
        length: 180
-       width: 10
+       width: 20
        pierce: true
        pierceBuilding: true
        hitEffect: none
