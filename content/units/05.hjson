@@ -53,8 +53,7 @@ weapons: [
    rotateSpeed: 2
    mirror: true
    top: true
-   reload: 1
-   inaccuracy: 14
+   reload: 85
    recoil: 0
    shootY: -2.5
    cooldownTime: 70
@@ -66,7 +65,7 @@ weapons: [
        type: LaserBulletType
        damage: 40
        length: 180
-       width: 2
+       width: 10
        pierce: true
        pierceBuilding: true
        hitEffect: none
