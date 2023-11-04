@@ -58,10 +58,14 @@ weapons: [
    recoil: 0
    shootY: -2.5
    cooldownTime: 70
+   shoot: {
+      shots: 3
+      shotDelay: 5
+      }
    bullet: {
        type: LaserBulletType
-       damage: 100
-       length: 320
+       damage: 40
+       length: 180
        width: 2
        pierce: true
        pierceBuilding: true
