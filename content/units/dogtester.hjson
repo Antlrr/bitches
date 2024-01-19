@@ -16,12 +16,12 @@ weapons: [
    {
    x: 0
    y: 0
-   reload: 0
+   reload: 60
    rotate: false
    mirror: false
    bullet: {
       type: BasicBulletType
-      recoil: -20
+      recoil: -25
       }
    }
    {
@@ -31,7 +31,7 @@ weapons: [
    rotate: false
    mirror: false
    shoot: {
-      firstShotDelay: 30
+      firstShotDelay: 10
    }
    bullet: {
       type: BasicBulletType
