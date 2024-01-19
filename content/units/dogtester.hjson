@@ -1,0 +1,23 @@
+type: crawl
+health: 300
+armor: 1
+hitSize: 7
+engineSize: 0
+circleTarget: true
+omniMovement: true
+rotateSpeed: 1.2
+omniMovement: false
+faceTarget: true
+targetAir: false
+crushDamage: .1
+segments: 10
+drawBody: false
+drawCell: false
+speed: .5
+drag:.01
+segmentScl: 3
+segmentPhase: 5
+segmentMag: .5
+range:0
+useUnitCap: false
+lightRadius: 0
