@@ -36,7 +36,7 @@ weapons: [
    bullet: {
       type: BasicBulletType
       killShooter: true
-      spawnUnit: bitches-dogtester
+      spawnUnit: bitches-uselessballs
       }
    }
 ]
