@@ -31,11 +31,12 @@ weapons: [
    rotate: false
    mirror: false
    shoot: {
-      firstShotDelay: 10
+      firstShotDelay: 18
    }
    bullet: {
       type: BasicBulletType
       killShooter: true
+      spawnUnit: bitches-dogtester
       }
    }
 ]
