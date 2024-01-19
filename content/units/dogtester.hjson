@@ -30,9 +30,12 @@ weapons: [
    {
    x: 0
    y: 0
-   reload: 60
+   reload: 0
    rotate: false
    mirror: false
+   shoot: {
+      firstShotDelay: 60
+   }
    bullet: {
       type: BasicBulletType
       killShooter: true
