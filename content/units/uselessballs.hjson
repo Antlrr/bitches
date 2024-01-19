@@ -1,0 +1,13 @@
+type: missile
+speed: 0
+drawBody: false
+drawCell: false
+weapon: [
+{
+   alwaysShooting: true
+   bullet: {
+      killShooter: true
+      spawnUnit: bitches-dogtester
+   }
+}
+]
