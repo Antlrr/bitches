@@ -1,0 +1,28 @@
+speed: 0.54
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1f
+flying: true
+lowAltitude: true
+health: 22000
+engineOffset: 38
+engineSize: 7.3
+hitSize: 58
+armor: 13
+weapons: [
+  {
+  shake: 4 
+  shootY: 18
+  x: 0
+  y: 0
+  rotate: true
+  reload: 20
+  bullet: {
+     type: BasicBulletType
+     damage: 115
+     width: 1
+     height: 1
+     sprite: bitches-smoothbrain
+    }
+  }
+]
