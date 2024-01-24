@@ -1,3 +1,4 @@
+type: Floor
 variants: 3
 dragMultiplier: 0.45
 speedMultiplier: 0.95
