@@ -31,7 +31,8 @@ weapons: [
      shrinkX: 0
      shrinkY: 0
      sprite: bitches-smoothbrain
-     homingPower: 0.7
+     homingPower: 0.4
+     homingRange: 120
     }
   }
 ]
