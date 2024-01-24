@@ -12,16 +12,17 @@ armor: 13
 weapons: [
   {
   shake: 4 
-  shootY: 18
+  shootY: 37
   x: 0
   y: 0
   rotate: true
   reload: 20
   bullet: {
      type: BasicBulletType
+     lifetime: 50
      damage: 115
-     width: 1
-     height: 1
+     width: 25
+     height: 30
      sprite: bitches-smoothbrain
     }
   }
