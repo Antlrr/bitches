@@ -19,10 +19,14 @@ weapons: [
   reload: 20
   bullet: {
      type: BasicBulletType
-     lifetime: 50
+     bloom: 0
+     lifetime: 100
+     speed: 2
      damage: 115
-     width: 25
-     height: 30
+     width: 50
+     height: 55
+     shrinkX: 0
+     shrinkY: 0
      sprite: bitches-smoothbrain
     }
   }
