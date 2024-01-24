@@ -17,9 +17,12 @@ weapons: [
   y: 0
   rotate: true
   reload: 20
+  shootSound: wind3
   bullet: {
      type: BasicBulletType
-     bloom: 0
+     hittable: false
+     pierceArmor: true
+     lightOpacity: 0
      lifetime: 100
      speed: 2
      damage: 115
