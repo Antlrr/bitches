@@ -1,0 +1,4 @@
+variants: 3
+dragMultiplier: 0.45
+speedMultiplier: 0.95
+albedo: 0.65
