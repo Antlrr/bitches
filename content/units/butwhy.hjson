@@ -23,6 +23,7 @@ weapons: [
      hittable: false
      pierceArmor: true
      lightOpacity: 0
+     lightColor: 00000000
      lifetime: 100
      speed: 2
      damage: 115
