@@ -16,21 +16,22 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  reload: 20
+  reload: 125
   shootSound: wind3
   bullet: {
      type: BasicBulletType
      hittable: false
      pierceArmor: true
      layer: 110.1
-     lifetime: 100
+     lifetime: 150
      speed: 2
-     damage: 115
+     damage: 1984
      width: 55
      height: 55
      shrinkX: 0
      shrinkY: 0
      sprite: bitches-smoothbrain
+     homingPower: 0.7
     }
   }
 ]
