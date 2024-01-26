@@ -1,6 +1,6 @@
 name: "Super Slippery Ice"
 type: Floor
 variants: 3
-dragMultiplier: 0
+dragMultiplier: 0.01
 speedMultiplier: 1.5
 albedo: 0.65
