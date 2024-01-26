@@ -1,5 +1,5 @@
 type: Floor
 variants: 3
-dragMultiplier: 0.45
+dragMultiplier: 0.15
 speedMultiplier: 0.95
 albedo: 0.65
