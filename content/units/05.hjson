@@ -54,7 +54,7 @@ weapons: [
    mirror: true
    top: true
    reload: 85
-   recoil: 0
+   recoil: 0.89
    shootY: -2.5
    cooldownTime: 70
    shoot: {
@@ -65,7 +65,7 @@ weapons: [
        type: LaserBulletType
        damage: 40
        length: 180
-       width: 40
+       width: 20
        pierce: true
        pierceBuilding: true
        hitEffect: none
