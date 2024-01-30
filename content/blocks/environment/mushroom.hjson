@@ -1,5 +1,5 @@
 variants: 3
 type: prop
 emitLight: true
-lightRadius: 20
-lightColor: 60DBD72A
+lightRadius: 15
+lightColor: 60DBD719
