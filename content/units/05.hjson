@@ -65,14 +65,20 @@ weapons: [
        type: LaserBulletType
        damage: 40
        length: 180
-       width: 20
+       width: 40
        pierce: true
        pierceBuilding: true
        hitEffect: none
        despawnEffect: none
        keepVelocity: false
        hittable: false
-      }
+       colors: [
+          FFF698
+          FFFAC3
+          F8F5D9
+          FFFFFF
+       ]
+     }
    }
    {
    name: blaster
